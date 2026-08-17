@@ -7,6 +7,10 @@ describe('관계 데이터', () => {
     expect(materials).toHaveLength(29);
     expect(new Set(materials.map((item) => item.id)).size).toBe(29);
   });
+  it('하위 장비 목록을 장비명 가나다순으로 제공한다', () => {
+    const names = materials.map((item) => item.name);
+    expect(names).toEqual([...names].sort((a, b) => a.localeCompare(b, 'ko')));
+  });
   it('모든 하위 장비가 실제 전설 무기 관계에 연결되어 있다', () => {
     expect(materials.every((item) => item.usedBy.length > 0)).toBe(true);
   });
