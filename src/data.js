@@ -15,7 +15,7 @@ export const materials = [
   ['sikh-chakram','시크교의 차크람','각성 구흐야카'], ['mercenary-greatsword','용병대장의 대검','각성 나라야나'],
   ['dark-staff','암흑술사의 지팡이','각성 쿠베라마차'], ['guard-cannon','수비대장의 화포','각성 슈크라'],
   ['savior-orb','구원자의 구슬','각성 라시야'], ['snake-leash','뱀조련사의 뱀 목줄','각성 난다데비'],
-  ['bajirao-sword','바지라오의 검','각성 바지라오']
+  ['siho-great-bow','시호충장의 대력궁','각성 시호충장']
 ].map(([id,name,owner]) => ({ id, name, owner, image: icon(name) }));
 
 export const weapons = [
@@ -27,9 +27,9 @@ export const weapons = [
   ['mazu','마조의 홀판',['hunt-stone','red-mirror','ninja-sword','primitive-spear']],
   ['meng-huo','맹획의 도끼',['moktak','talisman','snow-bell']],
   ['bokuden','보쿠텐의 대도',['secret-dual','matchlock','vanguard-dual','black-army-staff']],
-  ['hong-gildong','홍길동의 봉',['great-bow','loyal-sword','snow-bell','marksman-crossbow']],
+  ['hong-gildong','홍길동의 봉',['siho-great-bow','loyal-sword','snow-bell','marksman-crossbow']],
   ['jumong','주몽의 각궁',['primitive-spear','secret-dual','water-cannon']],
-  ['mulan','화목란의 활',['mao-bracelet','ganesha-fan','talisman','great-bow']],
+  ['mulan','화목란의 활',['mao-bracelet','ganesha-fan','talisman','siho-great-bow']],
   ['mansunyah','만선야의 지팡이',['black-army-staff','loyal-sword','thunder-beads','savior-orb']],
   ['bajirao','바지라오의 검',['sikh-chakram','pursuer-greatsword','mercenary-greatsword','dark-staff']],
   ['akbar','악바르의 지휘봉',['guard-cannon','savior-orb','snake-leash','monk-staff']],
