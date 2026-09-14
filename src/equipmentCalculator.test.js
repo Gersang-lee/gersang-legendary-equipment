@@ -14,12 +14,16 @@ describe('전설 장비 제작·강화 계산', () => {
     const plan = calculatePlan(sample, 'craft', 'craft');
     expect(plan.stages).toHaveLength(0);
     expect(plan.minimum).toEqual([{ name: '제작재료', quantity: 2 }]);
+    expect(plan.craft).toEqual([{ name: '제작재료', quantity: 2 }]);
+    expect(plan.enhancementMinimum).toEqual([]);
   });
 
   it('3강부터 5강은 3→4, 4→5 두 단계만 계산한다', () => {
     const plan = calculatePlan(sample, '3', '5');
     expect(plan.stages.map(({ from, to }) => [from, to])).toEqual([[3, 4], [4, 5]]);
     expect(plan.minimum).toEqual([{ name: '강화재료', quantity: 6 }]);
+    expect(plan.craft).toEqual([]);
+    expect(plan.enhancementMinimum).toEqual([{ name: '강화재료', quantity: 6 }]);
     expect(plan.expected[0].quantity).toBeCloseTo(50);
   });
 

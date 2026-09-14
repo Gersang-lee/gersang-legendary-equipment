@@ -35,7 +35,15 @@ export const weapons = [
   ['bajirao','바지라오의 검',['sikh-chakram','pursuer-greatsword','mercenary-greatsword','dark-staff']],
   ['akbar','악바르의 지휘봉',['guard-cannon','savior-orb','snake-leash','monk-staff']],
   ['regina','레지나의 채찍',['guard-cannon','marksman-crossbow','sikh-chakram','dark-staff']]
-].map(([id,name,materials]) => ({ id, name, image: icon(name), materials }));
+].map(([id,name,materials]) => {
+  const hero = {
+    'lu-bu': '여포', nobutsuna: '노부츠나', 'choi-museon': '최무선', chiyome: '치요메',
+    diaochan: '초선', mazu: '마조', 'meng-huo': '맹획', bokuden: '보쿠텐',
+    'hong-gildong': '홍길동', jumong: '주몽', mulan: '화목란', mansunyah: '만선야',
+    bajirao: '바지라오', akbar: '악바르', regina: '레지나'
+  }[id];
+  return { id, name, hero, image: `./equipment-icons/${hero}/weapon.png`, materials };
+});
 
 const weaponIdsByMaterial = new Map(materials.map(({ id }) => [id, []]));
 weapons.forEach((weapon) => weapon.materials.forEach((id) => weaponIdsByMaterial.get(id).push(weapon.id)));

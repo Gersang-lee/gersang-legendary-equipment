@@ -23,6 +23,8 @@ export function calculatePlan(item, start, target) {
   const targetLevel = target === 'craft' ? 0 : Number(target);
   const minimum = new Map();
   const expected = new Map();
+  const enhancementMinimum = new Map();
+  const enhancementExpected = new Map();
   if (includesCraft) item.craftMaterials.forEach((material) => {
     addMaterial(minimum, material);
     addMaterial(expected, material);
@@ -37,6 +39,8 @@ export function calculatePlan(item, start, target) {
     item.enhanceMaterials.forEach((material) => {
       addMaterial(minimum, material);
       addMaterial(expected, material, expectedAttempts);
+      addMaterial(enhancementMinimum, material);
+      addMaterial(enhancementExpected, material, expectedAttempts);
     });
     const fee = feeForStage(item.fee, level + 1);
     minimumFee += fee;
@@ -48,6 +52,9 @@ export function calculatePlan(item, start, target) {
     stages,
     minimum: [...minimum.values()],
     expected: [...expected.values()],
+    craft: includesCraft ? item.craftMaterials.map((material) => ({ ...material })) : [],
+    enhancementMinimum: [...enhancementMinimum.values()],
+    enhancementExpected: [...enhancementExpected.values()],
     minimumFee,
     expectedFee,
     onePassProbability: stages.reduce((value, stage) => value * stage.probability, 1)

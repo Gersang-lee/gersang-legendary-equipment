@@ -3,6 +3,7 @@ import equipment from './equipmentData.json';
 import { calculatePlan, formatMoney, formatQuantity } from './equipmentCalculator.js';
 
 const slots = ['전체', '무기', '투구', '갑옷', '팔보호구', '요대', '신발'];
+const heroes = [...new Set(equipment.map((item) => item.hero))].sort((a, b) => a.localeCompare(b, 'ko'));
 const startOptions = [['craft','제작부터'],['0','0강부터'],['1','1강부터'],['2','2강부터'],['3','3강부터'],['4','4강부터']];
 
 function MaterialRows({ items }) {
@@ -15,22 +16,41 @@ function MaterialRows({ items }) {
 export default function EquipmentCalculator() {
   const [query, setQuery] = useState('');
   const [slot, setSlot] = useState('전체');
+  const [hero, setHero] = useState('전체');
   const [selectedId, setSelectedId] = useState(equipment[0].id);
   const [start, setStart] = useState('craft');
   const [target, setTarget] = useState('5');
+  const [copied, setCopied] = useState(false);
   const filtered = useMemo(() => equipment.filter((item) => {
     const q = query.trim().toLocaleLowerCase('ko');
-    return (slot === '전체' || item.slotLabel === slot) && (!q || `${item.name} ${item.hero} ${item.slotLabel}`.toLocaleLowerCase('ko').includes(q));
-  }), [query, slot]);
-  const item = equipment.find((entry) => entry.id === selectedId) || filtered[0];
+    return (hero === '전체' || item.hero === hero) && (slot === '전체' || item.slotLabel === slot) && (!q || `${item.name} ${item.hero} ${item.slotLabel}`.toLocaleLowerCase('ko').includes(q));
+  }), [query, slot, hero]);
+  const item = filtered.find((entry) => entry.id === selectedId) || filtered[0];
   const targetOptions = start === 'craft' ? [['craft','제작만'],['1','1강까지'],['2','2강까지'],['3','3강까지'],['4','4강까지'],['5','5강까지']] : Array.from({ length: 5 - Number(start) }, (_, index) => { const level = Number(start) + index + 1; return [String(level), `${level}강까지`]; });
   const validTarget = targetOptions.some(([value]) => value === target) ? target : targetOptions.at(-1)[0];
   const plan = item?.dataAvailable ? calculatePlan(item, start, validTarget) : null;
+  const copyCraftMaterials = async () => {
+    const text = [`[${item.name} 제작 재료]`, ...plan.craft.map((material) => `${material.name}${material.enhancement ? ` +${material.enhancement}` : ''} ${formatQuantity(material.quantity)}개`)].join('\n');
+    try {
+      await navigator.clipboard.writeText(text);
+    } catch {
+      const textarea = document.createElement('textarea');
+      textarea.value = text;
+      textarea.style.position = 'fixed'; textarea.style.opacity = '0';
+      document.body.appendChild(textarea); textarea.select(); document.execCommand('copy'); textarea.remove();
+    }
+    setCopied(true);
+    window.setTimeout(() => setCopied(false), 1600);
+  };
 
   return <main className="shell equipment-layout">
     <section className="panel equipment-browser">
       <div className="section-head"><div><span className="step">01</span><h2>전설장수 장비 검색</h2></div><span className="count">총 {equipment.length}종</span></div>
       <label className="search"><span aria-hidden="true">⌕</span><input value={query} onChange={(event) => setQuery(event.target.value)} placeholder="장비명·장수명·부위 검색" /><span className="sr-only">전설장수 장비 검색</span></label>
+      <div className="hero-filter" aria-label="전설 장수 선택">
+        <button className={hero === '전체' ? 'active' : ''} aria-pressed={hero === '전체'} onClick={() => setHero('전체')}><span className="all-heroes">ALL</span><strong>전체</strong></button>
+        {heroes.map((name) => <button key={name} className={hero === name ? 'active' : ''} aria-pressed={hero === name} onClick={() => setHero(name)}><img src={`./legendary-portraits/${name}/large.png`} alt="" /><strong>{name}</strong></button>)}
+      </div>
       <div className="slot-filter" aria-label="장비 부위 필터">{slots.map((name) => <button key={name} className={slot === name ? 'active' : ''} onClick={() => setSlot(name)}>{name}</button>)}</div>
       <div className="equipment-grid">{filtered.map((entry) => <button key={entry.id} className={`equipment-card ${item?.id === entry.id ? 'selected' : ''}`} onClick={() => setSelectedId(entry.id)}>
         <span className="equipment-icon"><img src={entry.image} alt="" /></span><span><strong>{entry.name}</strong><small>{entry.hero} · {entry.slotLabel}</small></span>{!entry.dataAvailable && <em>자료 확인 중</em>}
@@ -45,10 +65,11 @@ export default function EquipmentCalculator() {
         <div className="range-picker"><label>시작<select value={start} onChange={(event) => { setStart(event.target.value); setTarget(event.target.value === 'craft' ? '5' : '5'); }}>{startOptions.map(([value,label]) => <option key={value} value={value}>{label}</option>)}</select></label><span>→</span><label>목표<select value={validTarget} onChange={(event) => setTarget(event.target.value)}>{targetOptions.map(([value,label]) => <option key={value} value={value}>{label}</option>)}</select></label></div>
         {plan.stages.length > 0 && <div className="probability-strip">{plan.stages.map((stage) => <div key={stage.to}><span>{stage.from}→{stage.to}강</span><strong>{stage.probability * 100}%</strong><small>기대 {formatQuantity(stage.expectedAttempts)}회</small></div>)}</div>}
         {plan.stages.length > 1 && <p className="one-pass">모든 단계를 한 번씩 연속 성공할 확률 <strong>{(plan.onePassProbability * 100).toFixed(3).replace(/0+$/,'').replace(/\.$/,'')}%</strong></p>}
-        <div className="plan-columns">
-          <section><h3>최소 필요 재료</h3><p>모든 강화가 한 번에 성공할 때</p><MaterialRows items={plan.minimum} />{plan.minimumFee > 0 && <div className="fee"><span>강화 수수료</span><strong>{formatMoney(plan.minimumFee)}</strong></div>}</section>
-          <section className="expected"><h3>확률 기대 재료</h3><p>각 단계를 성공할 때까지 재시도하는 평균</p><MaterialRows items={plan.expected} />{plan.expectedFee > 0 && <div className="fee"><span>기대 수수료</span><strong>{formatMoney(plan.expectedFee)}</strong></div>}</section>
-        </div>
+        {plan.includesCraft && <section className="craft-plan"><div className="plan-title"><div><h3>제작 재료</h3><p>{item.name} 0강 제작에 필요한 재료</p></div><button type="button" onClick={copyCraftMaterials}>{copied ? '복사됨 ✓' : '재료 복사'}</button></div><MaterialRows items={plan.craft} /></section>}
+        {plan.stages.length > 0 && <><h3 className="enhancement-heading">강화 재료</h3><div className="plan-columns">
+          <section><h3>최소 필요 재료</h3><p>선택한 강화가 모두 한 번에 성공할 때</p><MaterialRows items={plan.enhancementMinimum} />{plan.minimumFee > 0 && <div className="fee"><span>강화 수수료</span><strong>{formatMoney(plan.minimumFee)}</strong></div>}</section>
+          <section className="expected"><h3>확률 기대 재료</h3><p>각 단계를 성공할 때까지 재시도하는 평균</p><MaterialRows items={plan.enhancementExpected} />{plan.expectedFee > 0 && <div className="fee"><span>기대 수수료</span><strong>{formatMoney(plan.expectedFee)}</strong></div>}</section>
+        </div></>}
         <p className="calculation-note">기대값은 공개 성공확률과 실패 시 같은 단계에서 재시도한다고 가정한 통계적 평균입니다. 실제 소모량은 달라질 수 있습니다.</p>
         <a className="source-link" href={item.sourceUrl} target="_blank" rel="noreferrer">재료표 출처 보기 ↗</a>
       </>}

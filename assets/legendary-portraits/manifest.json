@@ -1,0 +1,302 @@
+[
+  {
+    "hero": "주몽",
+    "code": "T80",
+    "kind": "large",
+    "file": "주몽/large.png",
+    "source": "Assets/Textures/UI/Portraits/PORTRAIT_INVEN_3.AGF",
+    "frame": 200,
+    "width": 80,
+    "height": 80
+  },
+  {
+    "hero": "초선",
+    "code": "T81",
+    "kind": "large",
+    "file": "초선/large.png",
+    "source": "Assets/Textures/UI/Portraits/PORTRAIT_INVEN_3.AGF",
+    "frame": 201,
+    "width": 80,
+    "height": 80
+  },
+  {
+    "hero": "맹획",
+    "code": "T92",
+    "kind": "large",
+    "file": "맹획/large.png",
+    "source": "Assets/Textures/UI/Portraits/PORTRAIT_INVEN_3.AGF",
+    "frame": 251,
+    "width": 80,
+    "height": 80
+  },
+  {
+    "hero": "노부츠나",
+    "code": "T93",
+    "kind": "large",
+    "file": "노부츠나/large.png",
+    "source": "Assets/Textures/UI/Portraits/PORTRAIT_INVEN_3.AGF",
+    "frame": 263,
+    "width": 80,
+    "height": 80
+  },
+  {
+    "hero": "바지라오",
+    "code": "T112",
+    "kind": "large",
+    "file": "바지라오/large.png",
+    "source": "Assets/Textures/UI/Portraits/PORTRAIT_INVEN_4.AGF",
+    "frame": 39,
+    "width": 80,
+    "height": 80
+  },
+  {
+    "hero": "최무선",
+    "code": "T114",
+    "kind": "large",
+    "file": "최무선/large.png",
+    "source": "Assets/Textures/UI/Portraits/PORTRAIT_INVEN_4.AGF",
+    "frame": 55,
+    "width": 80,
+    "height": 80
+  },
+  {
+    "hero": "화목란",
+    "code": "T115",
+    "kind": "large",
+    "file": "화목란/large.png",
+    "source": "Assets/Textures/UI/Portraits/PORTRAIT_INVEN_4.AGF",
+    "frame": 56,
+    "width": 80,
+    "height": 80
+  },
+  {
+    "hero": "마조",
+    "code": "T119",
+    "kind": "large",
+    "file": "마조/large.png",
+    "source": "Assets/Textures/UI/Portraits/PORTRAIT_INVEN_4.AGF",
+    "frame": 82,
+    "width": 80,
+    "height": 80
+  },
+  {
+    "hero": "보쿠텐",
+    "code": "T118",
+    "kind": "large",
+    "file": "보쿠텐/large.png",
+    "source": "Assets/Textures/UI/Portraits/PORTRAIT_INVEN_4.AGF",
+    "frame": 81,
+    "width": 80,
+    "height": 80
+  },
+  {
+    "hero": "악바르",
+    "code": "T123",
+    "kind": "large",
+    "file": "악바르/large.png",
+    "source": "Assets/Textures/UI/Portraits/PORTRAIT_INVEN_4.AGF",
+    "frame": 130,
+    "width": 80,
+    "height": 80
+  },
+  {
+    "hero": "홍길동",
+    "code": "V5",
+    "kind": "large",
+    "file": "홍길동/large.png",
+    "source": "Assets/Textures/UI/Portraits/PORTRAIT_INVEN_4.AGF",
+    "frame": 176,
+    "width": 80,
+    "height": 80
+  },
+  {
+    "hero": "여포",
+    "code": "V17",
+    "kind": "large",
+    "file": "여포/large.png",
+    "source": "Assets/Textures/UI/Portraits/PORTRAIT_INVEN_4.AGF",
+    "frame": 235,
+    "width": 80,
+    "height": 80
+  },
+  {
+    "hero": "치요메",
+    "code": "V14",
+    "kind": "large",
+    "file": "치요메/large.png",
+    "source": "Assets/Textures/UI/Portraits/PORTRAIT_INVEN_4.AGF",
+    "frame": 240,
+    "width": 80,
+    "height": 80
+  },
+  {
+    "hero": "만선야",
+    "code": "V15",
+    "kind": "large",
+    "file": "만선야/large.png",
+    "source": "Assets/Textures/UI/Portraits/PORTRAIT_INVEN_4.AGF",
+    "frame": 259,
+    "width": 80,
+    "height": 80
+  },
+  {
+    "hero": "레지나",
+    "code": "V16",
+    "kind": "large",
+    "file": "레지나/large.png",
+    "source": "Assets/Textures/UI/Portraits/PORTRAIT_INVEN_4.AGF",
+    "frame": 286,
+    "width": 80,
+    "height": 80
+  },
+  {
+    "hero": "주몽",
+    "code": "T80",
+    "kind": "small",
+    "file": "주몽/small.png",
+    "source": "Assets/Textures/UI/Portraits/portrait_mercenary_s.AGF",
+    "frame": 264,
+    "width": 72,
+    "height": 26
+  },
+  {
+    "hero": "초선",
+    "code": "T81",
+    "kind": "small",
+    "file": "초선/small.png",
+    "source": "Assets/Textures/UI/Portraits/portrait_mercenary_s.AGF",
+    "frame": 265,
+    "width": 72,
+    "height": 26
+  },
+  {
+    "hero": "맹획",
+    "code": "T92",
+    "kind": "small",
+    "file": "맹획/small.png",
+    "source": "Assets/Textures/UI/Portraits/portrait_mercenary_s.AGF",
+    "frame": 271,
+    "width": 72,
+    "height": 26
+  },
+  {
+    "hero": "노부츠나",
+    "code": "T93",
+    "kind": "small",
+    "file": "노부츠나/small.png",
+    "source": "Assets/Textures/UI/Portraits/portrait_mercenary_s.AGF",
+    "frame": 273,
+    "width": 72,
+    "height": 26
+  },
+  {
+    "hero": "바지라오",
+    "code": "T112",
+    "kind": "small",
+    "file": "바지라오/small.png",
+    "source": "Assets/Textures/UI/Portraits/portrait_mercenary_s.AGF",
+    "frame": 291,
+    "width": 72,
+    "height": 26
+  },
+  {
+    "hero": "최무선",
+    "code": "T114",
+    "kind": "small",
+    "file": "최무선/small.png",
+    "source": "Assets/Textures/UI/Portraits/portrait_mercenary_s.AGF",
+    "frame": 294,
+    "width": 72,
+    "height": 26
+  },
+  {
+    "hero": "화목란",
+    "code": "T115",
+    "kind": "small",
+    "file": "화목란/small.png",
+    "source": "Assets/Textures/UI/Portraits/portrait_mercenary_s.AGF",
+    "frame": 295,
+    "width": 72,
+    "height": 26
+  },
+  {
+    "hero": "마조",
+    "code": "T119",
+    "kind": "small",
+    "file": "마조/small.png",
+    "source": "Assets/Textures/UI/Portraits/portrait_mercenary_s.AGF",
+    "frame": 299,
+    "width": 70,
+    "height": 26
+  },
+  {
+    "hero": "보쿠텐",
+    "code": "T118",
+    "kind": "small",
+    "file": "보쿠텐/small.png",
+    "source": "Assets/Textures/UI/Portraits/portrait_mercenary_s.AGF",
+    "frame": 298,
+    "width": 72,
+    "height": 26
+  },
+  {
+    "hero": "악바르",
+    "code": "T123",
+    "kind": "small",
+    "file": "악바르/small.png",
+    "source": "Assets/Textures/UI/Portraits/portrait_mercenary_s2.AGF",
+    "frame": 2,
+    "width": 72,
+    "height": 26
+  },
+  {
+    "hero": "홍길동",
+    "code": "V5",
+    "kind": "small",
+    "file": "홍길동/small.png",
+    "source": "Assets/Textures/UI/Portraits/portrait_mercenary_s2.AGF",
+    "frame": 4,
+    "width": 72,
+    "height": 26
+  },
+  {
+    "hero": "여포",
+    "code": "V17",
+    "kind": "small",
+    "file": "여포/small.png",
+    "source": "Assets/Textures/UI/Portraits/portrait_mercenary_s2.AGF",
+    "frame": 9,
+    "width": 72,
+    "height": 26
+  },
+  {
+    "hero": "치요메",
+    "code": "V14",
+    "kind": "small",
+    "file": "치요메/small.png",
+    "source": "Assets/Textures/UI/Portraits/portrait_mercenary_s2.AGF",
+    "frame": 10,
+    "width": 72,
+    "height": 26
+  },
+  {
+    "hero": "만선야",
+    "code": "V15",
+    "kind": "small",
+    "file": "만선야/small.png",
+    "source": "Assets/Textures/UI/Portraits/portrait_mercenary_s2.AGF",
+    "frame": 11,
+    "width": 72,
+    "height": 26
+  },
+  {
+    "hero": "레지나",
+    "code": "V16",
+    "kind": "small",
+    "file": "레지나/small.png",
+    "source": "Assets/Textures/UI/Portraits/portrait_mercenary_s2.AGF",
+    "frame": 12,
+    "width": 72,
+    "height": 26
+  }
+]
