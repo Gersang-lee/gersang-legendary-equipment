@@ -7,10 +7,10 @@ const heroes = [...new Set(equipment.map((item) => item.hero))].sort((a, b) => a
 const slotOrder = Object.fromEntries(slots.slice(1).map((name, index) => [name, index]));
 const startOptions = [['craft','제작부터'], ...Array.from({ length: 10 }, (_, level) => [String(level), `${level}강부터`])];
 
-function MaterialRows({ items }) {
+function MaterialRows({ items, copyable = false, copiedKey, onCopy }) {
   return <div className="plan-materials">{items.map((material) => <div key={`${material.name}-${material.enhancement || 0}`}>
     <span>{material.name}{material.enhancement ? ` +${material.enhancement}` : ''}</span>
-    <strong>{formatQuantity(material.quantity)}개</strong>
+    <span className="material-actions"><strong>{formatQuantity(material.quantity)}개</strong>{copyable && <button type="button" onClick={() => onCopy(material)} aria-label={`${material.name} 복사`}>{copiedKey === `${material.name}|${material.enhancement || 0}` ? '복사됨 ✓' : '복사'}</button>}</span>
   </div>)}</div>;
 }
 
@@ -21,7 +21,7 @@ export default function EquipmentCalculator() {
   const [selectedId, setSelectedId] = useState(equipment[0].id);
   const [start, setStart] = useState('craft');
   const [target, setTarget] = useState('5');
-  const [copied, setCopied] = useState(false);
+  const [copiedKey, setCopiedKey] = useState('');
   const filtered = useMemo(() => equipment.filter((item) => {
     const q = query.trim().toLocaleLowerCase('ko');
     return (hero === '전체' || item.hero === hero) && (slot === '전체' || item.slotLabel === slot) && (!q || `${item.name} ${item.hero} ${item.slotLabel}`.toLocaleLowerCase('ko').includes(q));
@@ -30,8 +30,9 @@ export default function EquipmentCalculator() {
   const targetOptions = start === 'craft' ? [['craft','제작만'], ...Array.from({ length: 10 }, (_, index) => [String(index + 1), `${index + 1}강까지`])] : Array.from({ length: 10 - Number(start) }, (_, index) => { const level = Number(start) + index + 1; return [String(level), `${level}강까지`]; });
   const validTarget = targetOptions.some(([value]) => value === target) ? target : targetOptions.at(-1)[0];
   const plan = item?.dataAvailable ? calculatePlan(item, start, validTarget) : null;
-  const copyCraftMaterials = async () => {
-    const text = [`[${item.name} 제작 재료]`, ...plan.craft.map((material) => `${material.name}${material.enhancement ? ` +${material.enhancement}` : ''} ${formatQuantity(material.quantity)}개`)].join('\n');
+  const copyCraftMaterial = async (material) => {
+    const key = `${material.name}|${material.enhancement || 0}`;
+    const text = `${material.name}${material.enhancement ? ` +${material.enhancement}` : ''} ${formatQuantity(material.quantity)}개`;
     try {
       await navigator.clipboard.writeText(text);
     } catch {
@@ -40,8 +41,8 @@ export default function EquipmentCalculator() {
       textarea.style.position = 'fixed'; textarea.style.opacity = '0';
       document.body.appendChild(textarea); textarea.select(); document.execCommand('copy'); textarea.remove();
     }
-    setCopied(true);
-    window.setTimeout(() => setCopied(false), 1600);
+    setCopiedKey(key);
+    window.setTimeout(() => setCopiedKey(''), 1600);
   };
 
   return <main className="shell equipment-layout">
@@ -66,7 +67,7 @@ export default function EquipmentCalculator() {
         <div className="range-picker"><label>시작<select value={start} onChange={(event) => { setStart(event.target.value); setTarget(event.target.value === 'craft' ? '5' : '5'); }}>{startOptions.map(([value,label]) => <option key={value} value={value}>{label}</option>)}</select></label><span>→</span><label>목표<select value={validTarget} onChange={(event) => setTarget(event.target.value)}>{targetOptions.map(([value,label]) => <option key={value} value={value}>{label}</option>)}</select></label></div>
         {plan.stages.length > 0 && <div className="probability-strip">{plan.stages.map((stage) => <div key={stage.to}><span>{stage.from}→{stage.to}강</span><strong>{stage.probability * 100}%</strong><small>기대 {formatQuantity(stage.expectedAttempts)}회</small></div>)}</div>}
         {plan.stages.length > 1 && <p className="one-pass">모든 단계를 한 번씩 연속 성공할 확률 <strong>{(plan.onePassProbability * 100).toFixed(3).replace(/0+$/,'').replace(/\.$/,'')}%</strong></p>}
-        {plan.includesCraft && <section className="craft-plan"><div className="plan-title"><div><h3>제작 재료</h3><p>{item.name} 0강 제작에 필요한 재료</p></div><button type="button" onClick={copyCraftMaterials}>{copied ? '복사됨 ✓' : '재료 복사'}</button></div><MaterialRows items={plan.craft} /></section>}
+        {plan.includesCraft && <section className="craft-plan"><div className="plan-title"><div><h3>제작 재료</h3><p>{item.name} 0강 제작에 필요한 재료</p></div></div><MaterialRows items={plan.craft} copyable copiedKey={copiedKey} onCopy={copyCraftMaterial} /></section>}
         {plan.stages.length > 0 && <><h3 className="enhancement-heading">강화 재료</h3><div className="plan-columns">
           <section><h3>최소 필요 재료</h3><p>선택한 강화가 모두 한 번에 성공할 때</p><MaterialRows items={plan.enhancementMinimum} />{plan.minimumFee > 0 && <div className="fee"><span>강화 수수료</span><strong>{formatMoney(plan.minimumFee)}</strong></div>}</section>
           <section className="expected"><h3>확률 기대 재료</h3><p>각 단계를 성공할 때까지 재시도하는 평균</p><MaterialRows items={plan.enhancementExpected} />{plan.expectedFee > 0 && <div className="fee"><span>기대 수수료</span><strong>{formatMoney(plan.expectedFee)}</strong></div>}</section>
