@@ -4,6 +4,7 @@ import { calculatePlan, formatMoney, formatQuantity } from './equipmentCalculato
 
 const slots = ['전체', '무기', '투구', '갑옷', '팔보호구', '요대', '신발'];
 const heroes = [...new Set(equipment.map((item) => item.hero))].sort((a, b) => a.localeCompare(b, 'ko'));
+const slotOrder = Object.fromEntries(slots.slice(1).map((name, index) => [name, index]));
 const startOptions = [['craft','제작부터'],['0','0강부터'],['1','1강부터'],['2','2강부터'],['3','3강부터'],['4','4강부터']];
 
 function MaterialRows({ items }) {
@@ -24,7 +25,7 @@ export default function EquipmentCalculator() {
   const filtered = useMemo(() => equipment.filter((item) => {
     const q = query.trim().toLocaleLowerCase('ko');
     return (hero === '전체' || item.hero === hero) && (slot === '전체' || item.slotLabel === slot) && (!q || `${item.name} ${item.hero} ${item.slotLabel}`.toLocaleLowerCase('ko').includes(q));
-  }), [query, slot, hero]);
+  }).sort((a, b) => a.hero.localeCompare(b.hero, 'ko') || slotOrder[a.slotLabel] - slotOrder[b.slotLabel]), [query, slot, hero]);
   const item = filtered.find((entry) => entry.id === selectedId) || filtered[0];
   const targetOptions = start === 'craft' ? [['craft','제작만'],['1','1강까지'],['2','2강까지'],['3','3강까지'],['4','4강까지'],['5','5강까지']] : Array.from({ length: 5 - Number(start) }, (_, index) => { const level = Number(start) + index + 1; return [String(level), `${level}강까지`]; });
   const validTarget = targetOptions.some(([value]) => value === target) ? target : targetOptions.at(-1)[0];
