@@ -32,7 +32,7 @@ export default function EquipmentCalculator() {
   const plan = item?.dataAvailable ? calculatePlan(item, start, validTarget) : null;
   const copyCraftMaterial = async (material) => {
     const key = `${material.name}|${material.enhancement || 0}`;
-    const text = `${material.name}${material.enhancement ? ` +${material.enhancement}` : ''} ${formatQuantity(material.quantity)}개`;
+    const text = `${material.name}${material.enhancement ? ` +${material.enhancement}` : ''}`;
     try {
       await navigator.clipboard.writeText(text);
     } catch {
