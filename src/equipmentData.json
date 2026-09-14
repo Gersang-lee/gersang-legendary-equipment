@@ -1,0 +1,4459 @@
+[
+  {
+    "id": "8173",
+    "hero": "노부츠나",
+    "element": "불",
+    "slot": "armor",
+    "slotLabel": "갑옷",
+    "name": "노부츠나의 갑주",
+    "image": "./equipment-icons/노부츠나/armor.png",
+    "craftMaterials": [
+      {
+        "name": "고구려의태황갑옷",
+        "quantity": 1
+      },
+      {
+        "name": "구암의의복",
+        "quantity": 1,
+        "enhancement": 5
+      },
+      {
+        "name": "홍련의의복",
+        "quantity": 1,
+        "enhancement": 5
+      },
+      {
+        "name": "부총병의갑옷",
+        "quantity": 1,
+        "enhancement": 5
+      },
+      {
+        "name": "봉인된힘의조각",
+        "quantity": 30
+      }
+    ],
+    "enhanceMaterials": [
+      {
+        "name": "악몽의인장",
+        "quantity": 1
+      },
+      {
+        "name": "정기의구슬조각(火)",
+        "quantity": 5
+      },
+      {
+        "name": "영웅의금화",
+        "quantity": 5
+      },
+      {
+        "name": "시간의가루",
+        "quantity": 1
+      }
+    ],
+    "fee": {
+      "mode": "fixed",
+      "perAttempt": 10000000
+    },
+    "dataAvailable": true,
+    "sourceUrl": "https://www.gersangjjang.com/item/4jiang_h.asp",
+    "verifiedAt": "2026-09-14"
+  },
+  {
+    "id": "9643",
+    "hero": "노부츠나",
+    "element": "불",
+    "slot": "belt",
+    "slotLabel": "요대",
+    "name": "노부츠나의 요대",
+    "image": "./equipment-icons/노부츠나/belt.png",
+    "craftMaterials": [
+      {
+        "name": "<담덕>태황의요대",
+        "quantity": 1
+      },
+      {
+        "name": "파멸자요대",
+        "quantity": 2
+      },
+      {
+        "name": "봉인된힘의조각",
+        "quantity": 10
+      }
+    ],
+    "enhanceMaterials": [
+      {
+        "name": "악몽의인장",
+        "quantity": 1
+      },
+      {
+        "name": "불의정령석",
+        "quantity": 2
+      },
+      {
+        "name": "영웅의금화",
+        "quantity": 2
+      },
+      {
+        "name": "시간의가루",
+        "quantity": 1
+      }
+    ],
+    "fee": {
+      "mode": "fixed",
+      "perAttempt": 8000000
+    },
+    "dataAvailable": true,
+    "sourceUrl": "https://www.gersangjjang.com/item/4jiang_h.asp",
+    "verifiedAt": "2026-09-14"
+  },
+  {
+    "id": "9649",
+    "hero": "노부츠나",
+    "element": "불",
+    "slot": "shoes",
+    "slotLabel": "신발",
+    "name": "노부츠나의 전투화",
+    "image": "./equipment-icons/노부츠나/shoes.png",
+    "craftMaterials": [
+      {
+        "name": "<담덕>태황의전투화",
+        "quantity": 1
+      },
+      {
+        "name": "파멸자전투화",
+        "quantity": 2
+      },
+      {
+        "name": "봉인된힘의조각",
+        "quantity": 10
+      }
+    ],
+    "enhanceMaterials": [
+      {
+        "name": "악몽의인장",
+        "quantity": 1
+      },
+      {
+        "name": "불의정령석",
+        "quantity": 2
+      },
+      {
+        "name": "영웅의금화",
+        "quantity": 2
+      },
+      {
+        "name": "시간의가루",
+        "quantity": 1
+      }
+    ],
+    "fee": {
+      "mode": "fixed",
+      "perAttempt": 8000000
+    },
+    "dataAvailable": true,
+    "sourceUrl": "https://www.gersangjjang.com/item/4jiang_h.asp",
+    "verifiedAt": "2026-09-14"
+  },
+  {
+    "id": "8179",
+    "hero": "노부츠나",
+    "element": "불",
+    "slot": "weapon",
+    "slotLabel": "무기",
+    "name": "노부츠나의 창",
+    "image": "./equipment-icons/노부츠나/weapon.png",
+    "craftMaterials": [
+      {
+        "name": "방천화극",
+        "quantity": 1
+      },
+      {
+        "name": "구암의뇌전침",
+        "quantity": 1,
+        "enhancement": 5
+      },
+      {
+        "name": "부총병의별운검",
+        "quantity": 1,
+        "enhancement": 5
+      },
+      {
+        "name": "홍련의거울",
+        "quantity": 1,
+        "enhancement": 5
+      },
+      {
+        "name": "봉인된힘의조각",
+        "quantity": 50
+      }
+    ],
+    "enhanceMaterials": [
+      {
+        "name": "악몽의인장",
+        "quantity": 1
+      },
+      {
+        "name": "불의인장",
+        "quantity": 1
+      },
+      {
+        "name": "속성의가루",
+        "quantity": 1
+      },
+      {
+        "name": "영웅의금화",
+        "quantity": 5
+      }
+    ],
+    "fee": {
+      "mode": "fixed",
+      "perAttempt": 10000000
+    },
+    "dataAvailable": true,
+    "sourceUrl": "https://www.gersangjjang.com/item/4jiang_h.asp",
+    "verifiedAt": "2026-09-14"
+  },
+  {
+    "id": "8167",
+    "hero": "노부츠나",
+    "element": "불",
+    "slot": "helmet",
+    "slotLabel": "투구",
+    "name": "노부츠나의 투구",
+    "image": "./equipment-icons/노부츠나/helmet.png",
+    "craftMaterials": [
+      {
+        "name": "고구려의태황투구",
+        "quantity": 1
+      },
+      {
+        "name": "구암의관",
+        "quantity": 1,
+        "enhancement": 5
+      },
+      {
+        "name": "부총병의투구",
+        "quantity": 1,
+        "enhancement": 5
+      },
+      {
+        "name": "홍련의관",
+        "quantity": 1,
+        "enhancement": 5
+      },
+      {
+        "name": "봉인된힘의조각",
+        "quantity": 30
+      }
+    ],
+    "enhanceMaterials": [
+      {
+        "name": "악몽의인장",
+        "quantity": 1
+      },
+      {
+        "name": "작은불의속성석",
+        "quantity": 5
+      },
+      {
+        "name": "영웅의금화",
+        "quantity": 5
+      },
+      {
+        "name": "시간의가루",
+        "quantity": 1
+      }
+    ],
+    "fee": {
+      "mode": "fixed",
+      "perAttempt": 10000000
+    },
+    "dataAvailable": true,
+    "sourceUrl": "https://www.gersangjjang.com/item/4jiang_h.asp",
+    "verifiedAt": "2026-09-14"
+  },
+  {
+    "id": "9637",
+    "hero": "노부츠나",
+    "element": "불",
+    "slot": "gloves",
+    "slotLabel": "팔보호구",
+    "name": "노부츠나의 팔보호구",
+    "image": "./equipment-icons/노부츠나/gloves.png",
+    "craftMaterials": [
+      {
+        "name": "<담덕>태황의장갑",
+        "quantity": 1
+      },
+      {
+        "name": "파멸자장갑",
+        "quantity": 2
+      },
+      {
+        "name": "봉인된힘의조각",
+        "quantity": 10
+      }
+    ],
+    "enhanceMaterials": [
+      {
+        "name": "악몽의인장",
+        "quantity": 1
+      },
+      {
+        "name": "불의정령석",
+        "quantity": 2
+      },
+      {
+        "name": "영웅의금화",
+        "quantity": 2
+      },
+      {
+        "name": "시간의가루",
+        "quantity": 1
+      }
+    ],
+    "fee": {
+      "mode": "fixed",
+      "perAttempt": 8000000
+    },
+    "dataAvailable": true,
+    "sourceUrl": "https://www.gersangjjang.com/item/4jiang_h.asp",
+    "verifiedAt": "2026-09-14"
+  },
+  {
+    "id": "13280",
+    "hero": "레지나",
+    "element": "땅",
+    "slot": "helmet",
+    "slotLabel": "투구",
+    "name": "레지나의 머리장식",
+    "image": "./equipment-icons/레지나/helmet.png",
+    "craftMaterials": [],
+    "enhanceMaterials": [],
+    "fee": null,
+    "dataAvailable": false,
+    "sourceUrl": null,
+    "verifiedAt": "2026-09-14"
+  },
+  {
+    "id": "13284",
+    "hero": "레지나",
+    "element": "땅",
+    "slot": "shoes",
+    "slotLabel": "신발",
+    "name": "레지나의 신발",
+    "image": "./equipment-icons/레지나/shoes.png",
+    "craftMaterials": [],
+    "enhanceMaterials": [],
+    "fee": null,
+    "dataAvailable": false,
+    "sourceUrl": null,
+    "verifiedAt": "2026-09-14"
+  },
+  {
+    "id": "13283",
+    "hero": "레지나",
+    "element": "땅",
+    "slot": "belt",
+    "slotLabel": "요대",
+    "name": "레지나의 요대",
+    "image": "./equipment-icons/레지나/belt.png",
+    "craftMaterials": [],
+    "enhanceMaterials": [],
+    "fee": null,
+    "dataAvailable": false,
+    "sourceUrl": null,
+    "verifiedAt": "2026-09-14"
+  },
+  {
+    "id": "13281",
+    "hero": "레지나",
+    "element": "땅",
+    "slot": "armor",
+    "slotLabel": "갑옷",
+    "name": "레지나의 의복",
+    "image": "./equipment-icons/레지나/armor.png",
+    "craftMaterials": [],
+    "enhanceMaterials": [],
+    "fee": null,
+    "dataAvailable": false,
+    "sourceUrl": null,
+    "verifiedAt": "2026-09-14"
+  },
+  {
+    "id": "13279",
+    "hero": "레지나",
+    "element": "땅",
+    "slot": "weapon",
+    "slotLabel": "무기",
+    "name": "레지나의 채찍",
+    "image": "./equipment-icons/레지나/weapon.png",
+    "craftMaterials": [],
+    "enhanceMaterials": [],
+    "fee": null,
+    "dataAvailable": false,
+    "sourceUrl": null,
+    "verifiedAt": "2026-09-14"
+  },
+  {
+    "id": "13282",
+    "hero": "레지나",
+    "element": "땅",
+    "slot": "gloves",
+    "slotLabel": "팔보호구",
+    "name": "레지나의 팔보호구",
+    "image": "./equipment-icons/레지나/gloves.png",
+    "craftMaterials": [],
+    "enhanceMaterials": [],
+    "fee": null,
+    "dataAvailable": false,
+    "sourceUrl": null,
+    "verifiedAt": "2026-09-14"
+  },
+  {
+    "id": "10547",
+    "hero": "마조",
+    "element": "물",
+    "slot": "helmet",
+    "slotLabel": "투구",
+    "name": "마조의 관",
+    "image": "./equipment-icons/마조/helmet.png",
+    "craftMaterials": [
+      {
+        "name": "4등급<고구려의>태황투구",
+        "quantity": 1
+      },
+      {
+        "name": "여전사의투구",
+        "quantity": 1,
+        "enhancement": 5
+      },
+      {
+        "name": "홍련의관",
+        "quantity": 1,
+        "enhancement": 5
+      },
+      {
+        "name": "닌자의복면",
+        "quantity": 1,
+        "enhancement": 5
+      },
+      {
+        "name": "원시의투구",
+        "quantity": 1,
+        "enhancement": 5
+      },
+      {
+        "name": "봉인된힘의조각",
+        "quantity": 30
+      }
+    ],
+    "enhanceMaterials": [
+      {
+        "name": "악몽의인장",
+        "quantity": 1
+      },
+      {
+        "name": "작은물의속성석",
+        "quantity": 5
+      },
+      {
+        "name": "영웅의금화",
+        "quantity": 5
+      },
+      {
+        "name": "시간의가루",
+        "quantity": 1
+      }
+    ],
+    "fee": {
+      "mode": "fixed",
+      "perAttempt": 10000000
+    },
+    "dataAvailable": true,
+    "sourceUrl": "https://www.gersangjjang.com/item/4jiang_s.asp",
+    "verifiedAt": "2026-09-14"
+  },
+  {
+    "id": "10571",
+    "hero": "마조",
+    "element": "물",
+    "slot": "shoes",
+    "slotLabel": "신발",
+    "name": "마조의 신발",
+    "image": "./equipment-icons/마조/shoes.png",
+    "craftMaterials": [
+      {
+        "name": "<담덕>태황의전투화",
+        "quantity": 1
+      },
+      {
+        "name": "사령군화",
+        "quantity": 1
+      },
+      {
+        "name": "청룡의신발",
+        "quantity": 1
+      },
+      {
+        "name": "봉인된힘의조각",
+        "quantity": 10
+      }
+    ],
+    "enhanceMaterials": [
+      {
+        "name": "악몽의인장",
+        "quantity": 1
+      },
+      {
+        "name": "물의정령석",
+        "quantity": 2
+      },
+      {
+        "name": "영웅의금화",
+        "quantity": 2
+      },
+      {
+        "name": "시간의가루",
+        "quantity": 1
+      }
+    ],
+    "fee": {
+      "mode": "fixed",
+      "perAttempt": 8000000
+    },
+    "dataAvailable": true,
+    "sourceUrl": "https://www.gersangjjang.com/item/4jiang_s.asp",
+    "verifiedAt": "2026-09-14"
+  },
+  {
+    "id": "10553",
+    "hero": "마조",
+    "element": "물",
+    "slot": "armor",
+    "slotLabel": "갑옷",
+    "name": "마조의 예복",
+    "image": "./equipment-icons/마조/armor.png",
+    "craftMaterials": [
+      {
+        "name": "4등급<고구려의>태황갑옷",
+        "quantity": 1
+      },
+      {
+        "name": "여전사의갑옷",
+        "quantity": 1,
+        "enhancement": 5
+      },
+      {
+        "name": "홍련의의복",
+        "quantity": 1,
+        "enhancement": 5
+      },
+      {
+        "name": "닌자의제복",
+        "quantity": 1,
+        "enhancement": 5
+      },
+      {
+        "name": "원시의갑옷",
+        "quantity": 1,
+        "enhancement": 5
+      },
+      {
+        "name": "봉인된힘의조각",
+        "quantity": 30
+      }
+    ],
+    "enhanceMaterials": [
+      {
+        "name": "악몽의인장",
+        "quantity": 1
+      },
+      {
+        "name": "정기의구슬조각(水)",
+        "quantity": 5
+      },
+      {
+        "name": "영웅의금화",
+        "quantity": 5
+      },
+      {
+        "name": "시간의가루",
+        "quantity": 1
+      }
+    ],
+    "fee": {
+      "mode": "fixed",
+      "perAttempt": 10000000
+    },
+    "dataAvailable": true,
+    "sourceUrl": "https://www.gersangjjang.com/item/4jiang_s.asp",
+    "verifiedAt": "2026-09-14"
+  },
+  {
+    "id": "10565",
+    "hero": "마조",
+    "element": "물",
+    "slot": "belt",
+    "slotLabel": "요대",
+    "name": "마조의 요대",
+    "image": "./equipment-icons/마조/belt.png",
+    "craftMaterials": [
+      {
+        "name": "<담덕>태황의요대",
+        "quantity": 1
+      },
+      {
+        "name": "사령요대",
+        "quantity": 1
+      },
+      {
+        "name": "청룡의요대봉인된힘의조각",
+        "quantity": 10
+      }
+    ],
+    "enhanceMaterials": [
+      {
+        "name": "악몽의인장",
+        "quantity": 1
+      },
+      {
+        "name": "물의정령석",
+        "quantity": 2
+      },
+      {
+        "name": "영웅의금화",
+        "quantity": 2
+      },
+      {
+        "name": "시간의가루",
+        "quantity": 1
+      }
+    ],
+    "fee": {
+      "mode": "fixed",
+      "perAttempt": 8000000
+    },
+    "dataAvailable": true,
+    "sourceUrl": "https://www.gersangjjang.com/item/4jiang_s.asp",
+    "verifiedAt": "2026-09-14"
+  },
+  {
+    "id": "10559",
+    "hero": "마조",
+    "element": "물",
+    "slot": "gloves",
+    "slotLabel": "팔보호구",
+    "name": "마조의 팔찌",
+    "image": "./equipment-icons/마조/gloves.png",
+    "craftMaterials": [
+      {
+        "name": "<담덕>태황의장갑",
+        "quantity": 1
+      },
+      {
+        "name": "사령장갑",
+        "quantity": 1
+      },
+      {
+        "name": "청룡손목보호대",
+        "quantity": 1
+      },
+      {
+        "name": "봉인된힘의조각",
+        "quantity": 10
+      }
+    ],
+    "enhanceMaterials": [
+      {
+        "name": "악몽의인장",
+        "quantity": 1
+      },
+      {
+        "name": "물의정령석",
+        "quantity": 2
+      },
+      {
+        "name": "영웅의금화",
+        "quantity": 2
+      },
+      {
+        "name": "시간의가루",
+        "quantity": 1
+      }
+    ],
+    "fee": {
+      "mode": "fixed",
+      "perAttempt": 8000000
+    },
+    "dataAvailable": true,
+    "sourceUrl": "https://www.gersangjjang.com/item/4jiang_s.asp",
+    "verifiedAt": "2026-09-14"
+  },
+  {
+    "id": "10541",
+    "hero": "마조",
+    "element": "물",
+    "slot": "weapon",
+    "slotLabel": "무기",
+    "name": "마조의 홀판",
+    "image": "./equipment-icons/마조/weapon.png",
+    "craftMaterials": [
+      {
+        "name": "자령부",
+        "quantity": 1
+      },
+      {
+        "name": "여전사의사냥돌",
+        "quantity": 1,
+        "enhancement": 5
+      },
+      {
+        "name": "홍련의거울",
+        "quantity": 1,
+        "enhancement": 5
+      },
+      {
+        "name": "닌자의조도",
+        "quantity": 1,
+        "enhancement": 5
+      },
+      {
+        "name": "원시의사모",
+        "quantity": 1,
+        "enhancement": 5
+      },
+      {
+        "name": "봉인된힘의조각",
+        "quantity": 50
+      }
+    ],
+    "enhanceMaterials": [
+      {
+        "name": "악몽의인장",
+        "quantity": 1
+      },
+      {
+        "name": "물의인장",
+        "quantity": 1
+      },
+      {
+        "name": "속성의가루",
+        "quantity": 1
+      },
+      {
+        "name": "영웅의금화",
+        "quantity": 5
+      }
+    ],
+    "fee": {
+      "mode": "fixed",
+      "perAttempt": 10000000
+    },
+    "dataAvailable": true,
+    "sourceUrl": "https://www.gersangjjang.com/item/4jiang_s.asp",
+    "verifiedAt": "2026-09-14"
+  },
+  {
+    "id": "13274",
+    "hero": "만선야",
+    "element": "뇌",
+    "slot": "helmet",
+    "slotLabel": "투구",
+    "name": "만선야의 머리장식",
+    "image": "./equipment-icons/만선야/helmet.png",
+    "craftMaterials": [],
+    "enhanceMaterials": [],
+    "fee": null,
+    "dataAvailable": false,
+    "sourceUrl": null,
+    "verifiedAt": "2026-09-14"
+  },
+  {
+    "id": "13278",
+    "hero": "만선야",
+    "element": "뇌",
+    "slot": "shoes",
+    "slotLabel": "신발",
+    "name": "만선야의 신발",
+    "image": "./equipment-icons/만선야/shoes.png",
+    "craftMaterials": [],
+    "enhanceMaterials": [],
+    "fee": null,
+    "dataAvailable": false,
+    "sourceUrl": null,
+    "verifiedAt": "2026-09-14"
+  },
+  {
+    "id": "13277",
+    "hero": "만선야",
+    "element": "뇌",
+    "slot": "belt",
+    "slotLabel": "요대",
+    "name": "만선야의 요대",
+    "image": "./equipment-icons/만선야/belt.png",
+    "craftMaterials": [],
+    "enhanceMaterials": [],
+    "fee": null,
+    "dataAvailable": false,
+    "sourceUrl": null,
+    "verifiedAt": "2026-09-14"
+  },
+  {
+    "id": "13275",
+    "hero": "만선야",
+    "element": "뇌",
+    "slot": "armor",
+    "slotLabel": "갑옷",
+    "name": "만선야의 의복",
+    "image": "./equipment-icons/만선야/armor.png",
+    "craftMaterials": [],
+    "enhanceMaterials": [],
+    "fee": null,
+    "dataAvailable": false,
+    "sourceUrl": null,
+    "verifiedAt": "2026-09-14"
+  },
+  {
+    "id": "13273",
+    "hero": "만선야",
+    "element": "뇌",
+    "slot": "weapon",
+    "slotLabel": "무기",
+    "name": "만선야의 지팡이",
+    "image": "./equipment-icons/만선야/weapon.png",
+    "craftMaterials": [],
+    "enhanceMaterials": [],
+    "fee": null,
+    "dataAvailable": false,
+    "sourceUrl": null,
+    "verifiedAt": "2026-09-14"
+  },
+  {
+    "id": "13276",
+    "hero": "만선야",
+    "element": "뇌",
+    "slot": "gloves",
+    "slotLabel": "팔보호구",
+    "name": "만선야의 팔보호구",
+    "image": "./equipment-icons/만선야/gloves.png",
+    "craftMaterials": [],
+    "enhanceMaterials": [],
+    "fee": null,
+    "dataAvailable": false,
+    "sourceUrl": null,
+    "verifiedAt": "2026-09-14"
+  },
+  {
+    "id": "7677",
+    "hero": "맹획",
+    "element": "바람",
+    "slot": "armor",
+    "slotLabel": "갑옷",
+    "name": "맹획의 견갑",
+    "image": "./equipment-icons/맹획/armor.png",
+    "craftMaterials": [
+      {
+        "name": "고구려의태황갑옷",
+        "quantity": 1
+      },
+      {
+        "name": "밀사의의복",
+        "quantity": 1,
+        "enhancement": 5
+      },
+      {
+        "name": "선인의의복",
+        "quantity": 1,
+        "enhancement": 5
+      },
+      {
+        "name": "설호의의복",
+        "quantity": 1,
+        "enhancement": 5
+      },
+      {
+        "name": "봉인된힘의조각",
+        "quantity": 30
+      }
+    ],
+    "enhanceMaterials": [
+      {
+        "name": "악몽의인장",
+        "quantity": 1
+      },
+      {
+        "name": "정기의구슬조각(風)",
+        "quantity": 5
+      },
+      {
+        "name": "영웅의금화",
+        "quantity": 5
+      },
+      {
+        "name": "시간의가루",
+        "quantity": 1
+      }
+    ],
+    "fee": {
+      "mode": "fixed",
+      "perAttempt": 10000000
+    },
+    "dataAvailable": true,
+    "sourceUrl": "https://www.gersangjjang.com/item/4jiang_f.asp",
+    "verifiedAt": "2026-09-14"
+  },
+  {
+    "id": "7665",
+    "hero": "맹획",
+    "element": "바람",
+    "slot": "weapon",
+    "slotLabel": "무기",
+    "name": "맹획의 도끼",
+    "image": "./equipment-icons/맹획/weapon.png",
+    "craftMaterials": [
+      {
+        "name": "비철부",
+        "quantity": 1
+      },
+      {
+        "name": "밀사의목탁",
+        "quantity": 1,
+        "enhancement": 5
+      },
+      {
+        "name": "선인의부적",
+        "quantity": 1,
+        "enhancement": 5
+      },
+      {
+        "name": "설호의방울",
+        "quantity": 1,
+        "enhancement": 5
+      },
+      {
+        "name": "봉인된힘의조각",
+        "quantity": 50
+      }
+    ],
+    "enhanceMaterials": [
+      {
+        "name": "악몽의인장",
+        "quantity": 1
+      },
+      {
+        "name": "바람의인장",
+        "quantity": 1
+      },
+      {
+        "name": "속성의가루",
+        "quantity": 1
+      },
+      {
+        "name": "영웅의금화",
+        "quantity": 5
+      }
+    ],
+    "fee": {
+      "mode": "fixed",
+      "perAttempt": 10000000
+    },
+    "dataAvailable": true,
+    "sourceUrl": "https://www.gersangjjang.com/item/4jiang_f.asp",
+    "verifiedAt": "2026-09-14"
+  },
+  {
+    "id": "9625",
+    "hero": "맹획",
+    "element": "바람",
+    "slot": "belt",
+    "slotLabel": "요대",
+    "name": "맹획의 요대",
+    "image": "./equipment-icons/맹획/belt.png",
+    "craftMaterials": [
+      {
+        "name": "<담덕>태황의요대",
+        "quantity": 1
+      },
+      {
+        "name": "미트라요대",
+        "quantity": 2
+      },
+      {
+        "name": "봉인된힘의조각",
+        "quantity": 10
+      }
+    ],
+    "enhanceMaterials": [
+      {
+        "name": "악몽의인장",
+        "quantity": 1
+      },
+      {
+        "name": "바람의정령석",
+        "quantity": 2
+      },
+      {
+        "name": "영웅의금화",
+        "quantity": 2
+      },
+      {
+        "name": "시간의가루",
+        "quantity": 1
+      }
+    ],
+    "fee": {
+      "mode": "fixed",
+      "perAttempt": 8000000
+    },
+    "dataAvailable": true,
+    "sourceUrl": "https://www.gersangjjang.com/item/4jiang_f.asp",
+    "verifiedAt": "2026-09-14"
+  },
+  {
+    "id": "9631",
+    "hero": "맹획",
+    "element": "바람",
+    "slot": "shoes",
+    "slotLabel": "신발",
+    "name": "맹획의 전투화",
+    "image": "./equipment-icons/맹획/shoes.png",
+    "craftMaterials": [
+      {
+        "name": "<담덕>태황의전투화",
+        "quantity": 1
+      },
+      {
+        "name": "미트라전투화",
+        "quantity": 2
+      },
+      {
+        "name": "봉인된힘의조각",
+        "quantity": 10
+      }
+    ],
+    "enhanceMaterials": [
+      {
+        "name": "악몽의인장",
+        "quantity": 1
+      },
+      {
+        "name": "바람의정령석",
+        "quantity": 2
+      },
+      {
+        "name": "영웅의금화",
+        "quantity": 2
+      },
+      {
+        "name": "시간의가루",
+        "quantity": 1
+      }
+    ],
+    "fee": {
+      "mode": "fixed",
+      "perAttempt": 8000000
+    },
+    "dataAvailable": true,
+    "sourceUrl": "https://www.gersangjjang.com/item/4jiang_f.asp",
+    "verifiedAt": "2026-09-14"
+  },
+  {
+    "id": "7671",
+    "hero": "맹획",
+    "element": "바람",
+    "slot": "helmet",
+    "slotLabel": "투구",
+    "name": "맹획의 투구",
+    "image": "./equipment-icons/맹획/helmet.png",
+    "craftMaterials": [
+      {
+        "name": "고구려의태황투구",
+        "quantity": 1
+      },
+      {
+        "name": "밀사의삿갓",
+        "quantity": 1,
+        "enhancement": 5
+      },
+      {
+        "name": "선인의관",
+        "quantity": 1,
+        "enhancement": 5
+      },
+      {
+        "name": "설호의관",
+        "quantity": 1,
+        "enhancement": 5
+      },
+      {
+        "name": "봉인된힘의조각",
+        "quantity": 30
+      }
+    ],
+    "enhanceMaterials": [
+      {
+        "name": "악몽의인장",
+        "quantity": 1
+      },
+      {
+        "name": "작은바람의속성석",
+        "quantity": 5
+      },
+      {
+        "name": "영웅의금화",
+        "quantity": 5
+      },
+      {
+        "name": "시간의가루",
+        "quantity": 1
+      }
+    ],
+    "fee": {
+      "mode": "fixed",
+      "perAttempt": 10000000
+    },
+    "dataAvailable": true,
+    "sourceUrl": "https://www.gersangjjang.com/item/4jiang_f.asp",
+    "verifiedAt": "2026-09-14"
+  },
+  {
+    "id": "9619",
+    "hero": "맹획",
+    "element": "바람",
+    "slot": "gloves",
+    "slotLabel": "팔보호구",
+    "name": "맹획의 팔보호구",
+    "image": "./equipment-icons/맹획/gloves.png",
+    "craftMaterials": [
+      {
+        "name": "<담덕>태황의장갑",
+        "quantity": 1
+      },
+      {
+        "name": "미트라장갑",
+        "quantity": 2
+      },
+      {
+        "name": "봉인된힘의조각",
+        "quantity": 10
+      }
+    ],
+    "enhanceMaterials": [
+      {
+        "name": "악몽의인장",
+        "quantity": 1
+      },
+      {
+        "name": "바람의정령석",
+        "quantity": 2
+      },
+      {
+        "name": "영웅의금화",
+        "quantity": 2
+      },
+      {
+        "name": "시간의가루",
+        "quantity": 1
+      }
+    ],
+    "fee": {
+      "mode": "fixed",
+      "perAttempt": 8000000
+    },
+    "dataAvailable": true,
+    "sourceUrl": "https://www.gersangjjang.com/item/4jiang_f.asp",
+    "verifiedAt": "2026-09-14"
+  },
+  {
+    "id": "9667",
+    "hero": "바지라오",
+    "element": "땅",
+    "slot": "armor",
+    "slotLabel": "갑옷",
+    "name": "바지라오의 갑옷",
+    "image": "./equipment-icons/바지라오/armor.png",
+    "craftMaterials": [
+      {
+        "name": "<고구려>태황갑옷",
+        "quantity": 1
+      },
+      {
+        "name": "시크교의갑옷",
+        "quantity": 1,
+        "enhancement": 5
+      },
+      {
+        "name": "추격자의갑주",
+        "quantity": 1,
+        "enhancement": 5
+      },
+      {
+        "name": "용병대장의복장",
+        "quantity": 1,
+        "enhancement": 5
+      },
+      {
+        "name": "암흑술사의복장",
+        "quantity": 1,
+        "enhancement": 5
+      },
+      {
+        "name": "봉인된힘의조각",
+        "quantity": 30
+      }
+    ],
+    "enhanceMaterials": [
+      {
+        "name": "악몽의인장",
+        "quantity": 1
+      },
+      {
+        "name": "정기의구슬조각(地)",
+        "quantity": 5
+      },
+      {
+        "name": "영웅의금화",
+        "quantity": 5
+      },
+      {
+        "name": "시간의가루",
+        "quantity": 1
+      }
+    ],
+    "fee": {
+      "mode": "fixed",
+      "perAttempt": 10000000
+    },
+    "dataAvailable": true,
+    "sourceUrl": "https://www.gersangjjang.com/item/4jiang_d.asp",
+    "verifiedAt": "2026-09-14"
+  },
+  {
+    "id": "9655",
+    "hero": "바지라오",
+    "element": "땅",
+    "slot": "weapon",
+    "slotLabel": "무기",
+    "name": "바지라오의 검",
+    "image": "./equipment-icons/바지라오/weapon.png",
+    "craftMaterials": [
+      {
+        "name": "용아쿠크리",
+        "quantity": 1
+      },
+      {
+        "name": "시크교의차크람",
+        "quantity": 1,
+        "enhancement": 5
+      },
+      {
+        "name": "추격자의대검",
+        "quantity": 1,
+        "enhancement": 5
+      },
+      {
+        "name": "용병대장의대검",
+        "quantity": 1,
+        "enhancement": 5
+      },
+      {
+        "name": "암흑술사의지팡이",
+        "quantity": 1,
+        "enhancement": 5
+      },
+      {
+        "name": "봉인된힘의조각",
+        "quantity": 50
+      }
+    ],
+    "enhanceMaterials": [
+      {
+        "name": "악몽의인장",
+        "quantity": 1
+      },
+      {
+        "name": "해의인장",
+        "quantity": 1
+      },
+      {
+        "name": "속성의가루",
+        "quantity": 1
+      },
+      {
+        "name": "영웅의금화",
+        "quantity": 5
+      }
+    ],
+    "fee": {
+      "mode": "fixed",
+      "perAttempt": 10000000
+    },
+    "dataAvailable": true,
+    "sourceUrl": "https://www.gersangjjang.com/item/4jiang_d.asp",
+    "verifiedAt": "2026-09-14"
+  },
+  {
+    "id": "9679",
+    "hero": "바지라오",
+    "element": "땅",
+    "slot": "belt",
+    "slotLabel": "요대",
+    "name": "바지라오의 요대",
+    "image": "./equipment-icons/바지라오/belt.png",
+    "craftMaterials": [
+      {
+        "name": "<담덕>태황요대",
+        "quantity": 1
+      },
+      {
+        "name": "사령요대",
+        "quantity": 1
+      },
+      {
+        "name": "수라허리띠",
+        "quantity": 1
+      },
+      {
+        "name": "파멸자요대",
+        "quantity": 1
+      },
+      {
+        "name": "미트라요대",
+        "quantity": 1
+      },
+      {
+        "name": "봉인된힘의조각",
+        "quantity": 10
+      }
+    ],
+    "enhanceMaterials": [
+      {
+        "name": "악몽의인장",
+        "quantity": 1
+      },
+      {
+        "name": "땅의정령석",
+        "quantity": 2
+      },
+      {
+        "name": "영웅의금화",
+        "quantity": 2
+      },
+      {
+        "name": "시간의가루",
+        "quantity": 1
+      }
+    ],
+    "fee": {
+      "mode": "fixed",
+      "perAttempt": 8000000
+    },
+    "dataAvailable": true,
+    "sourceUrl": "https://www.gersangjjang.com/item/4jiang_d.asp",
+    "verifiedAt": "2026-09-14"
+  },
+  {
+    "id": "9685",
+    "hero": "바지라오",
+    "element": "땅",
+    "slot": "shoes",
+    "slotLabel": "신발",
+    "name": "바지라오의 전투화",
+    "image": "./equipment-icons/바지라오/shoes.png",
+    "craftMaterials": [
+      {
+        "name": "<담덕>태황전투화",
+        "quantity": 1
+      },
+      {
+        "name": "사령군화",
+        "quantity": 1
+      },
+      {
+        "name": "수라전투화",
+        "quantity": 1
+      },
+      {
+        "name": "파멸자전투화",
+        "quantity": 1
+      },
+      {
+        "name": "미트라전투화",
+        "quantity": 1
+      },
+      {
+        "name": "봉인된힘의조각",
+        "quantity": 10
+      }
+    ],
+    "enhanceMaterials": [
+      {
+        "name": "악몽의인장",
+        "quantity": 1
+      },
+      {
+        "name": "땅의정령석",
+        "quantity": 2
+      },
+      {
+        "name": "영웅의금화",
+        "quantity": 2
+      },
+      {
+        "name": "시간의가루",
+        "quantity": 1
+      }
+    ],
+    "fee": {
+      "mode": "fixed",
+      "perAttempt": 8000000
+    },
+    "dataAvailable": true,
+    "sourceUrl": "https://www.gersangjjang.com/item/4jiang_d.asp",
+    "verifiedAt": "2026-09-14"
+  },
+  {
+    "id": "9661",
+    "hero": "바지라오",
+    "element": "땅",
+    "slot": "helmet",
+    "slotLabel": "투구",
+    "name": "바지라오의 투구",
+    "image": "./equipment-icons/바지라오/helmet.png",
+    "craftMaterials": [
+      {
+        "name": "<고구려>태황투구",
+        "quantity": 1
+      },
+      {
+        "name": "시크교의가면",
+        "quantity": 1,
+        "enhancement": 5
+      },
+      {
+        "name": "추격자의머리띠",
+        "quantity": 1,
+        "enhancement": 5
+      },
+      {
+        "name": "용병대장의복면",
+        "quantity": 1,
+        "enhancement": 5
+      },
+      {
+        "name": "암흑술사의복면",
+        "quantity": 1,
+        "enhancement": 5
+      },
+      {
+        "name": "봉인된힘의조각",
+        "quantity": 30
+      }
+    ],
+    "enhanceMaterials": [
+      {
+        "name": "악몽의인장",
+        "quantity": 1
+      },
+      {
+        "name": "작은땅의속성석",
+        "quantity": 5
+      },
+      {
+        "name": "영웅의금화",
+        "quantity": 5
+      },
+      {
+        "name": "시간의가루",
+        "quantity": 1
+      }
+    ],
+    "fee": {
+      "mode": "fixed",
+      "perAttempt": 10000000
+    },
+    "dataAvailable": true,
+    "sourceUrl": "https://www.gersangjjang.com/item/4jiang_d.asp",
+    "verifiedAt": "2026-09-14"
+  },
+  {
+    "id": "9673",
+    "hero": "바지라오",
+    "element": "땅",
+    "slot": "gloves",
+    "slotLabel": "팔보호구",
+    "name": "바지라오의 팔보호구",
+    "image": "./equipment-icons/바지라오/gloves.png",
+    "craftMaterials": [
+      {
+        "name": "<담덕>태황장갑",
+        "quantity": 1
+      },
+      {
+        "name": "사령장갑",
+        "quantity": 1
+      },
+      {
+        "name": "수라손목보호구",
+        "quantity": 1
+      },
+      {
+        "name": "파멸자의장갑",
+        "quantity": 1
+      },
+      {
+        "name": "미트라의장갑",
+        "quantity": 1
+      },
+      {
+        "name": "봉인된힘의조각",
+        "quantity": 10
+      }
+    ],
+    "enhanceMaterials": [
+      {
+        "name": "악몽의인장",
+        "quantity": 1
+      },
+      {
+        "name": "땅의정령석",
+        "quantity": 2
+      },
+      {
+        "name": "영웅의금화",
+        "quantity": 2
+      },
+      {
+        "name": "시간의가루",
+        "quantity": 1
+      }
+    ],
+    "fee": {
+      "mode": "fixed",
+      "perAttempt": 8000000
+    },
+    "dataAvailable": true,
+    "sourceUrl": "https://www.gersangjjang.com/item/4jiang_d.asp",
+    "verifiedAt": "2026-09-14"
+  },
+  {
+    "id": "10577",
+    "hero": "보쿠텐",
+    "element": "바람",
+    "slot": "weapon",
+    "slotLabel": "무기",
+    "name": "보쿠텐의 대도",
+    "image": "./equipment-icons/보쿠텐/weapon.png",
+    "craftMaterials": [
+      {
+        "name": "한빙검",
+        "quantity": 1
+      },
+      {
+        "name": "침략자의쌍검",
+        "quantity": 1,
+        "enhancement": 5
+      },
+      {
+        "name": "칠본창의화승총",
+        "quantity": 1,
+        "enhancement": 5
+      },
+      {
+        "name": "선봉장의쌍검",
+        "quantity": 1,
+        "enhancement": 5
+      },
+      {
+        "name": "흑기군의협객봉",
+        "quantity": 1,
+        "enhancement": 5
+      },
+      {
+        "name": "봉인된힘의조각",
+        "quantity": 50
+      }
+    ],
+    "enhanceMaterials": [
+      {
+        "name": "악몽의인장",
+        "quantity": 1
+      },
+      {
+        "name": "바람의인장",
+        "quantity": 1
+      },
+      {
+        "name": "속성의가루",
+        "quantity": 1
+      },
+      {
+        "name": "영웅의금화",
+        "quantity": 5
+      }
+    ],
+    "fee": {
+      "mode": "fixed",
+      "perAttempt": 10000000
+    },
+    "dataAvailable": true,
+    "sourceUrl": "https://www.gersangjjang.com/item/4jiang_f.asp",
+    "verifiedAt": "2026-09-14"
+  },
+  {
+    "id": "10589",
+    "hero": "보쿠텐",
+    "element": "바람",
+    "slot": "armor",
+    "slotLabel": "갑옷",
+    "name": "보쿠텐의 도복",
+    "image": "./equipment-icons/보쿠텐/armor.png",
+    "craftMaterials": [
+      {
+        "name": "<고구려의>태황갑옷",
+        "quantity": 1
+      },
+      {
+        "name": "침략자의갑옷",
+        "quantity": 1,
+        "enhancement": 5
+      },
+      {
+        "name": "칠본창의갑옷",
+        "quantity": 1,
+        "enhancement": 5
+      },
+      {
+        "name": "선봉장의갑옷",
+        "quantity": 1,
+        "enhancement": 5
+      },
+      {
+        "name": "흑기군의갑옷",
+        "quantity": 1,
+        "enhancement": 5
+      },
+      {
+        "name": "봉인된힘의조각",
+        "quantity": 30
+      }
+    ],
+    "enhanceMaterials": [
+      {
+        "name": "악몽의인장",
+        "quantity": 1
+      },
+      {
+        "name": "정기의구슬조각(風)",
+        "quantity": 5
+      },
+      {
+        "name": "영웅의금화",
+        "quantity": 5
+      },
+      {
+        "name": "시간의가루",
+        "quantity": 1
+      }
+    ],
+    "fee": {
+      "mode": "fixed",
+      "perAttempt": 10000000
+    },
+    "dataAvailable": true,
+    "sourceUrl": "https://www.gersangjjang.com/item/4jiang_f.asp",
+    "verifiedAt": "2026-09-14"
+  },
+  {
+    "id": "10583",
+    "hero": "보쿠텐",
+    "element": "바람",
+    "slot": "helmet",
+    "slotLabel": "투구",
+    "name": "보쿠텐의 삿갓",
+    "image": "./equipment-icons/보쿠텐/helmet.png",
+    "craftMaterials": [
+      {
+        "name": "<고구려의>태황투구",
+        "quantity": 1
+      },
+      {
+        "name": "침략자의투구",
+        "quantity": 1,
+        "enhancement": 5
+      },
+      {
+        "name": "칠본창의투구",
+        "quantity": 1,
+        "enhancement": 5
+      },
+      {
+        "name": "선봉장의투구",
+        "quantity": 1,
+        "enhancement": 5
+      },
+      {
+        "name": "흑기군의투구",
+        "quantity": 1,
+        "enhancement": 5
+      },
+      {
+        "name": "봉인된힘의조각",
+        "quantity": 30
+      }
+    ],
+    "enhanceMaterials": [
+      {
+        "name": "악몽의인장",
+        "quantity": 1
+      },
+      {
+        "name": "작은바람의속성석",
+        "quantity": 5
+      },
+      {
+        "name": "영웅의금화",
+        "quantity": 5
+      },
+      {
+        "name": "시간의가루",
+        "quantity": 1
+      }
+    ],
+    "fee": {
+      "mode": "fixed",
+      "perAttempt": 10000000
+    },
+    "dataAvailable": true,
+    "sourceUrl": "https://www.gersangjjang.com/item/4jiang_f.asp",
+    "verifiedAt": "2026-09-14"
+  },
+  {
+    "id": "10607",
+    "hero": "보쿠텐",
+    "element": "바람",
+    "slot": "shoes",
+    "slotLabel": "신발",
+    "name": "보쿠텐의 신발",
+    "image": "./equipment-icons/보쿠텐/shoes.png",
+    "craftMaterials": [
+      {
+        "name": "<담덕>태황의전투화",
+        "quantity": 1
+      },
+      {
+        "name": "미트라전투화",
+        "quantity": 1
+      },
+      {
+        "name": "주작의신발",
+        "quantity": 1
+      },
+      {
+        "name": "봉인된힘의조각",
+        "quantity": 10
+      }
+    ],
+    "enhanceMaterials": [
+      {
+        "name": "악몽의인장",
+        "quantity": 1
+      },
+      {
+        "name": "바람의정령석",
+        "quantity": 2
+      },
+      {
+        "name": "영웅의금화",
+        "quantity": 2
+      },
+      {
+        "name": "시간의가루",
+        "quantity": 1
+      }
+    ],
+    "fee": {
+      "mode": "fixed",
+      "perAttempt": 8000000
+    },
+    "dataAvailable": true,
+    "sourceUrl": "https://www.gersangjjang.com/item/4jiang_f.asp",
+    "verifiedAt": "2026-09-14"
+  },
+  {
+    "id": "10601",
+    "hero": "보쿠텐",
+    "element": "바람",
+    "slot": "belt",
+    "slotLabel": "요대",
+    "name": "보쿠텐의 요대",
+    "image": "./equipment-icons/보쿠텐/belt.png",
+    "craftMaterials": [
+      {
+        "name": "<담덕>태황의요대",
+        "quantity": 1
+      },
+      {
+        "name": "미트라요대",
+        "quantity": 1
+      },
+      {
+        "name": "주작의요대",
+        "quantity": 1
+      },
+      {
+        "name": "봉인된힘의조각",
+        "quantity": 10
+      }
+    ],
+    "enhanceMaterials": [
+      {
+        "name": "악몽의인장",
+        "quantity": 1
+      },
+      {
+        "name": "바람의정령석",
+        "quantity": 2
+      },
+      {
+        "name": "영웅의금화",
+        "quantity": 2
+      },
+      {
+        "name": "시간의가루",
+        "quantity": 1
+      }
+    ],
+    "fee": {
+      "mode": "fixed",
+      "perAttempt": 8000000
+    },
+    "dataAvailable": true,
+    "sourceUrl": "https://www.gersangjjang.com/item/4jiang_f.asp",
+    "verifiedAt": "2026-09-14"
+  },
+  {
+    "id": "10595",
+    "hero": "보쿠텐",
+    "element": "바람",
+    "slot": "gloves",
+    "slotLabel": "팔보호구",
+    "name": "보쿠텐의 팔보호구",
+    "image": "./equipment-icons/보쿠텐/gloves.png",
+    "craftMaterials": [
+      {
+        "name": "<담덕>태황의장갑",
+        "quantity": 1
+      },
+      {
+        "name": "미트라장갑",
+        "quantity": 1
+      },
+      {
+        "name": "주작손목보호대",
+        "quantity": 1
+      },
+      {
+        "name": "봉인된힘의조각",
+        "quantity": 10
+      }
+    ],
+    "enhanceMaterials": [
+      {
+        "name": "악몽의인장",
+        "quantity": 1
+      },
+      {
+        "name": "바람의정령석",
+        "quantity": 2
+      },
+      {
+        "name": "영웅의금화",
+        "quantity": 2
+      },
+      {
+        "name": "시간의가루",
+        "quantity": 1
+      }
+    ],
+    "fee": {
+      "mode": "fixed",
+      "perAttempt": 8000000
+    },
+    "dataAvailable": true,
+    "sourceUrl": "https://www.gersangjjang.com/item/4jiang_f.asp",
+    "verifiedAt": "2026-09-14"
+  },
+  {
+    "id": "10625",
+    "hero": "악바르",
+    "element": "땅",
+    "slot": "armor",
+    "slotLabel": "갑옷",
+    "name": "악바르의 예복",
+    "image": "./equipment-icons/악바르/armor.png",
+    "craftMaterials": [
+      {
+        "name": "<고구려>태황갑옷+",
+        "quantity": 4
+      },
+      {
+        "name": "수비대장의의복",
+        "quantity": 1,
+        "enhancement": 5
+      },
+      {
+        "name": "구원자의의복",
+        "quantity": 1,
+        "enhancement": 5
+      },
+      {
+        "name": "뱀조련사의의복",
+        "quantity": 1,
+        "enhancement": 5
+      },
+      {
+        "name": "수도승의의복",
+        "quantity": 1,
+        "enhancement": 5
+      },
+      {
+        "name": "봉인된힘의조각",
+        "quantity": 30
+      }
+    ],
+    "enhanceMaterials": [
+      {
+        "name": "악몽의인장",
+        "quantity": 1
+      },
+      {
+        "name": "정기의구슬조각(地)",
+        "quantity": 5
+      },
+      {
+        "name": "영웅의금화",
+        "quantity": 5
+      },
+      {
+        "name": "시간의가루",
+        "quantity": 1
+      }
+    ],
+    "fee": {
+      "mode": "fixed",
+      "perAttempt": 10000000
+    },
+    "dataAvailable": true,
+    "sourceUrl": "https://www.gersangjjang.com/item/4jiang_d.asp",
+    "verifiedAt": "2026-09-14"
+  },
+  {
+    "id": "10637",
+    "hero": "악바르",
+    "element": "땅",
+    "slot": "belt",
+    "slotLabel": "요대",
+    "name": "악바르의 요대",
+    "image": "./equipment-icons/악바르/belt.png",
+    "craftMaterials": [
+      {
+        "name": "<담덕>태황요대",
+        "quantity": 1
+      },
+      {
+        "name": "사령요대",
+        "quantity": 1
+      },
+      {
+        "name": "수라허리띠",
+        "quantity": 1
+      },
+      {
+        "name": "파멸자요대",
+        "quantity": 1
+      },
+      {
+        "name": "미트라요대",
+        "quantity": 1
+      },
+      {
+        "name": "봉인된힘의조각",
+        "quantity": 10
+      }
+    ],
+    "enhanceMaterials": [
+      {
+        "name": "악몽의인장",
+        "quantity": 1
+      },
+      {
+        "name": "땅의정령석",
+        "quantity": 2
+      },
+      {
+        "name": "영웅의금화",
+        "quantity": 2
+      },
+      {
+        "name": "시간의가루",
+        "quantity": 1
+      }
+    ],
+    "fee": {
+      "mode": "fixed",
+      "perAttempt": 8000000
+    },
+    "dataAvailable": true,
+    "sourceUrl": "https://www.gersangjjang.com/item/4jiang_d.asp",
+    "verifiedAt": "2026-09-14"
+  },
+  {
+    "id": "10643",
+    "hero": "악바르",
+    "element": "땅",
+    "slot": "shoes",
+    "slotLabel": "신발",
+    "name": "악바르의 전투화",
+    "image": "./equipment-icons/악바르/shoes.png",
+    "craftMaterials": [
+      {
+        "name": "<담덕>태황전투화",
+        "quantity": 1
+      },
+      {
+        "name": "사령군화",
+        "quantity": 1
+      },
+      {
+        "name": "수라전투화",
+        "quantity": 1
+      },
+      {
+        "name": "파멸자전투화",
+        "quantity": 1
+      },
+      {
+        "name": "미트라전투화",
+        "quantity": 1
+      },
+      {
+        "name": "봉인된힘의조각",
+        "quantity": 10
+      }
+    ],
+    "enhanceMaterials": [
+      {
+        "name": "악몽의인장",
+        "quantity": 1
+      },
+      {
+        "name": "땅의정령석",
+        "quantity": 2
+      },
+      {
+        "name": "영웅의금화",
+        "quantity": 2
+      },
+      {
+        "name": "시간의가루",
+        "quantity": 1
+      }
+    ],
+    "fee": {
+      "mode": "fixed",
+      "perAttempt": 8000000
+    },
+    "dataAvailable": true,
+    "sourceUrl": "https://www.gersangjjang.com/item/4jiang_d.asp",
+    "verifiedAt": "2026-09-14"
+  },
+  {
+    "id": "10613",
+    "hero": "악바르",
+    "element": "땅",
+    "slot": "weapon",
+    "slotLabel": "무기",
+    "name": "악바르의 지휘봉",
+    "image": "./equipment-icons/악바르/weapon.png",
+    "craftMaterials": [
+      {
+        "name": "천황봉",
+        "quantity": 1
+      },
+      {
+        "name": "수비대장의화포",
+        "quantity": 1,
+        "enhancement": 5
+      },
+      {
+        "name": "구원자의구슬",
+        "quantity": 1,
+        "enhancement": 5
+      },
+      {
+        "name": "뱀조련사의뱀목줄",
+        "quantity": 1,
+        "enhancement": 5
+      },
+      {
+        "name": "수도승의봉",
+        "quantity": 1,
+        "enhancement": 5
+      },
+      {
+        "name": "봉인된힘의조각",
+        "quantity": 50
+      }
+    ],
+    "enhanceMaterials": [
+      {
+        "name": "악몽의인장",
+        "quantity": 1
+      },
+      {
+        "name": "해의인장",
+        "quantity": 1
+      },
+      {
+        "name": "속성의가루",
+        "quantity": 1
+      },
+      {
+        "name": "영웅의금화",
+        "quantity": 5
+      }
+    ],
+    "fee": {
+      "mode": "fixed",
+      "perAttempt": 10000000
+    },
+    "dataAvailable": true,
+    "sourceUrl": "https://www.gersangjjang.com/item/4jiang_d.asp",
+    "verifiedAt": "2026-09-14"
+  },
+  {
+    "id": "10619",
+    "hero": "악바르",
+    "element": "땅",
+    "slot": "helmet",
+    "slotLabel": "투구",
+    "name": "악바르의 투구",
+    "image": "./equipment-icons/악바르/helmet.png",
+    "craftMaterials": [
+      {
+        "name": "<고구려>태황투구+",
+        "quantity": 4
+      },
+      {
+        "name": "수비대장의두건",
+        "quantity": 1,
+        "enhancement": 5
+      },
+      {
+        "name": "구원자의관",
+        "quantity": 1,
+        "enhancement": 5
+      },
+      {
+        "name": "뱀조련사의두건",
+        "quantity": 1,
+        "enhancement": 5
+      },
+      {
+        "name": "수도승의관",
+        "quantity": 1,
+        "enhancement": 5
+      },
+      {
+        "name": "봉인된힘의조각",
+        "quantity": 30
+      }
+    ],
+    "enhanceMaterials": [
+      {
+        "name": "악몽의인장",
+        "quantity": 1
+      },
+      {
+        "name": "작은땅의속성석",
+        "quantity": 5
+      },
+      {
+        "name": "영웅의금화",
+        "quantity": 5
+      },
+      {
+        "name": "시간의가루",
+        "quantity": 1
+      }
+    ],
+    "fee": {
+      "mode": "fixed",
+      "perAttempt": 10000000
+    },
+    "dataAvailable": true,
+    "sourceUrl": "https://www.gersangjjang.com/item/4jiang_d.asp",
+    "verifiedAt": "2026-09-14"
+  },
+  {
+    "id": "10631",
+    "hero": "악바르",
+    "element": "땅",
+    "slot": "gloves",
+    "slotLabel": "팔보호구",
+    "name": "악바르의 팔보호구",
+    "image": "./equipment-icons/악바르/gloves.png",
+    "craftMaterials": [
+      {
+        "name": "<담덕>태황장갑",
+        "quantity": 1
+      },
+      {
+        "name": "사령장갑",
+        "quantity": 1
+      },
+      {
+        "name": "수라손목보호구",
+        "quantity": 1
+      },
+      {
+        "name": "파멸자의장갑",
+        "quantity": 1
+      },
+      {
+        "name": "미트라의장갑",
+        "quantity": 1
+      },
+      {
+        "name": "봉인된힘의조각",
+        "quantity": 10
+      }
+    ],
+    "enhanceMaterials": [
+      {
+        "name": "악몽의인장",
+        "quantity": 1
+      },
+      {
+        "name": "땅의정령석",
+        "quantity": 2
+      },
+      {
+        "name": "영웅의금화",
+        "quantity": 2
+      },
+      {
+        "name": "시간의가루",
+        "quantity": 1
+      }
+    ],
+    "fee": {
+      "mode": "fixed",
+      "perAttempt": 8000000
+    },
+    "dataAvailable": true,
+    "sourceUrl": "https://www.gersangjjang.com/item/4jiang_d.asp",
+    "verifiedAt": "2026-09-14"
+  },
+  {
+    "id": "12731",
+    "hero": "여포",
+    "element": "불",
+    "slot": "armor",
+    "slotLabel": "갑옷",
+    "name": "여포의 갑옷",
+    "image": "./equipment-icons/여포/armor.png",
+    "craftMaterials": [
+      {
+        "name": "<고구려의>태황갑옷",
+        "quantity": 1
+      },
+      {
+        "name": "고행자의도복",
+        "quantity": 1,
+        "enhancement": 5
+      },
+      {
+        "name": "뇌전의의복",
+        "quantity": 1,
+        "enhancement": 5
+      },
+      {
+        "name": "수도승의의복",
+        "quantity": 1,
+        "enhancement": 5
+      },
+      {
+        "name": "부총병의갑옷",
+        "quantity": 1,
+        "enhancement": 5
+      },
+      {
+        "name": "봉인된힘의조각",
+        "quantity": 30
+      }
+    ],
+    "enhanceMaterials": [
+      {
+        "name": "악몽의인장",
+        "quantity": 1
+      },
+      {
+        "name": "정기의구슬조각(火)",
+        "quantity": 5
+      },
+      {
+        "name": "영웅의금화",
+        "quantity": 5
+      },
+      {
+        "name": "시간의가루",
+        "quantity": 1
+      }
+    ],
+    "fee": {
+      "mode": "fixed",
+      "perAttempt": 10000000
+    },
+    "dataAvailable": true,
+    "sourceUrl": "https://www.gersangjjang.com/item/4jiang_h.asp",
+    "verifiedAt": "2026-09-14"
+  },
+  {
+    "id": "12725",
+    "hero": "여포",
+    "element": "불",
+    "slot": "helmet",
+    "slotLabel": "투구",
+    "name": "여포의 관",
+    "image": "./equipment-icons/여포/helmet.png",
+    "craftMaterials": [],
+    "enhanceMaterials": [],
+    "fee": null,
+    "dataAvailable": false,
+    "sourceUrl": "https://www.gersangjjang.com/item/4jiang_h.asp",
+    "verifiedAt": "2026-09-14"
+  },
+  {
+    "id": "12719",
+    "hero": "여포",
+    "element": "불",
+    "slot": "weapon",
+    "slotLabel": "무기",
+    "name": "여포의 방천화극",
+    "image": "./equipment-icons/여포/weapon.png",
+    "craftMaterials": [],
+    "enhanceMaterials": [],
+    "fee": null,
+    "dataAvailable": false,
+    "sourceUrl": "https://www.gersangjjang.com/item/4jiang_h.asp",
+    "verifiedAt": "2026-09-14"
+  },
+  {
+    "id": "12743",
+    "hero": "여포",
+    "element": "불",
+    "slot": "belt",
+    "slotLabel": "요대",
+    "name": "여포의 요대",
+    "image": "./equipment-icons/여포/belt.png",
+    "craftMaterials": [
+      {
+        "name": "<담덕>태황의요대",
+        "quantity": 1
+      },
+      {
+        "name": "백호의요대",
+        "quantity": 2
+      },
+      {
+        "name": "봉인된힘의조각",
+        "quantity": 10
+      }
+    ],
+    "enhanceMaterials": [
+      {
+        "name": "악몽의인장",
+        "quantity": 1
+      },
+      {
+        "name": "불의정령석",
+        "quantity": 2
+      },
+      {
+        "name": "영웅의금화",
+        "quantity": 2
+      },
+      {
+        "name": "시간의가루",
+        "quantity": 1
+      }
+    ],
+    "fee": {
+      "mode": "fixed",
+      "perAttempt": 8000000
+    },
+    "dataAvailable": true,
+    "sourceUrl": "https://www.gersangjjang.com/item/4jiang_h.asp",
+    "verifiedAt": "2026-09-14"
+  },
+  {
+    "id": "12749",
+    "hero": "여포",
+    "element": "불",
+    "slot": "shoes",
+    "slotLabel": "신발",
+    "name": "여포의 전투화",
+    "image": "./equipment-icons/여포/shoes.png",
+    "craftMaterials": [
+      {
+        "name": "<담덕>태황의전투화",
+        "quantity": 1
+      },
+      {
+        "name": "백호의전투화",
+        "quantity": 2
+      },
+      {
+        "name": "봉인된힘의조각",
+        "quantity": 10
+      }
+    ],
+    "enhanceMaterials": [
+      {
+        "name": "악몽의인장",
+        "quantity": 1
+      },
+      {
+        "name": "불의정령석",
+        "quantity": 2
+      },
+      {
+        "name": "영웅의금화",
+        "quantity": 2
+      },
+      {
+        "name": "시간의가루",
+        "quantity": 1
+      }
+    ],
+    "fee": {
+      "mode": "fixed",
+      "perAttempt": 8000000
+    },
+    "dataAvailable": true,
+    "sourceUrl": "https://www.gersangjjang.com/item/4jiang_h.asp",
+    "verifiedAt": "2026-09-14"
+  },
+  {
+    "id": "12737",
+    "hero": "여포",
+    "element": "불",
+    "slot": "gloves",
+    "slotLabel": "팔보호구",
+    "name": "여포의 팔보호구",
+    "image": "./equipment-icons/여포/gloves.png",
+    "craftMaterials": [
+      {
+        "name": "<담덕>태황장갑",
+        "quantity": 1
+      },
+      {
+        "name": "백호손목보호대",
+        "quantity": 2
+      },
+      {
+        "name": "봉인된힘의조각",
+        "quantity": 10
+      }
+    ],
+    "enhanceMaterials": [
+      {
+        "name": "악몽의인장",
+        "quantity": 1
+      },
+      {
+        "name": "불의정령석",
+        "quantity": 2
+      },
+      {
+        "name": "영웅의금화",
+        "quantity": 2
+      },
+      {
+        "name": "시간의가루",
+        "quantity": 1
+      }
+    ],
+    "fee": {
+      "mode": "fixed",
+      "perAttempt": 8000000
+    },
+    "dataAvailable": true,
+    "sourceUrl": "https://www.gersangjjang.com/item/4jiang_h.asp",
+    "verifiedAt": "2026-09-14"
+  },
+  {
+    "id": "7232",
+    "hero": "주몽",
+    "element": "뇌",
+    "slot": "weapon",
+    "slotLabel": "무기",
+    "name": "주몽의 각궁",
+    "image": "./equipment-icons/주몽/weapon.png",
+    "craftMaterials": [
+      {
+        "name": "주몽의활",
+        "quantity": 1
+      },
+      {
+        "name": "원시의사모",
+        "quantity": 1,
+        "enhancement": 5
+      },
+      {
+        "name": "침략자의쌍검",
+        "quantity": 1,
+        "enhancement": 5
+      },
+      {
+        "name": "광휘의수포",
+        "quantity": 1,
+        "enhancement": 5
+      },
+      {
+        "name": "봉인된힘의조각",
+        "quantity": 50
+      }
+    ],
+    "enhanceMaterials": [
+      {
+        "name": "악몽의인장",
+        "quantity": 1
+      },
+      {
+        "name": "뇌의인장",
+        "quantity": 1
+      },
+      {
+        "name": "속성의가루",
+        "quantity": 1
+      },
+      {
+        "name": "영웅의금화",
+        "quantity": 5
+      }
+    ],
+    "fee": {
+      "mode": "byTargetLevel",
+      "perLevel": 10000000
+    },
+    "dataAvailable": true,
+    "sourceUrl": "https://www.gersangjjang.com/item/4jiang_l.asp",
+    "verifiedAt": "2026-09-14"
+  },
+  {
+    "id": "7244",
+    "hero": "주몽",
+    "element": "뇌",
+    "slot": "armor",
+    "slotLabel": "갑옷",
+    "name": "주몽의 갑옷",
+    "image": "./equipment-icons/주몽/armor.png",
+    "craftMaterials": [
+      {
+        "name": "고구려의태황갑옷",
+        "quantity": 1
+      },
+      {
+        "name": "원시의갑옷",
+        "quantity": 1,
+        "enhancement": 5
+      },
+      {
+        "name": "침략자의갑옷",
+        "quantity": 1,
+        "enhancement": 5
+      },
+      {
+        "name": "광휘의갑옷",
+        "quantity": 1,
+        "enhancement": 5
+      },
+      {
+        "name": "봉인된힘의조각",
+        "quantity": 30
+      }
+    ],
+    "enhanceMaterials": [
+      {
+        "name": "악몽의인장",
+        "quantity": 1
+      },
+      {
+        "name": "정기의구슬조각(雷)",
+        "quantity": 5
+      },
+      {
+        "name": "영웅의금화",
+        "quantity": 5
+      },
+      {
+        "name": "시간의가루",
+        "quantity": 1
+      }
+    ],
+    "fee": {
+      "mode": "byTargetLevel",
+      "perLevel": 10000000
+    },
+    "dataAvailable": true,
+    "sourceUrl": "https://www.gersangjjang.com/item/4jiang_l.asp",
+    "verifiedAt": "2026-09-14"
+  },
+  {
+    "id": "9434",
+    "hero": "주몽",
+    "element": "뇌",
+    "slot": "belt",
+    "slotLabel": "요대",
+    "name": "주몽의 요대",
+    "image": "./equipment-icons/주몽/belt.png",
+    "craftMaterials": [
+      {
+        "name": "<담덕>태황의요대",
+        "quantity": 1
+      },
+      {
+        "name": "수라허리띠",
+        "quantity": 2
+      },
+      {
+        "name": "봉인된힘의조각",
+        "quantity": 10
+      }
+    ],
+    "enhanceMaterials": [
+      {
+        "name": "악몽의인장",
+        "quantity": 1
+      },
+      {
+        "name": "뇌전의정령석",
+        "quantity": 2
+      },
+      {
+        "name": "영웅의금화",
+        "quantity": 2
+      },
+      {
+        "name": "시간의가루",
+        "quantity": 1
+      }
+    ],
+    "fee": {
+      "mode": "byTargetLevel",
+      "perLevel": 8000000
+    },
+    "dataAvailable": true,
+    "sourceUrl": "https://www.gersangjjang.com/item/4jiang_l.asp",
+    "verifiedAt": "2026-09-14"
+  },
+  {
+    "id": "9440",
+    "hero": "주몽",
+    "element": "뇌",
+    "slot": "shoes",
+    "slotLabel": "신발",
+    "name": "주몽의 전투화",
+    "image": "./equipment-icons/주몽/shoes.png",
+    "craftMaterials": [
+      {
+        "name": "<담덕>태황의전투화",
+        "quantity": 1
+      },
+      {
+        "name": "수라전투화",
+        "quantity": 2
+      },
+      {
+        "name": "봉인된힘의조각",
+        "quantity": 10
+      }
+    ],
+    "enhanceMaterials": [
+      {
+        "name": "악몽의인장",
+        "quantity": 1
+      },
+      {
+        "name": "뇌전의정령석",
+        "quantity": 2
+      },
+      {
+        "name": "영웅의금화",
+        "quantity": 2
+      },
+      {
+        "name": "시간의가루",
+        "quantity": 1
+      }
+    ],
+    "fee": {
+      "mode": "byTargetLevel",
+      "perLevel": 8000000
+    },
+    "dataAvailable": true,
+    "sourceUrl": "https://www.gersangjjang.com/item/4jiang_l.asp",
+    "verifiedAt": "2026-09-14"
+  },
+  {
+    "id": "7238",
+    "hero": "주몽",
+    "element": "뇌",
+    "slot": "helmet",
+    "slotLabel": "투구",
+    "name": "주몽의 투구",
+    "image": "./equipment-icons/주몽/helmet.png",
+    "craftMaterials": [
+      {
+        "name": "고구려의태황투구",
+        "quantity": 1
+      },
+      {
+        "name": "원시의투구",
+        "quantity": 1,
+        "enhancement": 5
+      },
+      {
+        "name": "침략자의투구",
+        "quantity": 1,
+        "enhancement": 5
+      },
+      {
+        "name": "광휘의투구",
+        "quantity": 1,
+        "enhancement": 5
+      },
+      {
+        "name": "봉인된힘의조각",
+        "quantity": 30
+      }
+    ],
+    "enhanceMaterials": [
+      {
+        "name": "악몽의인장",
+        "quantity": 1
+      },
+      {
+        "name": "작은뇌전의속성석",
+        "quantity": 5
+      },
+      {
+        "name": "영웅의금화",
+        "quantity": 5
+      },
+      {
+        "name": "시간의가루",
+        "quantity": 1
+      }
+    ],
+    "fee": {
+      "mode": "byTargetLevel",
+      "perLevel": 10000000
+    },
+    "dataAvailable": true,
+    "sourceUrl": "https://www.gersangjjang.com/item/4jiang_l.asp",
+    "verifiedAt": "2026-09-14"
+  },
+  {
+    "id": "9428",
+    "hero": "주몽",
+    "element": "뇌",
+    "slot": "gloves",
+    "slotLabel": "팔보호구",
+    "name": "주몽의 팔보호구",
+    "image": "./equipment-icons/주몽/gloves.png",
+    "craftMaterials": [
+      {
+        "name": "<담덕>태황의장갑",
+        "quantity": 1
+      },
+      {
+        "name": "수라손목보호구",
+        "quantity": 2
+      },
+      {
+        "name": "봉인된힘의조각",
+        "quantity": 10
+      }
+    ],
+    "enhanceMaterials": [
+      {
+        "name": "악몽의인장",
+        "quantity": 1
+      },
+      {
+        "name": "뇌전의정령석",
+        "quantity": 2
+      },
+      {
+        "name": "영웅의금화",
+        "quantity": 2
+      },
+      {
+        "name": "시간의가루",
+        "quantity": 1
+      }
+    ],
+    "fee": {
+      "mode": "byTargetLevel",
+      "perLevel": 8000000
+    },
+    "dataAvailable": true,
+    "sourceUrl": "https://www.gersangjjang.com/item/4jiang_l.asp",
+    "verifiedAt": "2026-09-14"
+  },
+  {
+    "id": "7220",
+    "hero": "초선",
+    "element": "물",
+    "slot": "helmet",
+    "slotLabel": "투구",
+    "name": "초선의 관",
+    "image": "./equipment-icons/초선/helmet.png",
+    "craftMaterials": [
+      {
+        "name": "고구려의태황투구",
+        "quantity": 1
+      },
+      {
+        "name": "충무공의투구",
+        "quantity": 1,
+        "enhancement": 5
+      },
+      {
+        "name": "칠본창의투구",
+        "quantity": 1,
+        "enhancement": 5
+      },
+      {
+        "name": "여전사의투구",
+        "quantity": 1,
+        "enhancement": 5
+      },
+      {
+        "name": "봉인된힘의조각",
+        "quantity": 30
+      }
+    ],
+    "enhanceMaterials": [
+      {
+        "name": "악몽의인장",
+        "quantity": 1
+      },
+      {
+        "name": "작은물의속성석",
+        "quantity": 5
+      },
+      {
+        "name": "영웅의금화",
+        "quantity": 5
+      },
+      {
+        "name": "시간의가루",
+        "quantity": 1
+      }
+    ],
+    "fee": {
+      "mode": "byTargetLevel",
+      "perLevel": 10000000
+    },
+    "dataAvailable": true,
+    "sourceUrl": "https://www.gersangjjang.com/item/4jiang_s.asp",
+    "verifiedAt": "2026-09-14"
+  },
+  {
+    "id": "7214",
+    "hero": "초선",
+    "element": "물",
+    "slot": "weapon",
+    "slotLabel": "무기",
+    "name": "초선의 부채",
+    "image": "./equipment-icons/초선/weapon.png",
+    "craftMaterials": [
+      {
+        "name": "금골선",
+        "quantity": 1
+      },
+      {
+        "name": "충무공의대력궁",
+        "quantity": 1,
+        "enhancement": 5
+      },
+      {
+        "name": "칠본창의화승총",
+        "quantity": 1,
+        "enhancement": 5
+      },
+      {
+        "name": "여전사의사냥돌",
+        "quantity": 1,
+        "enhancement": 5
+      },
+      {
+        "name": "봉인된힘의조각",
+        "quantity": 50
+      }
+    ],
+    "enhanceMaterials": [
+      {
+        "name": "악몽의인장",
+        "quantity": 1
+      },
+      {
+        "name": "물의인장",
+        "quantity": 1
+      },
+      {
+        "name": "속성의가루",
+        "quantity": 1
+      },
+      {
+        "name": "영웅의금화",
+        "quantity": 5
+      }
+    ],
+    "fee": {
+      "mode": "byTargetLevel",
+      "perLevel": 10000000
+    },
+    "dataAvailable": true,
+    "sourceUrl": "https://www.gersangjjang.com/item/4jiang_s.asp",
+    "verifiedAt": "2026-09-14"
+  },
+  {
+    "id": "9458",
+    "hero": "초선",
+    "element": "물",
+    "slot": "shoes",
+    "slotLabel": "신발",
+    "name": "초선의 신발",
+    "image": "./equipment-icons/초선/shoes.png",
+    "craftMaterials": [
+      {
+        "name": "<담덕>태황의전투화",
+        "quantity": 1
+      },
+      {
+        "name": "사령군화",
+        "quantity": 2
+      },
+      {
+        "name": "봉인된힘의조각",
+        "quantity": 10
+      }
+    ],
+    "enhanceMaterials": [
+      {
+        "name": "악몽의인장",
+        "quantity": 1
+      },
+      {
+        "name": "물의정령석",
+        "quantity": 2
+      },
+      {
+        "name": "영웅의금화",
+        "quantity": 2
+      },
+      {
+        "name": "시간의가루",
+        "quantity": 1
+      }
+    ],
+    "fee": {
+      "mode": "byTargetLevel",
+      "perLevel": 8000000
+    },
+    "dataAvailable": true,
+    "sourceUrl": "https://www.gersangjjang.com/item/4jiang_s.asp",
+    "verifiedAt": "2026-09-14"
+  },
+  {
+    "id": "7226",
+    "hero": "초선",
+    "element": "물",
+    "slot": "armor",
+    "slotLabel": "갑옷",
+    "name": "초선의 예복",
+    "image": "./equipment-icons/초선/armor.png",
+    "craftMaterials": [
+      {
+        "name": "고구려의태황갑옷",
+        "quantity": 1
+      },
+      {
+        "name": "충무공의갑옷",
+        "quantity": 1,
+        "enhancement": 5
+      },
+      {
+        "name": "칠본창의갑옷",
+        "quantity": 1,
+        "enhancement": 5
+      },
+      {
+        "name": "여전사의갑옷",
+        "quantity": 1,
+        "enhancement": 5
+      },
+      {
+        "name": "봉인된힘의조각",
+        "quantity": 30
+      }
+    ],
+    "enhanceMaterials": [
+      {
+        "name": "악몽의인장",
+        "quantity": 1
+      },
+      {
+        "name": "정기의구슬조각(水)",
+        "quantity": 5
+      },
+      {
+        "name": "영웅의금화",
+        "quantity": 5
+      },
+      {
+        "name": "시간의가루",
+        "quantity": 1
+      }
+    ],
+    "fee": {
+      "mode": "byTargetLevel",
+      "perLevel": 10000000
+    },
+    "dataAvailable": true,
+    "sourceUrl": "https://www.gersangjjang.com/item/4jiang_s.asp",
+    "verifiedAt": "2026-09-14"
+  },
+  {
+    "id": "9446",
+    "hero": "초선",
+    "element": "물",
+    "slot": "gloves",
+    "slotLabel": "팔보호구",
+    "name": "초선의 팔보호대",
+    "image": "./equipment-icons/초선/gloves.png",
+    "craftMaterials": [
+      {
+        "name": "<담덕>태황의장갑",
+        "quantity": 1
+      },
+      {
+        "name": "사령장갑",
+        "quantity": 2
+      },
+      {
+        "name": "봉인된힘의조각",
+        "quantity": 10
+      }
+    ],
+    "enhanceMaterials": [
+      {
+        "name": "악몽의인장",
+        "quantity": 1
+      },
+      {
+        "name": "물의정령석",
+        "quantity": 2
+      },
+      {
+        "name": "영웅의금화",
+        "quantity": 2
+      },
+      {
+        "name": "시간의가루",
+        "quantity": 1
+      }
+    ],
+    "fee": {
+      "mode": "byTargetLevel",
+      "perLevel": 8000000
+    },
+    "dataAvailable": true,
+    "sourceUrl": "https://www.gersangjjang.com/item/4jiang_s.asp",
+    "verifiedAt": "2026-09-14"
+  },
+  {
+    "id": "9452",
+    "hero": "초선",
+    "element": "물",
+    "slot": "belt",
+    "slotLabel": "요대",
+    "name": "초선의 허리띠",
+    "image": "./equipment-icons/초선/belt.png",
+    "craftMaterials": [
+      {
+        "name": "<담덕>태황의요대",
+        "quantity": 1
+      },
+      {
+        "name": "사령요대",
+        "quantity": 2
+      },
+      {
+        "name": "봉인된힘의조각",
+        "quantity": 10
+      }
+    ],
+    "enhanceMaterials": [
+      {
+        "name": "악몽의인장",
+        "quantity": 1
+      },
+      {
+        "name": "물의정령석",
+        "quantity": 2
+      },
+      {
+        "name": "영웅의금화",
+        "quantity": 2
+      },
+      {
+        "name": "시간의가루",
+        "quantity": 1
+      }
+    ],
+    "fee": {
+      "mode": "byTargetLevel",
+      "perLevel": 8000000
+    },
+    "dataAvailable": true,
+    "sourceUrl": "https://www.gersangjjang.com/item/4jiang_s.asp",
+    "verifiedAt": "2026-09-14"
+  },
+  {
+    "id": "9935",
+    "hero": "최무선",
+    "element": "불",
+    "slot": "armor",
+    "slotLabel": "갑옷",
+    "name": "최무선의 갑옷",
+    "image": "./equipment-icons/최무선/armor.png",
+    "craftMaterials": [
+      {
+        "name": "<고구려의>태황갑옷",
+        "quantity": 1
+      },
+      {
+        "name": "충무공의갑옷",
+        "quantity": 1,
+        "enhancement": 5
+      },
+      {
+        "name": "구암의의복",
+        "quantity": 1,
+        "enhancement": 5
+      },
+      {
+        "name": "밀사의의복",
+        "quantity": 1,
+        "enhancement": 5
+      },
+      {
+        "name": "광휘의갑옷",
+        "quantity": 1,
+        "enhancement": 5
+      },
+      {
+        "name": "봉인된힘의조각",
+        "quantity": 30
+      }
+    ],
+    "enhanceMaterials": [
+      {
+        "name": "악몽의인장",
+        "quantity": 1
+      },
+      {
+        "name": "정기의구슬조각(火)",
+        "quantity": 5
+      },
+      {
+        "name": "영웅의금화",
+        "quantity": 5
+      },
+      {
+        "name": "시간의가루",
+        "quantity": 1
+      }
+    ],
+    "fee": {
+      "mode": "fixed",
+      "perAttempt": 10000000
+    },
+    "dataAvailable": true,
+    "sourceUrl": "https://www.gersangjjang.com/item/4jiang_h.asp",
+    "verifiedAt": "2026-09-14"
+  },
+  {
+    "id": "9947",
+    "hero": "최무선",
+    "element": "불",
+    "slot": "belt",
+    "slotLabel": "요대",
+    "name": "최무선의 요대",
+    "image": "./equipment-icons/최무선/belt.png",
+    "craftMaterials": [
+      {
+        "name": "<담덕>태황의요대",
+        "quantity": 1
+      },
+      {
+        "name": "파멸자의요대",
+        "quantity": 1
+      },
+      {
+        "name": "백호의요대",
+        "quantity": 1
+      },
+      {
+        "name": "봉인된힘의조각",
+        "quantity": 10
+      }
+    ],
+    "enhanceMaterials": [
+      {
+        "name": "악몽의인장",
+        "quantity": 1
+      },
+      {
+        "name": "불의정령석",
+        "quantity": 2
+      },
+      {
+        "name": "영웅의금화",
+        "quantity": 2
+      },
+      {
+        "name": "시간의가루",
+        "quantity": 1
+      }
+    ],
+    "fee": {
+      "mode": "fixed",
+      "perAttempt": 8000000
+    },
+    "dataAvailable": true,
+    "sourceUrl": "https://www.gersangjjang.com/item/4jiang_h.asp",
+    "verifiedAt": "2026-09-14"
+  },
+  {
+    "id": "9953",
+    "hero": "최무선",
+    "element": "불",
+    "slot": "shoes",
+    "slotLabel": "신발",
+    "name": "최무선의 전투화",
+    "image": "./equipment-icons/최무선/shoes.png",
+    "craftMaterials": [
+      {
+        "name": "<담덕>태황의전투화",
+        "quantity": 1
+      },
+      {
+        "name": "파멸자의전투화",
+        "quantity": 1
+      },
+      {
+        "name": "백호의전투화",
+        "quantity": 1
+      },
+      {
+        "name": "봉인된힘의조각",
+        "quantity": 10
+      }
+    ],
+    "enhanceMaterials": [
+      {
+        "name": "악몽의인장",
+        "quantity": 1
+      },
+      {
+        "name": "불의정령석",
+        "quantity": 2
+      },
+      {
+        "name": "영웅의금화",
+        "quantity": 2
+      },
+      {
+        "name": "시간의가루",
+        "quantity": 1
+      }
+    ],
+    "fee": {
+      "mode": "fixed",
+      "perAttempt": 8000000
+    },
+    "dataAvailable": true,
+    "sourceUrl": "https://www.gersangjjang.com/item/4jiang_h.asp",
+    "verifiedAt": "2026-09-14"
+  },
+  {
+    "id": "9929",
+    "hero": "최무선",
+    "element": "불",
+    "slot": "helmet",
+    "slotLabel": "투구",
+    "name": "최무선의 투구",
+    "image": "./equipment-icons/최무선/helmet.png",
+    "craftMaterials": [],
+    "enhanceMaterials": [],
+    "fee": null,
+    "dataAvailable": false,
+    "sourceUrl": "https://www.gersangjjang.com/item/4jiang_h.asp",
+    "verifiedAt": "2026-09-14"
+  },
+  {
+    "id": "9941",
+    "hero": "최무선",
+    "element": "불",
+    "slot": "gloves",
+    "slotLabel": "팔보호구",
+    "name": "최무선의 팔보호구",
+    "image": "./equipment-icons/최무선/gloves.png",
+    "craftMaterials": [
+      {
+        "name": "<담덕>태황의장갑",
+        "quantity": 1
+      },
+      {
+        "name": "파멸자의장갑",
+        "quantity": 1
+      },
+      {
+        "name": "백호손목보호대",
+        "quantity": 1
+      },
+      {
+        "name": "봉인된힘의조각",
+        "quantity": 10
+      }
+    ],
+    "enhanceMaterials": [
+      {
+        "name": "악몽의인장",
+        "quantity": 1
+      },
+      {
+        "name": "불의정령석",
+        "quantity": 2
+      },
+      {
+        "name": "영웅의금화",
+        "quantity": 2
+      },
+      {
+        "name": "시간의가루",
+        "quantity": 1
+      }
+    ],
+    "fee": {
+      "mode": "fixed",
+      "perAttempt": 8000000
+    },
+    "dataAvailable": true,
+    "sourceUrl": "https://www.gersangjjang.com/item/4jiang_h.asp",
+    "verifiedAt": "2026-09-14"
+  },
+  {
+    "id": "9923",
+    "hero": "최무선",
+    "element": "불",
+    "slot": "weapon",
+    "slotLabel": "무기",
+    "name": "최무선의 화포",
+    "image": "./equipment-icons/최무선/weapon.png",
+    "craftMaterials": [
+      {
+        "name": "대장군포",
+        "quantity": 1
+      },
+      {
+        "name": "충무공의대력궁",
+        "quantity": 1,
+        "enhancement": 5
+      },
+      {
+        "name": "구암의뇌전침",
+        "quantity": 1,
+        "enhancement": 5
+      },
+      {
+        "name": "밀사의목탁",
+        "quantity": 1,
+        "enhancement": 5
+      },
+      {
+        "name": "광휘의수포",
+        "quantity": 1,
+        "enhancement": 5
+      },
+      {
+        "name": "봉인된힘의조각",
+        "quantity": 50
+      }
+    ],
+    "enhanceMaterials": [
+      {
+        "name": "악몽의인장",
+        "quantity": 1
+      },
+      {
+        "name": "불의인장",
+        "quantity": 1
+      },
+      {
+        "name": "속성의가루",
+        "quantity": 1
+      },
+      {
+        "name": "영웅의금화",
+        "quantity": 5
+      }
+    ],
+    "fee": {
+      "mode": "fixed",
+      "perAttempt": 10000000
+    },
+    "dataAvailable": true,
+    "sourceUrl": "https://www.gersangjjang.com/item/4jiang_h.asp",
+    "verifiedAt": "2026-09-14"
+  },
+  {
+    "id": "12761",
+    "hero": "치요메",
+    "element": "물",
+    "slot": "helmet",
+    "slotLabel": "투구",
+    "name": "치요메의 머리장식",
+    "image": "./equipment-icons/치요메/helmet.png",
+    "craftMaterials": [
+      {
+        "name": "<고구려의>태황투구",
+        "quantity": 1
+      },
+      {
+        "name": "닌자의복면",
+        "quantity": 1,
+        "enhancement": 5
+      },
+      {
+        "name": "추격자의머리띠",
+        "quantity": 1,
+        "enhancement": 5
+      },
+      {
+        "name": "선봉장의투구",
+        "quantity": 1,
+        "enhancement": 5
+      },
+      {
+        "name": "마오의모자",
+        "quantity": 1,
+        "enhancement": 5
+      },
+      {
+        "name": "봉인된힘의조각",
+        "quantity": 30
+      }
+    ],
+    "enhanceMaterials": [
+      {
+        "name": "악몽의인장",
+        "quantity": 1
+      },
+      {
+        "name": "작은물의속성석",
+        "quantity": 5
+      },
+      {
+        "name": "영웅의금화",
+        "quantity": 5
+      },
+      {
+        "name": "시간의가루",
+        "quantity": 1
+      }
+    ],
+    "fee": {
+      "mode": "byTargetLevel",
+      "perLevel": 10000000
+    },
+    "dataAvailable": true,
+    "sourceUrl": "https://www.gersangjjang.com/item/4jiang_s.asp",
+    "verifiedAt": "2026-09-14"
+  },
+  {
+    "id": "12773",
+    "hero": "치요메",
+    "element": "물",
+    "slot": "gloves",
+    "slotLabel": "팔보호구",
+    "name": "치요메의 수대",
+    "image": "./equipment-icons/치요메/gloves.png",
+    "craftMaterials": [
+      {
+        "name": "<담덕>태황의장갑",
+        "quantity": 1
+      },
+      {
+        "name": "청룡손목보호대",
+        "quantity": 2
+      },
+      {
+        "name": "봉인된힘의조각",
+        "quantity": 10
+      }
+    ],
+    "enhanceMaterials": [
+      {
+        "name": "악몽의인장",
+        "quantity": 1
+      },
+      {
+        "name": "물의정령석",
+        "quantity": 2
+      },
+      {
+        "name": "영웅의금화",
+        "quantity": 2
+      },
+      {
+        "name": "시간의가루",
+        "quantity": 1
+      }
+    ],
+    "fee": {
+      "mode": "byTargetLevel",
+      "perLevel": 8000000
+    },
+    "dataAvailable": true,
+    "sourceUrl": "https://www.gersangjjang.com/item/4jiang_s.asp",
+    "verifiedAt": "2026-09-14"
+  },
+  {
+    "id": "12785",
+    "hero": "치요메",
+    "element": "물",
+    "slot": "shoes",
+    "slotLabel": "신발",
+    "name": "치요메의 신발",
+    "image": "./equipment-icons/치요메/shoes.png",
+    "craftMaterials": [
+      {
+        "name": "<담덕>태황의신발",
+        "quantity": 1
+      },
+      {
+        "name": "청룡의신발",
+        "quantity": 2
+      },
+      {
+        "name": "봉인된힘의조각",
+        "quantity": 10
+      }
+    ],
+    "enhanceMaterials": [
+      {
+        "name": "악몽의인장",
+        "quantity": 1
+      },
+      {
+        "name": "물의정령석",
+        "quantity": 2
+      },
+      {
+        "name": "영웅의금화",
+        "quantity": 2
+      },
+      {
+        "name": "시간의가루",
+        "quantity": 1
+      }
+    ],
+    "fee": {
+      "mode": "byTargetLevel",
+      "perLevel": 8000000
+    },
+    "dataAvailable": true,
+    "sourceUrl": "https://www.gersangjjang.com/item/4jiang_s.asp",
+    "verifiedAt": "2026-09-14"
+  },
+  {
+    "id": "12767",
+    "hero": "치요메",
+    "element": "물",
+    "slot": "armor",
+    "slotLabel": "갑옷",
+    "name": "치요메의 신복",
+    "image": "./equipment-icons/치요메/armor.png",
+    "craftMaterials": [
+      {
+        "name": "<고구려의>태황갑옷",
+        "quantity": 1
+      },
+      {
+        "name": "닌자의제복",
+        "quantity": 1,
+        "enhancement": 5
+      },
+      {
+        "name": "추격자의갑주",
+        "quantity": 1,
+        "enhancement": 5
+      },
+      {
+        "name": "선봉장의갑옷",
+        "quantity": 1,
+        "enhancement": 5
+      },
+      {
+        "name": "마오의의복",
+        "quantity": 1,
+        "enhancement": 5
+      },
+      {
+        "name": "봉인된힘의조각",
+        "quantity": 30
+      }
+    ],
+    "enhanceMaterials": [
+      {
+        "name": "악몽의인장",
+        "quantity": 1
+      },
+      {
+        "name": "정기의구슬조각(水)",
+        "quantity": 5
+      },
+      {
+        "name": "영웅의금화",
+        "quantity": 5
+      },
+      {
+        "name": "시간의가루",
+        "quantity": 1
+      }
+    ],
+    "fee": {
+      "mode": "byTargetLevel",
+      "perLevel": 10000000
+    },
+    "dataAvailable": true,
+    "sourceUrl": "https://www.gersangjjang.com/item/4jiang_s.asp",
+    "verifiedAt": "2026-09-14"
+  },
+  {
+    "id": "12779",
+    "hero": "치요메",
+    "element": "물",
+    "slot": "belt",
+    "slotLabel": "요대",
+    "name": "치요메의 요대",
+    "image": "./equipment-icons/치요메/belt.png",
+    "craftMaterials": [
+      {
+        "name": "<담덕>태황의요대",
+        "quantity": 1
+      },
+      {
+        "name": "청룡의요대",
+        "quantity": 2
+      },
+      {
+        "name": "봉인된힘의조각",
+        "quantity": 10
+      }
+    ],
+    "enhanceMaterials": [
+      {
+        "name": "악몽의인장",
+        "quantity": 1
+      },
+      {
+        "name": "물의정령석",
+        "quantity": 2
+      },
+      {
+        "name": "영웅의금화",
+        "quantity": 2
+      },
+      {
+        "name": "시간의가루",
+        "quantity": 1
+      }
+    ],
+    "fee": {
+      "mode": "byTargetLevel",
+      "perLevel": 8000000
+    },
+    "dataAvailable": true,
+    "sourceUrl": "https://www.gersangjjang.com/item/4jiang_s.asp",
+    "verifiedAt": "2026-09-14"
+  },
+  {
+    "id": "12755",
+    "hero": "치요메",
+    "element": "물",
+    "slot": "weapon",
+    "slotLabel": "무기",
+    "name": "치요메의 지팡이",
+    "image": "./equipment-icons/치요메/weapon.png",
+    "craftMaterials": [
+      {
+        "name": "축융부",
+        "quantity": 1
+      },
+      {
+        "name": "닌자의조도",
+        "quantity": 1,
+        "enhancement": 5
+      },
+      {
+        "name": "추격자의대검",
+        "quantity": 1,
+        "enhancement": 5
+      },
+      {
+        "name": "선봉장의쌍검",
+        "quantity": 1,
+        "enhancement": 5
+      },
+      {
+        "name": "마오의팔찌",
+        "quantity": 1,
+        "enhancement": 5
+      },
+      {
+        "name": "봉인된힘의조각",
+        "quantity": 50
+      }
+    ],
+    "enhanceMaterials": [
+      {
+        "name": "악몽의인장",
+        "quantity": 1
+      },
+      {
+        "name": "물의인장",
+        "quantity": 1
+      },
+      {
+        "name": "속성의가루",
+        "quantity": 1
+      },
+      {
+        "name": "영웅의금화",
+        "quantity": 5
+      }
+    ],
+    "fee": {
+      "mode": "byTargetLevel",
+      "perLevel": 10000000
+    },
+    "dataAvailable": true,
+    "sourceUrl": "https://www.gersangjjang.com/item/4jiang_s.asp",
+    "verifiedAt": "2026-09-14"
+  },
+  {
+    "id": "12332",
+    "hero": "홍길동",
+    "element": "바람",
+    "slot": "armor",
+    "slotLabel": "갑옷",
+    "name": "홍길동의 예복",
+    "image": "./equipment-icons/홍길동/armor.png",
+    "craftMaterials": [
+      {
+        "name": "4등급 <고구려의> 태황갑옷",
+        "quantity": 1
+      },
+      {
+        "name": "시호충장의갑옷",
+        "quantity": 1,
+        "enhancement": 5
+      },
+      {
+        "name": "충장의 갑옷",
+        "quantity": 1,
+        "enhancement": 5
+      },
+      {
+        "name": "설호의의복",
+        "quantity": 1,
+        "enhancement": 5
+      },
+      {
+        "name": "명사수의 갑옷-",
+        "quantity": 1,
+        "enhancement": 5
+      },
+      {
+        "name": "봉인된힘의조각",
+        "quantity": 30
+      }
+    ],
+    "enhanceMaterials": [
+      {
+        "name": "악몽의인장",
+        "quantity": 1
+      },
+      {
+        "name": "정기의구슬조각(風)",
+        "quantity": 5
+      },
+      {
+        "name": "영웅의금화",
+        "quantity": 5
+      },
+      {
+        "name": "시간의가루",
+        "quantity": 1
+      }
+    ],
+    "fee": {
+      "mode": "fixed",
+      "perAttempt": 10000000
+    },
+    "dataAvailable": true,
+    "sourceUrl": "https://www.gersangjjang.com/item/4jiang_f.asp",
+    "verifiedAt": "2026-09-14"
+  },
+  {
+    "id": "12344",
+    "hero": "홍길동",
+    "element": "바람",
+    "slot": "belt",
+    "slotLabel": "요대",
+    "name": "홍길동의 요대",
+    "image": "./equipment-icons/홍길동/belt.png",
+    "craftMaterials": [
+      {
+        "name": "<담덕> 태황의요대",
+        "quantity": 1
+      },
+      {
+        "name": "주작의요대",
+        "quantity": 2
+      },
+      {
+        "name": "봉인된힘의조각",
+        "quantity": 10
+      }
+    ],
+    "enhanceMaterials": [
+      {
+        "name": "악몽의인장",
+        "quantity": 1
+      },
+      {
+        "name": "바람의정령석",
+        "quantity": 2
+      },
+      {
+        "name": "영웅의금화",
+        "quantity": 2
+      },
+      {
+        "name": "시간의가루",
+        "quantity": 1
+      }
+    ],
+    "fee": {
+      "mode": "fixed",
+      "perAttempt": 8000000
+    },
+    "dataAvailable": true,
+    "sourceUrl": "https://www.gersangjjang.com/item/4jiang_f.asp",
+    "verifiedAt": "2026-09-14"
+  },
+  {
+    "id": "12350",
+    "hero": "홍길동",
+    "element": "바람",
+    "slot": "shoes",
+    "slotLabel": "신발",
+    "name": "홍길동의 전투화",
+    "image": "./equipment-icons/홍길동/shoes.png",
+    "craftMaterials": [
+      {
+        "name": "<담덕> 태황의전투화",
+        "quantity": 1
+      },
+      {
+        "name": "주작의신발",
+        "quantity": 2
+      },
+      {
+        "name": "봉인된힘의조각",
+        "quantity": 10
+      }
+    ],
+    "enhanceMaterials": [
+      {
+        "name": "악몽의인장",
+        "quantity": 1
+      },
+      {
+        "name": "바람의정령석",
+        "quantity": 2
+      },
+      {
+        "name": "영웅의금화",
+        "quantity": 2
+      },
+      {
+        "name": "시간의가루",
+        "quantity": 1
+      }
+    ],
+    "fee": {
+      "mode": "fixed",
+      "perAttempt": 8000000
+    },
+    "dataAvailable": true,
+    "sourceUrl": "https://www.gersangjjang.com/item/4jiang_f.asp",
+    "verifiedAt": "2026-09-14"
+  },
+  {
+    "id": "12320",
+    "hero": "홍길동",
+    "element": "바람",
+    "slot": "weapon",
+    "slotLabel": "무기",
+    "name": "홍길동의 지휘봉",
+    "image": "./equipment-icons/홍길동/weapon.png",
+    "craftMaterials": [
+      {
+        "name": "구망도",
+        "quantity": 1
+      },
+      {
+        "name": "시호충장의대력궁",
+        "quantity": 1,
+        "enhancement": 5
+      },
+      {
+        "name": "충장의검",
+        "quantity": 1,
+        "enhancement": 5
+      },
+      {
+        "name": "설호의방울",
+        "quantity": 1,
+        "enhancement": 5
+      },
+      {
+        "name": "명사수의석궁",
+        "quantity": 1,
+        "enhancement": 5
+      },
+      {
+        "name": "봉인된힘의조각",
+        "quantity": 50
+      }
+    ],
+    "enhanceMaterials": [
+      {
+        "name": "악몽의인장",
+        "quantity": 1
+      },
+      {
+        "name": "바람의인장",
+        "quantity": 1
+      },
+      {
+        "name": "속성의가루",
+        "quantity": 1
+      },
+      {
+        "name": "영웅의금화",
+        "quantity": 5
+      }
+    ],
+    "fee": {
+      "mode": "fixed",
+      "perAttempt": 10000000
+    },
+    "dataAvailable": true,
+    "sourceUrl": "https://www.gersangjjang.com/item/4jiang_f.asp",
+    "verifiedAt": "2026-09-14"
+  },
+  {
+    "id": "12326",
+    "hero": "홍길동",
+    "element": "바람",
+    "slot": "helmet",
+    "slotLabel": "투구",
+    "name": "홍길동의 투구",
+    "image": "./equipment-icons/홍길동/helmet.png",
+    "craftMaterials": [
+      {
+        "name": "4등급 <고구려의> 태황투구",
+        "quantity": 1
+      },
+      {
+        "name": "시호충장의투구",
+        "quantity": 1,
+        "enhancement": 5
+      },
+      {
+        "name": "충장의 투구",
+        "quantity": 1,
+        "enhancement": 5
+      },
+      {
+        "name": "설호의관",
+        "quantity": 1,
+        "enhancement": 5
+      },
+      {
+        "name": "명사수의 머리띠",
+        "quantity": 1,
+        "enhancement": 5
+      },
+      {
+        "name": "봉인된힘의조각",
+        "quantity": 30
+      }
+    ],
+    "enhanceMaterials": [
+      {
+        "name": "악몽의인장",
+        "quantity": 1
+      },
+      {
+        "name": "작은바람의속성석",
+        "quantity": 5
+      },
+      {
+        "name": "영웅의금화",
+        "quantity": 5
+      },
+      {
+        "name": "시간의가루",
+        "quantity": 1
+      }
+    ],
+    "fee": {
+      "mode": "fixed",
+      "perAttempt": 10000000
+    },
+    "dataAvailable": true,
+    "sourceUrl": "https://www.gersangjjang.com/item/4jiang_f.asp",
+    "verifiedAt": "2026-09-14"
+  },
+  {
+    "id": "12338",
+    "hero": "홍길동",
+    "element": "바람",
+    "slot": "gloves",
+    "slotLabel": "팔보호구",
+    "name": "홍길동의 팔보호구",
+    "image": "./equipment-icons/홍길동/gloves.png",
+    "craftMaterials": [
+      {
+        "name": "<담덕> 태황의장갑",
+        "quantity": 1
+      },
+      {
+        "name": "주작손목보호대",
+        "quantity": 2
+      },
+      {
+        "name": "봉인된힘의조각",
+        "quantity": 10
+      }
+    ],
+    "enhanceMaterials": [
+      {
+        "name": "악몽의인장",
+        "quantity": 1
+      },
+      {
+        "name": "바람의정령석",
+        "quantity": 2
+      },
+      {
+        "name": "영웅의금화",
+        "quantity": 2
+      },
+      {
+        "name": "시간의가루",
+        "quantity": 1
+      }
+    ],
+    "fee": {
+      "mode": "fixed",
+      "perAttempt": 8000000
+    },
+    "dataAvailable": true,
+    "sourceUrl": "https://www.gersangjjang.com/item/4jiang_f.asp",
+    "verifiedAt": "2026-09-14"
+  },
+  {
+    "id": "9965",
+    "hero": "화목란",
+    "element": "뇌",
+    "slot": "helmet",
+    "slotLabel": "투구",
+    "name": "화목란의 머리띠",
+    "image": "./equipment-icons/화목란/helmet.png",
+    "craftMaterials": [
+      {
+        "name": "<고구려의>태황투구",
+        "quantity": 1
+      },
+      {
+        "name": "마오의모자",
+        "quantity": 1,
+        "enhancement": 5
+      },
+      {
+        "name": "고행자의 머리띠",
+        "quantity": 1,
+        "enhancement": 5
+      },
+      {
+        "name": "선인의관",
+        "quantity": 1,
+        "enhancement": 5
+      },
+      {
+        "name": "시호충장의투구",
+        "quantity": 1,
+        "enhancement": 5
+      },
+      {
+        "name": "봉인된힘의조각",
+        "quantity": 30
+      }
+    ],
+    "enhanceMaterials": [
+      {
+        "name": "악몽의인장",
+        "quantity": 1
+      },
+      {
+        "name": "작은뇌전의속성석",
+        "quantity": 5
+      },
+      {
+        "name": "영웅의금화",
+        "quantity": 5
+      },
+      {
+        "name": "시간의가루",
+        "quantity": 1
+      }
+    ],
+    "fee": {
+      "mode": "fixed",
+      "perAttempt": 10000000
+    },
+    "dataAvailable": true,
+    "sourceUrl": "https://www.gersangjjang.com/item/4jiang_l.asp",
+    "verifiedAt": "2026-09-14"
+  },
+  {
+    "id": "9971",
+    "hero": "화목란",
+    "element": "뇌",
+    "slot": "armor",
+    "slotLabel": "갑옷",
+    "name": "화목란의 복장",
+    "image": "./equipment-icons/화목란/armor.png",
+    "craftMaterials": [
+      {
+        "name": "<고구려의>태황갑옷",
+        "quantity": 1
+      },
+      {
+        "name": "마오의의복",
+        "quantity": 1,
+        "enhancement": 5
+      },
+      {
+        "name": "고행자의 도복",
+        "quantity": 1,
+        "enhancement": 5
+      },
+      {
+        "name": "선인의의복",
+        "quantity": 1,
+        "enhancement": 5
+      },
+      {
+        "name": "시호충장의갑옷",
+        "quantity": 1,
+        "enhancement": 5
+      },
+      {
+        "name": "봉인된힘의조각",
+        "quantity": 30
+      }
+    ],
+    "enhanceMaterials": [
+      {
+        "name": "악몽의인장",
+        "quantity": 1
+      },
+      {
+        "name": "정기의구슬조각(雷)",
+        "quantity": 5
+      },
+      {
+        "name": "영웅의금화",
+        "quantity": 5
+      },
+      {
+        "name": "시간의가루",
+        "quantity": 1
+      }
+    ],
+    "fee": {
+      "mode": "fixed",
+      "perAttempt": 10000000
+    },
+    "dataAvailable": true,
+    "sourceUrl": "https://www.gersangjjang.com/item/4jiang_l.asp",
+    "verifiedAt": "2026-09-14"
+  },
+  {
+    "id": "9983",
+    "hero": "화목란",
+    "element": "뇌",
+    "slot": "belt",
+    "slotLabel": "요대",
+    "name": "화목란의 요대",
+    "image": "./equipment-icons/화목란/belt.png",
+    "craftMaterials": [
+      {
+        "name": "<담덕>태황의요대",
+        "quantity": 1
+      },
+      {
+        "name": "수라허리띠",
+        "quantity": 1
+      },
+      {
+        "name": "현무의요대",
+        "quantity": 1
+      },
+      {
+        "name": "봉인된힘의조각",
+        "quantity": 10
+      }
+    ],
+    "enhanceMaterials": [
+      {
+        "name": "악몽의인장",
+        "quantity": 1
+      },
+      {
+        "name": "뇌전의정령석",
+        "quantity": 2
+      },
+      {
+        "name": "영웅의금화",
+        "quantity": 2
+      },
+      {
+        "name": "시간의가루",
+        "quantity": 1
+      }
+    ],
+    "fee": {
+      "mode": "fixed",
+      "perAttempt": 8000000
+    },
+    "dataAvailable": true,
+    "sourceUrl": "https://www.gersangjjang.com/item/4jiang_l.asp",
+    "verifiedAt": "2026-09-14"
+  },
+  {
+    "id": "9989",
+    "hero": "화목란",
+    "element": "뇌",
+    "slot": "shoes",
+    "slotLabel": "신발",
+    "name": "화목란의 전투화",
+    "image": "./equipment-icons/화목란/shoes.png",
+    "craftMaterials": [
+      {
+        "name": "<담덕>태황의전투화",
+        "quantity": 1
+      },
+      {
+        "name": "수라전투화",
+        "quantity": 1
+      },
+      {
+        "name": "현무의전투화",
+        "quantity": 1
+      },
+      {
+        "name": "봉인된힘의조각",
+        "quantity": 10
+      }
+    ],
+    "enhanceMaterials": [
+      {
+        "name": "악몽의인장",
+        "quantity": 1
+      },
+      {
+        "name": "뇌전의정령석",
+        "quantity": 2
+      },
+      {
+        "name": "영웅의금화",
+        "quantity": 2
+      },
+      {
+        "name": "시간의가루",
+        "quantity": 1
+      }
+    ],
+    "fee": {
+      "mode": "fixed",
+      "perAttempt": 8000000
+    },
+    "dataAvailable": true,
+    "sourceUrl": "https://www.gersangjjang.com/item/4jiang_l.asp",
+    "verifiedAt": "2026-09-14"
+  },
+  {
+    "id": "9977",
+    "hero": "화목란",
+    "element": "뇌",
+    "slot": "gloves",
+    "slotLabel": "팔보호구",
+    "name": "화목란의 팔보호구",
+    "image": "./equipment-icons/화목란/gloves.png",
+    "craftMaterials": [
+      {
+        "name": "<담덕>태황의장갑",
+        "quantity": 1
+      },
+      {
+        "name": "수라손목보호구",
+        "quantity": 1
+      },
+      {
+        "name": "현무손목보호대",
+        "quantity": 1
+      },
+      {
+        "name": "봉인된힘의조각",
+        "quantity": 10
+      }
+    ],
+    "enhanceMaterials": [
+      {
+        "name": "악몽의인장",
+        "quantity": 1
+      },
+      {
+        "name": "뇌전의정령석",
+        "quantity": 2
+      },
+      {
+        "name": "영웅의금화",
+        "quantity": 2
+      },
+      {
+        "name": "시간의가루",
+        "quantity": 1
+      }
+    ],
+    "fee": {
+      "mode": "fixed",
+      "perAttempt": 8000000
+    },
+    "dataAvailable": true,
+    "sourceUrl": "https://www.gersangjjang.com/item/4jiang_l.asp",
+    "verifiedAt": "2026-09-14"
+  },
+  {
+    "id": "9959",
+    "hero": "화목란",
+    "element": "뇌",
+    "slot": "weapon",
+    "slotLabel": "무기",
+    "name": "화목란의 활",
+    "image": "./equipment-icons/화목란/weapon.png",
+    "craftMaterials": [
+      {
+        "name": "독각귀궁",
+        "quantity": 1
+      },
+      {
+        "name": "마오의팔찌",
+        "quantity": 1,
+        "enhancement": 5
+      },
+      {
+        "name": "고행자의 부채",
+        "quantity": 1,
+        "enhancement": 5
+      },
+      {
+        "name": "선인의부적",
+        "quantity": 1,
+        "enhancement": 5
+      },
+      {
+        "name": "시호충장의대력궁",
+        "quantity": 1,
+        "enhancement": 5
+      },
+      {
+        "name": "봉인된힘의조각",
+        "quantity": 50
+      }
+    ],
+    "enhanceMaterials": [
+      {
+        "name": "악몽의인장",
+        "quantity": 1
+      },
+      {
+        "name": "뇌의인장",
+        "quantity": 1
+      },
+      {
+        "name": "속성의가루",
+        "quantity": 1
+      },
+      {
+        "name": "영웅의금화",
+        "quantity": 5
+      }
+    ],
+    "fee": {
+      "mode": "fixed",
+      "perAttempt": 10000000
+    },
+    "dataAvailable": true,
+    "sourceUrl": "https://www.gersangjjang.com/item/4jiang_l.asp",
+    "verifiedAt": "2026-09-14"
+  }
+]

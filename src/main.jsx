@@ -2,6 +2,7 @@ import React, { useMemo, useState } from 'react';
 import { createRoot } from 'react-dom/client';
 import { materials, materialById, getMatches } from './data.js';
 import { exportResults } from './exportImage.js';
+import EquipmentCalculator from './EquipmentCalculator.jsx';
 import './styles.css';
 
 function ItemIcon({ item, size = 48 }) {
@@ -12,6 +13,7 @@ function App() {
   const [query, setQuery] = useState('');
   const [selected, setSelected] = useState(new Set());
   const [saving, setSaving] = useState(false);
+  const [mode, setMode] = useState('materials');
   const filtered = useMemo(() => {
     const q = query.trim().toLocaleLowerCase('ko');
     return q ? materials.filter((item) => `${item.name} ${item.owner}`.toLocaleLowerCase('ko').includes(q)) : materials;
@@ -37,7 +39,11 @@ function App() {
         <p>보유한 장수 장비를 고르면 제작할 수 있는 전설장수 무기를 찾아드립니다.</p>
       </div>
     </header>
-    <main className="shell layout">
+    <nav className="mode-nav shell" aria-label="도감 기능 선택">
+      <button className={mode === 'materials' ? 'active' : ''} onClick={() => setMode('materials')}>하위 장비로 무기 찾기</button>
+      <button className={mode === 'equipment' ? 'active' : ''} onClick={() => setMode('equipment')}>전설 장비 제작·강화</button>
+    </nav>
+    {mode === 'equipment' ? <EquipmentCalculator /> : <main className="shell layout">
       <section className="panel catalog" aria-labelledby="catalog-title">
         <div className="section-head">
           <div><span className="step">01</span><h2 id="catalog-title">하위 장비 선택</h2></div>
@@ -75,7 +81,7 @@ function App() {
           <div className="material-list">{weapon.materials.map((id) => { const item = materialById[id]; const hit = selected.has(id); return <div className={hit ? 'hit' : ''} key={id}><ItemIcon item={item} size={40} /><span><strong>{item.name}</strong><small>{item.owner}</small></span>{hit && <em>선택</em>}</div>; })}</div>
         </article>)}</div> : <div className="empty-state"><div>武</div><h3>{selected.size ? '일치하는 전설 무기가 없습니다' : '장비를 선택해 주세요'}</h3><p>{selected.size ? '다른 하위 장비를 추가로 선택해 보세요.' : '왼쪽 목록에서 보유한 장수 전용 장비를 고르면 결과가 나타납니다.'}</p></div>}
       </section>
-    </main>
+    </main>}
     <footer>거상 전설장비 재료도감 · 기본 무기 및 봉인된 힘의 조각 제외</footer>
   </>;
 }
