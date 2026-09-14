@@ -41,9 +41,18 @@ describe('전설 장비 제작·강화 계산', () => {
     expect(getRateGroup('gloves')).toBe('light');
   });
 
+  it('5강부터 10강은 전용 6~10강 재료와 고정 확률을 적용한다', () => {
+    const extended = { ...sample, enhance6To10: [{ name: '고대재료', quantity: 2 }], fee6To10: { mode: 'fixed', perAttempt: 50_000_000 } };
+    const plan = calculatePlan(extended, '5', '10');
+    expect(plan.stages).toHaveLength(5);
+    expect(plan.stages.every((stage) => stage.probability === 0.1)).toBe(true);
+    expect(plan.enhancementMinimum).toEqual([{ name: '고대재료', quantity: 10 }]);
+    expect(plan.enhancementExpected[0].quantity).toBeCloseTo(100);
+  });
+
   it('검색 데이터는 90종이며 불완전한 조합식을 완료로 표시하지 않는다', () => {
     expect(equipment).toHaveLength(90);
-    expect(equipment.filter((item) => item.dataAvailable)).toHaveLength(75);
-    expect(equipment.find((item) => item.name === '여포의 방천화극')?.dataAvailable).toBe(false);
+    expect(equipment.filter((item) => item.dataAvailable)).toHaveLength(90);
+    expect(equipment.filter((item) => item.enhancement10Available)).toHaveLength(90);
   });
 });

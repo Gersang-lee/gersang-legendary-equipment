@@ -5,7 +5,7 @@ import { calculatePlan, formatMoney, formatQuantity } from './equipmentCalculato
 const slots = ['전체', '무기', '투구', '갑옷', '팔보호구', '요대', '신발'];
 const heroes = [...new Set(equipment.map((item) => item.hero))].sort((a, b) => a.localeCompare(b, 'ko'));
 const slotOrder = Object.fromEntries(slots.slice(1).map((name, index) => [name, index]));
-const startOptions = [['craft','제작부터'],['0','0강부터'],['1','1강부터'],['2','2강부터'],['3','3강부터'],['4','4강부터']];
+const startOptions = [['craft','제작부터'], ...Array.from({ length: 10 }, (_, level) => [String(level), `${level}강부터`])];
 
 function MaterialRows({ items }) {
   return <div className="plan-materials">{items.map((material) => <div key={`${material.name}-${material.enhancement || 0}`}>
@@ -27,7 +27,7 @@ export default function EquipmentCalculator() {
     return (hero === '전체' || item.hero === hero) && (slot === '전체' || item.slotLabel === slot) && (!q || `${item.name} ${item.hero} ${item.slotLabel}`.toLocaleLowerCase('ko').includes(q));
   }).sort((a, b) => a.hero.localeCompare(b.hero, 'ko') || slotOrder[a.slotLabel] - slotOrder[b.slotLabel]), [query, slot, hero]);
   const item = filtered.find((entry) => entry.id === selectedId) || filtered[0];
-  const targetOptions = start === 'craft' ? [['craft','제작만'],['1','1강까지'],['2','2강까지'],['3','3강까지'],['4','4강까지'],['5','5강까지']] : Array.from({ length: 5 - Number(start) }, (_, index) => { const level = Number(start) + index + 1; return [String(level), `${level}강까지`]; });
+  const targetOptions = start === 'craft' ? [['craft','제작만'], ...Array.from({ length: 10 }, (_, index) => [String(index + 1), `${index + 1}강까지`])] : Array.from({ length: 10 - Number(start) }, (_, index) => { const level = Number(start) + index + 1; return [String(level), `${level}강까지`]; });
   const validTarget = targetOptions.some(([value]) => value === target) ? target : targetOptions.at(-1)[0];
   const plan = item?.dataAvailable ? calculatePlan(item, start, validTarget) : null;
   const copyCraftMaterials = async () => {
@@ -53,7 +53,7 @@ export default function EquipmentCalculator() {
         {heroes.map((name) => <button key={name} className={hero === name ? 'active' : ''} aria-pressed={hero === name} onClick={() => setHero(name)}><img src={`./legendary-portraits/${name}/large.png`} alt="" /><strong>{name}</strong></button>)}
       </div>
       <div className="slot-filter" aria-label="장비 부위 필터">{slots.map((name) => <button key={name} className={slot === name ? 'active' : ''} onClick={() => setSlot(name)}>{name}</button>)}</div>
-      <div className="equipment-grid">{filtered.map((entry) => <button key={entry.id} className={`equipment-card ${item?.id === entry.id ? 'selected' : ''}`} onClick={() => setSelectedId(entry.id)}>
+      <div className={`equipment-grid ${hero !== '전체' && slot === '전체' && !query.trim() ? 'anatomical' : ''}`}>{filtered.map((entry) => <button key={entry.id} className={`equipment-card slot-${entry.slot} ${item?.id === entry.id ? 'selected' : ''}`} onClick={() => setSelectedId(entry.id)}>
         <span className="equipment-icon"><img src={entry.image} alt="" /></span><span><strong>{entry.name}</strong><small>{entry.hero} · {entry.slotLabel}</small></span>{!entry.dataAvailable && <em>자료 확인 중</em>}
       </button>)}</div>
       {!filtered.length && <p className="empty small">검색 결과가 없습니다.</p>}

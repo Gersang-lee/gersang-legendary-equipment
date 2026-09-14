@@ -56,7 +56,30 @@
     },
     "dataAvailable": true,
     "sourceUrl": "https://www.gersangjjang.com/item/4jiang_h.asp",
-    "verifiedAt": "2026-09-14"
+    "verifiedAt": "2026-09-14",
+    "enhance6To10": [
+      {
+        "name": "노부츠나의기억(거불)",
+        "quantity": 1
+      },
+      {
+        "name": "영웅의기록",
+        "quantity": 2
+      },
+      {
+        "name": "정기의구슬(火)",
+        "quantity": 1
+      },
+      {
+        "name": "시간의가루",
+        "quantity": 2
+      }
+    ],
+    "fee6To10": {
+      "mode": "fixed",
+      "perAttempt": 50000000
+    },
+    "enhancement10Available": true
   },
   {
     "id": "9643",
@@ -104,7 +127,30 @@
     },
     "dataAvailable": true,
     "sourceUrl": "https://www.gersangjjang.com/item/4jiang_h.asp",
-    "verifiedAt": "2026-09-14"
+    "verifiedAt": "2026-09-14",
+    "enhance6To10": [
+      {
+        "name": "노부츠나의기억(거불)",
+        "quantity": 1
+      },
+      {
+        "name": "영웅의기록",
+        "quantity": 1
+      },
+      {
+        "name": "사신의조각(火)",
+        "quantity": 3
+      },
+      {
+        "name": "시간의가루",
+        "quantity": 2
+      }
+    ],
+    "fee6To10": {
+      "mode": "fixed",
+      "perAttempt": 40000000
+    },
+    "enhancement10Available": true
   },
   {
     "id": "9649",
@@ -152,7 +198,30 @@
     },
     "dataAvailable": true,
     "sourceUrl": "https://www.gersangjjang.com/item/4jiang_h.asp",
-    "verifiedAt": "2026-09-14"
+    "verifiedAt": "2026-09-14",
+    "enhance6To10": [
+      {
+        "name": "노부츠나의기억(거불)",
+        "quantity": 1
+      },
+      {
+        "name": "영웅의기록",
+        "quantity": 1
+      },
+      {
+        "name": "사신의조각(火)",
+        "quantity": 3
+      },
+      {
+        "name": "시간의가루",
+        "quantity": 2
+      }
+    ],
+    "fee6To10": {
+      "mode": "fixed",
+      "perAttempt": 40000000
+    },
+    "enhancement10Available": true
   },
   {
     "id": "8179",
@@ -211,7 +280,30 @@
     },
     "dataAvailable": true,
     "sourceUrl": "https://www.gersangjjang.com/item/4jiang_h.asp",
-    "verifiedAt": "2026-09-14"
+    "verifiedAt": "2026-09-14",
+    "enhance6To10": [
+      {
+        "name": "노부츠나의기억(거불)",
+        "quantity": 1
+      },
+      {
+        "name": "영웅의기록",
+        "quantity": 2
+      },
+      {
+        "name": "고대불의인장",
+        "quantity": 3
+      },
+      {
+        "name": "속성의가루",
+        "quantity": 2
+      }
+    ],
+    "fee6To10": {
+      "mode": "fixed",
+      "perAttempt": 50000000
+    },
+    "enhancement10Available": true
   },
   {
     "id": "8167",
@@ -270,7 +362,30 @@
     },
     "dataAvailable": true,
     "sourceUrl": "https://www.gersangjjang.com/item/4jiang_h.asp",
-    "verifiedAt": "2026-09-14"
+    "verifiedAt": "2026-09-14",
+    "enhance6To10": [
+      {
+        "name": "노부츠나의기억(거불)",
+        "quantity": 1
+      },
+      {
+        "name": "영웅의기록",
+        "quantity": 2
+      },
+      {
+        "name": "불의속성석",
+        "quantity": 1
+      },
+      {
+        "name": "시간의가루",
+        "quantity": 2
+      }
+    ],
+    "fee6To10": {
+      "mode": "fixed",
+      "perAttempt": 50000000
+    },
+    "enhancement10Available": true
   },
   {
     "id": "9637",
@@ -318,7 +433,30 @@
     },
     "dataAvailable": true,
     "sourceUrl": "https://www.gersangjjang.com/item/4jiang_h.asp",
-    "verifiedAt": "2026-09-14"
+    "verifiedAt": "2026-09-14",
+    "enhance6To10": [
+      {
+        "name": "노부츠나의기억(거불)",
+        "quantity": 1
+      },
+      {
+        "name": "영웅의기록",
+        "quantity": 1
+      },
+      {
+        "name": "사신의조각(火)",
+        "quantity": 3
+      },
+      {
+        "name": "시간의가루",
+        "quantity": 2
+      }
+    ],
+    "fee6To10": {
+      "mode": "fixed",
+      "perAttempt": 40000000
+    },
+    "enhancement10Available": true
   },
   {
     "id": "13280",
@@ -328,12 +466,84 @@
     "slotLabel": "투구",
     "name": "레지나의 머리장식",
     "image": "./equipment-icons/레지나/helmet.png",
-    "craftMaterials": [],
-    "enhanceMaterials": [],
-    "fee": null,
-    "dataAvailable": false,
-    "sourceUrl": null,
-    "verifiedAt": "2026-09-14"
+    "craftMaterials": [
+      {
+        "name": "<고구려>태황투구+",
+        "quantity": 4
+      },
+      {
+        "name": "수비대장의두건",
+        "quantity": 1,
+        "enhancement": 5
+      },
+      {
+        "name": "명사수의머리띠",
+        "quantity": 1,
+        "enhancement": 5
+      },
+      {
+        "name": "시크교의가면",
+        "quantity": 1,
+        "enhancement": 5
+      },
+      {
+        "name": "암흑술사의복면",
+        "quantity": 1,
+        "enhancement": 5
+      },
+      {
+        "name": "봉인된힘의조각",
+        "quantity": 30
+      }
+    ],
+    "enhanceMaterials": [
+      {
+        "name": "악몽의인장",
+        "quantity": 1
+      },
+      {
+        "name": "작은땅의속성석",
+        "quantity": 5
+      },
+      {
+        "name": "영웅의금화",
+        "quantity": 5
+      },
+      {
+        "name": "시간의가루",
+        "quantity": 1
+      }
+    ],
+    "fee": {
+      "mode": "fixed",
+      "perAttempt": 10000000
+    },
+    "dataAvailable": true,
+    "sourceUrl": "https://www.gersangjjang.com/item/4j_rejina.asp",
+    "verifiedAt": "2026-09-14",
+    "enhance6To10": [
+      {
+        "name": "레지나의기억(거불)",
+        "quantity": 1
+      },
+      {
+        "name": "영웅의기록",
+        "quantity": 2
+      },
+      {
+        "name": "땅의속성석",
+        "quantity": 1
+      },
+      {
+        "name": "시간의가루",
+        "quantity": 2
+      }
+    ],
+    "fee6To10": {
+      "mode": "fixed",
+      "perAttempt": 50000000
+    },
+    "enhancement10Available": true
   },
   {
     "id": "13284",
@@ -343,12 +553,80 @@
     "slotLabel": "신발",
     "name": "레지나의 신발",
     "image": "./equipment-icons/레지나/shoes.png",
-    "craftMaterials": [],
-    "enhanceMaterials": [],
-    "fee": null,
-    "dataAvailable": false,
-    "sourceUrl": null,
-    "verifiedAt": "2026-09-14"
+    "craftMaterials": [
+      {
+        "name": "<담덕>태황전투화",
+        "quantity": 1
+      },
+      {
+        "name": "사령군화",
+        "quantity": 1
+      },
+      {
+        "name": "수라전투화",
+        "quantity": 1
+      },
+      {
+        "name": "파멸자전투화",
+        "quantity": 1
+      },
+      {
+        "name": "미트라전투화",
+        "quantity": 1
+      },
+      {
+        "name": "봉인된힘의조각",
+        "quantity": 10
+      }
+    ],
+    "enhanceMaterials": [
+      {
+        "name": "악몽의인장",
+        "quantity": 1
+      },
+      {
+        "name": "땅의정령석",
+        "quantity": 2
+      },
+      {
+        "name": "영웅의금화",
+        "quantity": 2
+      },
+      {
+        "name": "시간의가루",
+        "quantity": 1
+      }
+    ],
+    "fee": {
+      "mode": "fixed",
+      "perAttempt": 8000000
+    },
+    "dataAvailable": true,
+    "sourceUrl": "https://www.gersangjjang.com/item/4j_rejina.asp",
+    "verifiedAt": "2026-09-14",
+    "enhance6To10": [
+      {
+        "name": "레지나의기억(거불)",
+        "quantity": 1
+      },
+      {
+        "name": "영웅의기록",
+        "quantity": 1
+      },
+      {
+        "name": "사신의조각(地)",
+        "quantity": 3
+      },
+      {
+        "name": "시간의가루",
+        "quantity": 2
+      }
+    ],
+    "fee6To10": {
+      "mode": "fixed",
+      "perAttempt": 40000000
+    },
+    "enhancement10Available": true
   },
   {
     "id": "13283",
@@ -358,12 +636,80 @@
     "slotLabel": "요대",
     "name": "레지나의 요대",
     "image": "./equipment-icons/레지나/belt.png",
-    "craftMaterials": [],
-    "enhanceMaterials": [],
-    "fee": null,
-    "dataAvailable": false,
-    "sourceUrl": null,
-    "verifiedAt": "2026-09-14"
+    "craftMaterials": [
+      {
+        "name": "<담덕>태황요대",
+        "quantity": 1
+      },
+      {
+        "name": "사령요대",
+        "quantity": 1
+      },
+      {
+        "name": "수라허리띠",
+        "quantity": 1
+      },
+      {
+        "name": "파멸자요대",
+        "quantity": 1
+      },
+      {
+        "name": "미트라요대",
+        "quantity": 1
+      },
+      {
+        "name": "봉인된힘의조각",
+        "quantity": 10
+      }
+    ],
+    "enhanceMaterials": [
+      {
+        "name": "악몽의인장",
+        "quantity": 1
+      },
+      {
+        "name": "땅의정령석",
+        "quantity": 2
+      },
+      {
+        "name": "영웅의금화",
+        "quantity": 2
+      },
+      {
+        "name": "시간의가루",
+        "quantity": 1
+      }
+    ],
+    "fee": {
+      "mode": "fixed",
+      "perAttempt": 8000000
+    },
+    "dataAvailable": true,
+    "sourceUrl": "https://www.gersangjjang.com/item/4j_rejina.asp",
+    "verifiedAt": "2026-09-14",
+    "enhance6To10": [
+      {
+        "name": "레지나의기억(거불)",
+        "quantity": 1
+      },
+      {
+        "name": "영웅의기록",
+        "quantity": 1
+      },
+      {
+        "name": "사신의조각(地)",
+        "quantity": 3
+      },
+      {
+        "name": "시간의가루",
+        "quantity": 2
+      }
+    ],
+    "fee6To10": {
+      "mode": "fixed",
+      "perAttempt": 40000000
+    },
+    "enhancement10Available": true
   },
   {
     "id": "13281",
@@ -373,12 +719,84 @@
     "slotLabel": "갑옷",
     "name": "레지나의 의복",
     "image": "./equipment-icons/레지나/armor.png",
-    "craftMaterials": [],
-    "enhanceMaterials": [],
-    "fee": null,
-    "dataAvailable": false,
-    "sourceUrl": null,
-    "verifiedAt": "2026-09-14"
+    "craftMaterials": [
+      {
+        "name": "<고구려>태황갑옷+",
+        "quantity": 4
+      },
+      {
+        "name": "수비대장의의복",
+        "quantity": 1,
+        "enhancement": 5
+      },
+      {
+        "name": "명사수의갑옷",
+        "quantity": 1,
+        "enhancement": 5
+      },
+      {
+        "name": "시크교의갑옷",
+        "quantity": 1,
+        "enhancement": 5
+      },
+      {
+        "name": "암흑술사의복장",
+        "quantity": 1,
+        "enhancement": 5
+      },
+      {
+        "name": "봉인된힘의조각",
+        "quantity": 30
+      }
+    ],
+    "enhanceMaterials": [
+      {
+        "name": "악몽의인장",
+        "quantity": 1
+      },
+      {
+        "name": "정기의구슬조각(地)",
+        "quantity": 5
+      },
+      {
+        "name": "영웅의금화",
+        "quantity": 5
+      },
+      {
+        "name": "시간의가루",
+        "quantity": 1
+      }
+    ],
+    "fee": {
+      "mode": "fixed",
+      "perAttempt": 10000000
+    },
+    "dataAvailable": true,
+    "sourceUrl": "https://www.gersangjjang.com/item/4j_rejina.asp",
+    "verifiedAt": "2026-09-14",
+    "enhance6To10": [
+      {
+        "name": "레지나의기억(거불)",
+        "quantity": 1
+      },
+      {
+        "name": "영웅의기록",
+        "quantity": 2
+      },
+      {
+        "name": "정기의구슬(地)",
+        "quantity": 1
+      },
+      {
+        "name": "시간의가루",
+        "quantity": 2
+      }
+    ],
+    "fee6To10": {
+      "mode": "fixed",
+      "perAttempt": 50000000
+    },
+    "enhancement10Available": true
   },
   {
     "id": "13279",
@@ -388,12 +806,84 @@
     "slotLabel": "무기",
     "name": "레지나의 채찍",
     "image": "./equipment-icons/레지나/weapon.png",
-    "craftMaterials": [],
-    "enhanceMaterials": [],
-    "fee": null,
-    "dataAvailable": false,
-    "sourceUrl": null,
-    "verifiedAt": "2026-09-14"
+    "craftMaterials": [
+      {
+        "name": "시바의삼지창",
+        "quantity": 1
+      },
+      {
+        "name": "수비대장의화포",
+        "quantity": 1,
+        "enhancement": 5
+      },
+      {
+        "name": "명사수의석궁",
+        "quantity": 1,
+        "enhancement": 5
+      },
+      {
+        "name": "시크교의차크람",
+        "quantity": 1,
+        "enhancement": 5
+      },
+      {
+        "name": "암흑술사의지팡이",
+        "quantity": 1,
+        "enhancement": 5
+      },
+      {
+        "name": "봉인된힘의조각",
+        "quantity": 50
+      }
+    ],
+    "enhanceMaterials": [
+      {
+        "name": "악몽의인장",
+        "quantity": 1
+      },
+      {
+        "name": "해의인장",
+        "quantity": 1
+      },
+      {
+        "name": "속성의가루",
+        "quantity": 1
+      },
+      {
+        "name": "영웅의금화",
+        "quantity": 5
+      }
+    ],
+    "fee": {
+      "mode": "fixed",
+      "perAttempt": 10000000
+    },
+    "dataAvailable": true,
+    "sourceUrl": "https://www.gersangjjang.com/item/4j_rejina.asp",
+    "verifiedAt": "2026-09-14",
+    "enhance6To10": [
+      {
+        "name": "레지나의기억(거불)",
+        "quantity": 1
+      },
+      {
+        "name": "영웅의기록",
+        "quantity": 2
+      },
+      {
+        "name": "고대땅의인장",
+        "quantity": 3
+      },
+      {
+        "name": "속성의가루",
+        "quantity": 2
+      }
+    ],
+    "fee6To10": {
+      "mode": "fixed",
+      "perAttempt": 50000000
+    },
+    "enhancement10Available": true
   },
   {
     "id": "13282",
@@ -403,12 +893,80 @@
     "slotLabel": "팔보호구",
     "name": "레지나의 팔보호구",
     "image": "./equipment-icons/레지나/gloves.png",
-    "craftMaterials": [],
-    "enhanceMaterials": [],
-    "fee": null,
-    "dataAvailable": false,
-    "sourceUrl": null,
-    "verifiedAt": "2026-09-14"
+    "craftMaterials": [
+      {
+        "name": "<담덕>태황장갑",
+        "quantity": 1
+      },
+      {
+        "name": "사령장갑",
+        "quantity": 1
+      },
+      {
+        "name": "수라손목보호구",
+        "quantity": 1
+      },
+      {
+        "name": "파멸자의장갑",
+        "quantity": 1
+      },
+      {
+        "name": "미트라의장갑",
+        "quantity": 1
+      },
+      {
+        "name": "봉인된힘의조각",
+        "quantity": 10
+      }
+    ],
+    "enhanceMaterials": [
+      {
+        "name": "악몽의인장",
+        "quantity": 1
+      },
+      {
+        "name": "땅의정령석",
+        "quantity": 2
+      },
+      {
+        "name": "영웅의금화",
+        "quantity": 2
+      },
+      {
+        "name": "시간의가루",
+        "quantity": 1
+      }
+    ],
+    "fee": {
+      "mode": "fixed",
+      "perAttempt": 8000000
+    },
+    "dataAvailable": true,
+    "sourceUrl": "https://www.gersangjjang.com/item/4j_rejina.asp",
+    "verifiedAt": "2026-09-14",
+    "enhance6To10": [
+      {
+        "name": "레지나의기억(거불)",
+        "quantity": 1
+      },
+      {
+        "name": "영웅의기록",
+        "quantity": 1
+      },
+      {
+        "name": "사신의조각(地)",
+        "quantity": 3
+      },
+      {
+        "name": "시간의가루",
+        "quantity": 2
+      }
+    ],
+    "fee6To10": {
+      "mode": "fixed",
+      "perAttempt": 40000000
+    },
+    "enhancement10Available": true
   },
   {
     "id": "10547",
@@ -472,7 +1030,30 @@
     },
     "dataAvailable": true,
     "sourceUrl": "https://www.gersangjjang.com/item/4jiang_s.asp",
-    "verifiedAt": "2026-09-14"
+    "verifiedAt": "2026-09-14",
+    "enhance6To10": [
+      {
+        "name": "마조의기억(거불)",
+        "quantity": 1
+      },
+      {
+        "name": "영웅의기록",
+        "quantity": 2
+      },
+      {
+        "name": "물의속성석",
+        "quantity": 1
+      },
+      {
+        "name": "시간의가루",
+        "quantity": 2
+      }
+    ],
+    "fee6To10": {
+      "mode": "fixed",
+      "perAttempt": 50000000
+    },
+    "enhancement10Available": true
   },
   {
     "id": "10571",
@@ -524,7 +1105,30 @@
     },
     "dataAvailable": true,
     "sourceUrl": "https://www.gersangjjang.com/item/4jiang_s.asp",
-    "verifiedAt": "2026-09-14"
+    "verifiedAt": "2026-09-14",
+    "enhance6To10": [
+      {
+        "name": "마조의기억(거불)",
+        "quantity": 1
+      },
+      {
+        "name": "영웅의기록",
+        "quantity": 1
+      },
+      {
+        "name": "사신의조각(水)",
+        "quantity": 3
+      },
+      {
+        "name": "시간의가루",
+        "quantity": 2
+      }
+    ],
+    "fee6To10": {
+      "mode": "fixed",
+      "perAttempt": 40000000
+    },
+    "enhancement10Available": true
   },
   {
     "id": "10553",
@@ -588,7 +1192,30 @@
     },
     "dataAvailable": true,
     "sourceUrl": "https://www.gersangjjang.com/item/4jiang_s.asp",
-    "verifiedAt": "2026-09-14"
+    "verifiedAt": "2026-09-14",
+    "enhance6To10": [
+      {
+        "name": "마조의기억(거불)",
+        "quantity": 1
+      },
+      {
+        "name": "영웅의기록",
+        "quantity": 2
+      },
+      {
+        "name": "정기의구슬(水)",
+        "quantity": 1
+      },
+      {
+        "name": "시간의가루",
+        "quantity": 2
+      }
+    ],
+    "fee6To10": {
+      "mode": "fixed",
+      "perAttempt": 50000000
+    },
+    "enhancement10Available": true
   },
   {
     "id": "10565",
@@ -636,7 +1263,30 @@
     },
     "dataAvailable": true,
     "sourceUrl": "https://www.gersangjjang.com/item/4jiang_s.asp",
-    "verifiedAt": "2026-09-14"
+    "verifiedAt": "2026-09-14",
+    "enhance6To10": [
+      {
+        "name": "마조의기억(거불)",
+        "quantity": 1
+      },
+      {
+        "name": "영웅의기록",
+        "quantity": 1
+      },
+      {
+        "name": "사신의조각(水)",
+        "quantity": 3
+      },
+      {
+        "name": "시간의가루",
+        "quantity": 2
+      }
+    ],
+    "fee6To10": {
+      "mode": "fixed",
+      "perAttempt": 40000000
+    },
+    "enhancement10Available": true
   },
   {
     "id": "10559",
@@ -688,7 +1338,30 @@
     },
     "dataAvailable": true,
     "sourceUrl": "https://www.gersangjjang.com/item/4jiang_s.asp",
-    "verifiedAt": "2026-09-14"
+    "verifiedAt": "2026-09-14",
+    "enhance6To10": [
+      {
+        "name": "마조의기억(거불)",
+        "quantity": 1
+      },
+      {
+        "name": "영웅의기록",
+        "quantity": 1
+      },
+      {
+        "name": "사신의조각(水)",
+        "quantity": 3
+      },
+      {
+        "name": "시간의가루",
+        "quantity": 2
+      }
+    ],
+    "fee6To10": {
+      "mode": "fixed",
+      "perAttempt": 40000000
+    },
+    "enhancement10Available": true
   },
   {
     "id": "10541",
@@ -752,7 +1425,30 @@
     },
     "dataAvailable": true,
     "sourceUrl": "https://www.gersangjjang.com/item/4jiang_s.asp",
-    "verifiedAt": "2026-09-14"
+    "verifiedAt": "2026-09-14",
+    "enhance6To10": [
+      {
+        "name": "마조의기억(거불)",
+        "quantity": 1
+      },
+      {
+        "name": "영웅의기록",
+        "quantity": 2
+      },
+      {
+        "name": "고대물의인장",
+        "quantity": 3
+      },
+      {
+        "name": "속성가루",
+        "quantity": 2
+      }
+    ],
+    "fee6To10": {
+      "mode": "fixed",
+      "perAttempt": 50000000
+    },
+    "enhancement10Available": true
   },
   {
     "id": "13274",
@@ -762,12 +1458,84 @@
     "slotLabel": "투구",
     "name": "만선야의 머리장식",
     "image": "./equipment-icons/만선야/helmet.png",
-    "craftMaterials": [],
-    "enhanceMaterials": [],
-    "fee": null,
-    "dataAvailable": false,
-    "sourceUrl": null,
-    "verifiedAt": "2026-09-14"
+    "craftMaterials": [
+      {
+        "name": "<고구려>태황투구+",
+        "quantity": 4
+      },
+      {
+        "name": "흑기군의투구",
+        "quantity": 1,
+        "enhancement": 5
+      },
+      {
+        "name": "충장의투구",
+        "quantity": 1,
+        "enhancement": 5
+      },
+      {
+        "name": "뇌전의머리띠",
+        "quantity": 1,
+        "enhancement": 5
+      },
+      {
+        "name": "구원자의관",
+        "quantity": 1,
+        "enhancement": 5
+      },
+      {
+        "name": "봉인된힘의조각",
+        "quantity": 30
+      }
+    ],
+    "enhanceMaterials": [
+      {
+        "name": "악몽의인장",
+        "quantity": 1
+      },
+      {
+        "name": "작은뇌전의속성석",
+        "quantity": 5
+      },
+      {
+        "name": "영웅의금화",
+        "quantity": 5
+      },
+      {
+        "name": "시간의가루",
+        "quantity": 1
+      }
+    ],
+    "fee": {
+      "mode": "byTargetLevel",
+      "perLevel": 10000000
+    },
+    "dataAvailable": true,
+    "sourceUrl": "https://www.gersangjjang.com/item/4j_manxian.asp",
+    "verifiedAt": "2026-09-14",
+    "enhance6To10": [
+      {
+        "name": "만선야의기억(거불)",
+        "quantity": 1
+      },
+      {
+        "name": "영웅의기록",
+        "quantity": 2
+      },
+      {
+        "name": "뇌전의속성석",
+        "quantity": 1
+      },
+      {
+        "name": "시간의가루",
+        "quantity": 2
+      }
+    ],
+    "fee6To10": {
+      "mode": "fixed",
+      "perAttempt": 50000000
+    },
+    "enhancement10Available": true
   },
   {
     "id": "13278",
@@ -777,12 +1545,68 @@
     "slotLabel": "신발",
     "name": "만선야의 신발",
     "image": "./equipment-icons/만선야/shoes.png",
-    "craftMaterials": [],
-    "enhanceMaterials": [],
-    "fee": null,
-    "dataAvailable": false,
-    "sourceUrl": null,
-    "verifiedAt": "2026-09-14"
+    "craftMaterials": [
+      {
+        "name": "<담덕>태황의전투화",
+        "quantity": 1
+      },
+      {
+        "name": "현무의신발",
+        "quantity": 2
+      },
+      {
+        "name": "봉인된힘의조각",
+        "quantity": 10
+      }
+    ],
+    "enhanceMaterials": [
+      {
+        "name": "악몽의인장",
+        "quantity": 1
+      },
+      {
+        "name": "뇌전의정령석",
+        "quantity": 2
+      },
+      {
+        "name": "영웅의금화",
+        "quantity": 2
+      },
+      {
+        "name": "시간의가루",
+        "quantity": 1
+      }
+    ],
+    "fee": {
+      "mode": "byTargetLevel",
+      "perLevel": 8000000
+    },
+    "dataAvailable": true,
+    "sourceUrl": "https://www.gersangjjang.com/item/4j_manxian.asp",
+    "verifiedAt": "2026-09-14",
+    "enhance6To10": [
+      {
+        "name": "만선야의기억(거불)",
+        "quantity": 1
+      },
+      {
+        "name": "영웅의기록",
+        "quantity": 1
+      },
+      {
+        "name": "사신의조각(雷)",
+        "quantity": 3
+      },
+      {
+        "name": "시간의가루",
+        "quantity": 2
+      }
+    ],
+    "fee6To10": {
+      "mode": "fixed",
+      "perAttempt": 40000000
+    },
+    "enhancement10Available": true
   },
   {
     "id": "13277",
@@ -792,12 +1616,68 @@
     "slotLabel": "요대",
     "name": "만선야의 요대",
     "image": "./equipment-icons/만선야/belt.png",
-    "craftMaterials": [],
-    "enhanceMaterials": [],
-    "fee": null,
-    "dataAvailable": false,
-    "sourceUrl": null,
-    "verifiedAt": "2026-09-14"
+    "craftMaterials": [
+      {
+        "name": "<담덕>태황의요대",
+        "quantity": 1
+      },
+      {
+        "name": "현무요대",
+        "quantity": 2
+      },
+      {
+        "name": "봉인된힘의조각",
+        "quantity": 10
+      }
+    ],
+    "enhanceMaterials": [
+      {
+        "name": "악몽의인장",
+        "quantity": 1
+      },
+      {
+        "name": "뇌전의정령석",
+        "quantity": 2
+      },
+      {
+        "name": "영웅의금화",
+        "quantity": 2
+      },
+      {
+        "name": "시간의가루",
+        "quantity": 1
+      }
+    ],
+    "fee": {
+      "mode": "byTargetLevel",
+      "perLevel": 8000000
+    },
+    "dataAvailable": true,
+    "sourceUrl": "https://www.gersangjjang.com/item/4j_manxian.asp",
+    "verifiedAt": "2026-09-14",
+    "enhance6To10": [
+      {
+        "name": "만선야의기억(거불)",
+        "quantity": 1
+      },
+      {
+        "name": "영웅의기록",
+        "quantity": 1
+      },
+      {
+        "name": "사신의조각(雷)",
+        "quantity": 3
+      },
+      {
+        "name": "시간의가루",
+        "quantity": 2
+      }
+    ],
+    "fee6To10": {
+      "mode": "fixed",
+      "perAttempt": 40000000
+    },
+    "enhancement10Available": true
   },
   {
     "id": "13275",
@@ -807,12 +1687,84 @@
     "slotLabel": "갑옷",
     "name": "만선야의 의복",
     "image": "./equipment-icons/만선야/armor.png",
-    "craftMaterials": [],
-    "enhanceMaterials": [],
-    "fee": null,
-    "dataAvailable": false,
-    "sourceUrl": null,
-    "verifiedAt": "2026-09-14"
+    "craftMaterials": [
+      {
+        "name": "고구려의태황갑옷",
+        "quantity": 1
+      },
+      {
+        "name": "흑기군의갑옷",
+        "quantity": 1,
+        "enhancement": 5
+      },
+      {
+        "name": "충장의갑옷",
+        "quantity": 1,
+        "enhancement": 5
+      },
+      {
+        "name": "뇌전의의복",
+        "quantity": 1,
+        "enhancement": 5
+      },
+      {
+        "name": "구원자의갑옷",
+        "quantity": 1,
+        "enhancement": 5
+      },
+      {
+        "name": "봉인된힘의조각",
+        "quantity": 30
+      }
+    ],
+    "enhanceMaterials": [
+      {
+        "name": "악몽의인장",
+        "quantity": 1
+      },
+      {
+        "name": "정기의구슬조각(雷)",
+        "quantity": 5
+      },
+      {
+        "name": "영웅의금화",
+        "quantity": 5
+      },
+      {
+        "name": "시간의가루",
+        "quantity": 1
+      }
+    ],
+    "fee": {
+      "mode": "byTargetLevel",
+      "perLevel": 10000000
+    },
+    "dataAvailable": true,
+    "sourceUrl": "https://www.gersangjjang.com/item/4j_manxian.asp",
+    "verifiedAt": "2026-09-14",
+    "enhance6To10": [
+      {
+        "name": "만선야의기억(거불)",
+        "quantity": 1
+      },
+      {
+        "name": "영웅의기록",
+        "quantity": 2
+      },
+      {
+        "name": "정기의구슬(雷)",
+        "quantity": 1
+      },
+      {
+        "name": "시간의가루",
+        "quantity": 2
+      }
+    ],
+    "fee6To10": {
+      "mode": "fixed",
+      "perAttempt": 50000000
+    },
+    "enhancement10Available": true
   },
   {
     "id": "13273",
@@ -822,12 +1774,84 @@
     "slotLabel": "무기",
     "name": "만선야의 지팡이",
     "image": "./equipment-icons/만선야/weapon.png",
-    "craftMaterials": [],
-    "enhanceMaterials": [],
-    "fee": null,
-    "dataAvailable": false,
-    "sourceUrl": null,
-    "verifiedAt": "2026-09-14"
+    "craftMaterials": [
+      {
+        "name": "욕수의지팡이",
+        "quantity": 1
+      },
+      {
+        "name": "흑기군의협객봉",
+        "quantity": 1,
+        "enhancement": 5
+      },
+      {
+        "name": "충장의검",
+        "quantity": 1,
+        "enhancement": 5
+      },
+      {
+        "name": "뇌전의염주",
+        "quantity": 1,
+        "enhancement": 5
+      },
+      {
+        "name": "구원자의구슬",
+        "quantity": 1,
+        "enhancement": 5
+      },
+      {
+        "name": "봉인된힘의조각",
+        "quantity": 50
+      }
+    ],
+    "enhanceMaterials": [
+      {
+        "name": "악몽의인장",
+        "quantity": 1
+      },
+      {
+        "name": "뇌의인장",
+        "quantity": 1
+      },
+      {
+        "name": "속성의가루",
+        "quantity": 1
+      },
+      {
+        "name": "영웅의금화",
+        "quantity": 5
+      }
+    ],
+    "fee": {
+      "mode": "byTargetLevel",
+      "perLevel": 10000000
+    },
+    "dataAvailable": true,
+    "sourceUrl": "https://www.gersangjjang.com/item/4j_manxian.asp",
+    "verifiedAt": "2026-09-14",
+    "enhance6To10": [
+      {
+        "name": "만선야의기억(거불)",
+        "quantity": 1
+      },
+      {
+        "name": "영웅의기록",
+        "quantity": 2
+      },
+      {
+        "name": "고대뇌의인장",
+        "quantity": 3
+      },
+      {
+        "name": "속성의가루",
+        "quantity": 2
+      }
+    ],
+    "fee6To10": {
+      "mode": "fixed",
+      "perAttempt": 50000000
+    },
+    "enhancement10Available": true
   },
   {
     "id": "13276",
@@ -837,12 +1861,68 @@
     "slotLabel": "팔보호구",
     "name": "만선야의 팔보호구",
     "image": "./equipment-icons/만선야/gloves.png",
-    "craftMaterials": [],
-    "enhanceMaterials": [],
-    "fee": null,
-    "dataAvailable": false,
-    "sourceUrl": null,
-    "verifiedAt": "2026-09-14"
+    "craftMaterials": [
+      {
+        "name": "<담덕>태황의장갑",
+        "quantity": 1
+      },
+      {
+        "name": "현무손목보호대",
+        "quantity": 2
+      },
+      {
+        "name": "봉인된힘의조각",
+        "quantity": 10
+      }
+    ],
+    "enhanceMaterials": [
+      {
+        "name": "악몽의인장",
+        "quantity": 1
+      },
+      {
+        "name": "뇌전의정령석",
+        "quantity": 2
+      },
+      {
+        "name": "영웅의금화",
+        "quantity": 2
+      },
+      {
+        "name": "시간의가루",
+        "quantity": 1
+      }
+    ],
+    "fee": {
+      "mode": "byTargetLevel",
+      "perLevel": 8000000
+    },
+    "dataAvailable": true,
+    "sourceUrl": "https://www.gersangjjang.com/item/4j_manxian.asp",
+    "verifiedAt": "2026-09-14",
+    "enhance6To10": [
+      {
+        "name": "만선야의기억(거불)",
+        "quantity": 1
+      },
+      {
+        "name": "영웅의기록",
+        "quantity": 1
+      },
+      {
+        "name": "사신의조각(雷)",
+        "quantity": 3
+      },
+      {
+        "name": "시간의가루",
+        "quantity": 2
+      }
+    ],
+    "fee6To10": {
+      "mode": "fixed",
+      "perAttempt": 40000000
+    },
+    "enhancement10Available": true
   },
   {
     "id": "7677",
@@ -901,7 +1981,30 @@
     },
     "dataAvailable": true,
     "sourceUrl": "https://www.gersangjjang.com/item/4jiang_f.asp",
-    "verifiedAt": "2026-09-14"
+    "verifiedAt": "2026-09-14",
+    "enhance6To10": [
+      {
+        "name": "맹획의기억(거불)",
+        "quantity": 1
+      },
+      {
+        "name": "영웅의기록",
+        "quantity": 2
+      },
+      {
+        "name": "정기의구슬(風)",
+        "quantity": 1
+      },
+      {
+        "name": "시간의가루",
+        "quantity": 2
+      }
+    ],
+    "fee6To10": {
+      "mode": "fixed",
+      "perAttempt": 50000000
+    },
+    "enhancement10Available": true
   },
   {
     "id": "7665",
@@ -960,7 +2063,30 @@
     },
     "dataAvailable": true,
     "sourceUrl": "https://www.gersangjjang.com/item/4jiang_f.asp",
-    "verifiedAt": "2026-09-14"
+    "verifiedAt": "2026-09-14",
+    "enhance6To10": [
+      {
+        "name": "맹획의기억(거불)",
+        "quantity": 1
+      },
+      {
+        "name": "영웅의기록",
+        "quantity": 2
+      },
+      {
+        "name": "고대바람의인장",
+        "quantity": 3
+      },
+      {
+        "name": "속성의가루",
+        "quantity": 2
+      }
+    ],
+    "fee6To10": {
+      "mode": "fixed",
+      "perAttempt": 50000000
+    },
+    "enhancement10Available": true
   },
   {
     "id": "9625",
@@ -1008,7 +2134,30 @@
     },
     "dataAvailable": true,
     "sourceUrl": "https://www.gersangjjang.com/item/4jiang_f.asp",
-    "verifiedAt": "2026-09-14"
+    "verifiedAt": "2026-09-14",
+    "enhance6To10": [
+      {
+        "name": "맹획의기억(거불)",
+        "quantity": 1
+      },
+      {
+        "name": "영웅의기록",
+        "quantity": 1
+      },
+      {
+        "name": "사신의조각(風)",
+        "quantity": 3
+      },
+      {
+        "name": "시간의가루",
+        "quantity": 2
+      }
+    ],
+    "fee6To10": {
+      "mode": "fixed",
+      "perAttempt": 40000000
+    },
+    "enhancement10Available": true
   },
   {
     "id": "9631",
@@ -1056,7 +2205,30 @@
     },
     "dataAvailable": true,
     "sourceUrl": "https://www.gersangjjang.com/item/4jiang_f.asp",
-    "verifiedAt": "2026-09-14"
+    "verifiedAt": "2026-09-14",
+    "enhance6To10": [
+      {
+        "name": "맹획의기억(거불)",
+        "quantity": 1
+      },
+      {
+        "name": "영웅의기록",
+        "quantity": 1
+      },
+      {
+        "name": "사신의조각(風)",
+        "quantity": 3
+      },
+      {
+        "name": "시간의가루",
+        "quantity": 2
+      }
+    ],
+    "fee6To10": {
+      "mode": "fixed",
+      "perAttempt": 40000000
+    },
+    "enhancement10Available": true
   },
   {
     "id": "7671",
@@ -1115,7 +2287,30 @@
     },
     "dataAvailable": true,
     "sourceUrl": "https://www.gersangjjang.com/item/4jiang_f.asp",
-    "verifiedAt": "2026-09-14"
+    "verifiedAt": "2026-09-14",
+    "enhance6To10": [
+      {
+        "name": "맹획의기억(거불)",
+        "quantity": 1
+      },
+      {
+        "name": "영웅의기록",
+        "quantity": 2
+      },
+      {
+        "name": "바람의속성석",
+        "quantity": 1
+      },
+      {
+        "name": "시간의가루",
+        "quantity": 2
+      }
+    ],
+    "fee6To10": {
+      "mode": "fixed",
+      "perAttempt": 50000000
+    },
+    "enhancement10Available": true
   },
   {
     "id": "9619",
@@ -1163,7 +2358,30 @@
     },
     "dataAvailable": true,
     "sourceUrl": "https://www.gersangjjang.com/item/4jiang_f.asp",
-    "verifiedAt": "2026-09-14"
+    "verifiedAt": "2026-09-14",
+    "enhance6To10": [
+      {
+        "name": "맹획의기억(거불)",
+        "quantity": 1
+      },
+      {
+        "name": "영웅의기록",
+        "quantity": 1
+      },
+      {
+        "name": "사신의조각(風)",
+        "quantity": 3
+      },
+      {
+        "name": "시간의가루",
+        "quantity": 2
+      }
+    ],
+    "fee6To10": {
+      "mode": "fixed",
+      "perAttempt": 40000000
+    },
+    "enhancement10Available": true
   },
   {
     "id": "9667",
@@ -1227,7 +2445,30 @@
     },
     "dataAvailable": true,
     "sourceUrl": "https://www.gersangjjang.com/item/4jiang_d.asp",
-    "verifiedAt": "2026-09-14"
+    "verifiedAt": "2026-09-14",
+    "enhance6To10": [
+      {
+        "name": "바지라오의기억(거불)",
+        "quantity": 1
+      },
+      {
+        "name": "영웅의기록",
+        "quantity": 2
+      },
+      {
+        "name": "정기의구슬(地)",
+        "quantity": 1
+      },
+      {
+        "name": "시간의가루",
+        "quantity": 2
+      }
+    ],
+    "fee6To10": {
+      "mode": "fixed",
+      "perAttempt": 50000000
+    },
+    "enhancement10Available": true
   },
   {
     "id": "9655",
@@ -1291,7 +2532,30 @@
     },
     "dataAvailable": true,
     "sourceUrl": "https://www.gersangjjang.com/item/4jiang_d.asp",
-    "verifiedAt": "2026-09-14"
+    "verifiedAt": "2026-09-14",
+    "enhance6To10": [
+      {
+        "name": "바지라오의기억(거불)",
+        "quantity": 1
+      },
+      {
+        "name": "영웅의기록",
+        "quantity": 2
+      },
+      {
+        "name": "고대땅의인장",
+        "quantity": 3
+      },
+      {
+        "name": "속성의가루",
+        "quantity": 2
+      }
+    ],
+    "fee6To10": {
+      "mode": "fixed",
+      "perAttempt": 50000000
+    },
+    "enhancement10Available": true
   },
   {
     "id": "9679",
@@ -1351,7 +2615,30 @@
     },
     "dataAvailable": true,
     "sourceUrl": "https://www.gersangjjang.com/item/4jiang_d.asp",
-    "verifiedAt": "2026-09-14"
+    "verifiedAt": "2026-09-14",
+    "enhance6To10": [
+      {
+        "name": "바지라오의기억(거불)",
+        "quantity": 1
+      },
+      {
+        "name": "영웅의기록",
+        "quantity": 1
+      },
+      {
+        "name": "사신의조각(地)",
+        "quantity": 3
+      },
+      {
+        "name": "시간의가루",
+        "quantity": 2
+      }
+    ],
+    "fee6To10": {
+      "mode": "fixed",
+      "perAttempt": 40000000
+    },
+    "enhancement10Available": true
   },
   {
     "id": "9685",
@@ -1411,7 +2698,30 @@
     },
     "dataAvailable": true,
     "sourceUrl": "https://www.gersangjjang.com/item/4jiang_d.asp",
-    "verifiedAt": "2026-09-14"
+    "verifiedAt": "2026-09-14",
+    "enhance6To10": [
+      {
+        "name": "바지라오의기억(거불)",
+        "quantity": 1
+      },
+      {
+        "name": "영웅의기록",
+        "quantity": 1
+      },
+      {
+        "name": "사신의조각(地)",
+        "quantity": 3
+      },
+      {
+        "name": "시간의가루",
+        "quantity": 2
+      }
+    ],
+    "fee6To10": {
+      "mode": "fixed",
+      "perAttempt": 40000000
+    },
+    "enhancement10Available": true
   },
   {
     "id": "9661",
@@ -1475,7 +2785,30 @@
     },
     "dataAvailable": true,
     "sourceUrl": "https://www.gersangjjang.com/item/4jiang_d.asp",
-    "verifiedAt": "2026-09-14"
+    "verifiedAt": "2026-09-14",
+    "enhance6To10": [
+      {
+        "name": "바지라오의기억(거불)",
+        "quantity": 1
+      },
+      {
+        "name": "영웅의기록",
+        "quantity": 2
+      },
+      {
+        "name": "땅의속성석",
+        "quantity": 1
+      },
+      {
+        "name": "시간의가루",
+        "quantity": 2
+      }
+    ],
+    "fee6To10": {
+      "mode": "fixed",
+      "perAttempt": 50000000
+    },
+    "enhancement10Available": true
   },
   {
     "id": "9673",
@@ -1535,7 +2868,30 @@
     },
     "dataAvailable": true,
     "sourceUrl": "https://www.gersangjjang.com/item/4jiang_d.asp",
-    "verifiedAt": "2026-09-14"
+    "verifiedAt": "2026-09-14",
+    "enhance6To10": [
+      {
+        "name": "바지라오의기억(거불)",
+        "quantity": 1
+      },
+      {
+        "name": "영웅의기록",
+        "quantity": 1
+      },
+      {
+        "name": "사신의조각(地)",
+        "quantity": 3
+      },
+      {
+        "name": "시간의가루",
+        "quantity": 2
+      }
+    ],
+    "fee6To10": {
+      "mode": "fixed",
+      "perAttempt": 40000000
+    },
+    "enhancement10Available": true
   },
   {
     "id": "10577",
@@ -1599,7 +2955,30 @@
     },
     "dataAvailable": true,
     "sourceUrl": "https://www.gersangjjang.com/item/4jiang_f.asp",
-    "verifiedAt": "2026-09-14"
+    "verifiedAt": "2026-09-14",
+    "enhance6To10": [
+      {
+        "name": "보쿠텐의기억(거불)",
+        "quantity": 1
+      },
+      {
+        "name": "영웅의기록",
+        "quantity": 2
+      },
+      {
+        "name": "고대바람의인장",
+        "quantity": 3
+      },
+      {
+        "name": "속성의가루",
+        "quantity": 2
+      }
+    ],
+    "fee6To10": {
+      "mode": "fixed",
+      "perAttempt": 50000000
+    },
+    "enhancement10Available": true
   },
   {
     "id": "10589",
@@ -1663,7 +3042,30 @@
     },
     "dataAvailable": true,
     "sourceUrl": "https://www.gersangjjang.com/item/4jiang_f.asp",
-    "verifiedAt": "2026-09-14"
+    "verifiedAt": "2026-09-14",
+    "enhance6To10": [
+      {
+        "name": "보쿠텐의기억(거불)",
+        "quantity": 1
+      },
+      {
+        "name": "영웅의기록",
+        "quantity": 2
+      },
+      {
+        "name": "정기의구슬(風)",
+        "quantity": 1
+      },
+      {
+        "name": "시간의가루",
+        "quantity": 2
+      }
+    ],
+    "fee6To10": {
+      "mode": "fixed",
+      "perAttempt": 50000000
+    },
+    "enhancement10Available": true
   },
   {
     "id": "10583",
@@ -1727,7 +3129,30 @@
     },
     "dataAvailable": true,
     "sourceUrl": "https://www.gersangjjang.com/item/4jiang_f.asp",
-    "verifiedAt": "2026-09-14"
+    "verifiedAt": "2026-09-14",
+    "enhance6To10": [
+      {
+        "name": "보쿠텐의기억(거불)",
+        "quantity": 1
+      },
+      {
+        "name": "영웅의기록",
+        "quantity": 2
+      },
+      {
+        "name": "바람의속성석",
+        "quantity": 1
+      },
+      {
+        "name": "시간의가루",
+        "quantity": 2
+      }
+    ],
+    "fee6To10": {
+      "mode": "fixed",
+      "perAttempt": 50000000
+    },
+    "enhancement10Available": true
   },
   {
     "id": "10607",
@@ -1779,7 +3204,30 @@
     },
     "dataAvailable": true,
     "sourceUrl": "https://www.gersangjjang.com/item/4jiang_f.asp",
-    "verifiedAt": "2026-09-14"
+    "verifiedAt": "2026-09-14",
+    "enhance6To10": [
+      {
+        "name": "보쿠텐의기억(거불)",
+        "quantity": 1
+      },
+      {
+        "name": "영웅의기록",
+        "quantity": 1
+      },
+      {
+        "name": "사신의조각(風)",
+        "quantity": 3
+      },
+      {
+        "name": "시간의가루",
+        "quantity": 2
+      }
+    ],
+    "fee6To10": {
+      "mode": "fixed",
+      "perAttempt": 40000000
+    },
+    "enhancement10Available": true
   },
   {
     "id": "10601",
@@ -1831,7 +3279,30 @@
     },
     "dataAvailable": true,
     "sourceUrl": "https://www.gersangjjang.com/item/4jiang_f.asp",
-    "verifiedAt": "2026-09-14"
+    "verifiedAt": "2026-09-14",
+    "enhance6To10": [
+      {
+        "name": "보쿠텐의기억(거불)",
+        "quantity": 1
+      },
+      {
+        "name": "영웅의기록",
+        "quantity": 1
+      },
+      {
+        "name": "사신의조각(風)",
+        "quantity": 3
+      },
+      {
+        "name": "시간의가루",
+        "quantity": 2
+      }
+    ],
+    "fee6To10": {
+      "mode": "fixed",
+      "perAttempt": 40000000
+    },
+    "enhancement10Available": true
   },
   {
     "id": "10595",
@@ -1883,7 +3354,30 @@
     },
     "dataAvailable": true,
     "sourceUrl": "https://www.gersangjjang.com/item/4jiang_f.asp",
-    "verifiedAt": "2026-09-14"
+    "verifiedAt": "2026-09-14",
+    "enhance6To10": [
+      {
+        "name": "보쿠텐의기억(거불)",
+        "quantity": 1
+      },
+      {
+        "name": "영웅의기록",
+        "quantity": 1
+      },
+      {
+        "name": "사신의조각(風)",
+        "quantity": 3
+      },
+      {
+        "name": "시간의가루",
+        "quantity": 2
+      }
+    ],
+    "fee6To10": {
+      "mode": "fixed",
+      "perAttempt": 40000000
+    },
+    "enhancement10Available": true
   },
   {
     "id": "10625",
@@ -1947,7 +3441,30 @@
     },
     "dataAvailable": true,
     "sourceUrl": "https://www.gersangjjang.com/item/4jiang_d.asp",
-    "verifiedAt": "2026-09-14"
+    "verifiedAt": "2026-09-14",
+    "enhance6To10": [
+      {
+        "name": "악바르의기억(거불)",
+        "quantity": 1
+      },
+      {
+        "name": "영웅의기록",
+        "quantity": 2
+      },
+      {
+        "name": "정기의구슬(地)",
+        "quantity": 1
+      },
+      {
+        "name": "시간의가루",
+        "quantity": 2
+      }
+    ],
+    "fee6To10": {
+      "mode": "fixed",
+      "perAttempt": 50000000
+    },
+    "enhancement10Available": true
   },
   {
     "id": "10637",
@@ -2007,7 +3524,30 @@
     },
     "dataAvailable": true,
     "sourceUrl": "https://www.gersangjjang.com/item/4jiang_d.asp",
-    "verifiedAt": "2026-09-14"
+    "verifiedAt": "2026-09-14",
+    "enhance6To10": [
+      {
+        "name": "악바르의기억(거불)",
+        "quantity": 1
+      },
+      {
+        "name": "영웅의기록",
+        "quantity": 1
+      },
+      {
+        "name": "사신의조각(地)",
+        "quantity": 3
+      },
+      {
+        "name": "시간의가루",
+        "quantity": 2
+      }
+    ],
+    "fee6To10": {
+      "mode": "fixed",
+      "perAttempt": 40000000
+    },
+    "enhancement10Available": true
   },
   {
     "id": "10643",
@@ -2067,7 +3607,30 @@
     },
     "dataAvailable": true,
     "sourceUrl": "https://www.gersangjjang.com/item/4jiang_d.asp",
-    "verifiedAt": "2026-09-14"
+    "verifiedAt": "2026-09-14",
+    "enhance6To10": [
+      {
+        "name": "악바르의기억(거불)",
+        "quantity": 1
+      },
+      {
+        "name": "영웅의기록",
+        "quantity": 1
+      },
+      {
+        "name": "사신의조각(地)",
+        "quantity": 3
+      },
+      {
+        "name": "시간의가루",
+        "quantity": 2
+      }
+    ],
+    "fee6To10": {
+      "mode": "fixed",
+      "perAttempt": 40000000
+    },
+    "enhancement10Available": true
   },
   {
     "id": "10613",
@@ -2131,7 +3694,30 @@
     },
     "dataAvailable": true,
     "sourceUrl": "https://www.gersangjjang.com/item/4jiang_d.asp",
-    "verifiedAt": "2026-09-14"
+    "verifiedAt": "2026-09-14",
+    "enhance6To10": [
+      {
+        "name": "악바르의기억(거불)",
+        "quantity": 1
+      },
+      {
+        "name": "영웅의기록",
+        "quantity": 2
+      },
+      {
+        "name": "고대땅의인장",
+        "quantity": 3
+      },
+      {
+        "name": "속성의가루",
+        "quantity": 2
+      }
+    ],
+    "fee6To10": {
+      "mode": "fixed",
+      "perAttempt": 50000000
+    },
+    "enhancement10Available": true
   },
   {
     "id": "10619",
@@ -2195,7 +3781,30 @@
     },
     "dataAvailable": true,
     "sourceUrl": "https://www.gersangjjang.com/item/4jiang_d.asp",
-    "verifiedAt": "2026-09-14"
+    "verifiedAt": "2026-09-14",
+    "enhance6To10": [
+      {
+        "name": "악바르의기억(거불)",
+        "quantity": 1
+      },
+      {
+        "name": "영웅의기록",
+        "quantity": 2
+      },
+      {
+        "name": "땅의속성석",
+        "quantity": 1
+      },
+      {
+        "name": "시간의가루",
+        "quantity": 2
+      }
+    ],
+    "fee6To10": {
+      "mode": "fixed",
+      "perAttempt": 50000000
+    },
+    "enhancement10Available": true
   },
   {
     "id": "10631",
@@ -2255,7 +3864,30 @@
     },
     "dataAvailable": true,
     "sourceUrl": "https://www.gersangjjang.com/item/4jiang_d.asp",
-    "verifiedAt": "2026-09-14"
+    "verifiedAt": "2026-09-14",
+    "enhance6To10": [
+      {
+        "name": "악바르의기억(거불)",
+        "quantity": 1
+      },
+      {
+        "name": "영웅의기록",
+        "quantity": 1
+      },
+      {
+        "name": "사신의조각(地)",
+        "quantity": 3
+      },
+      {
+        "name": "시간의가루",
+        "quantity": 2
+      }
+    ],
+    "fee6To10": {
+      "mode": "fixed",
+      "perAttempt": 40000000
+    },
+    "enhancement10Available": true
   },
   {
     "id": "12731",
@@ -2319,7 +3951,30 @@
     },
     "dataAvailable": true,
     "sourceUrl": "https://www.gersangjjang.com/item/4jiang_h.asp",
-    "verifiedAt": "2026-09-14"
+    "verifiedAt": "2026-09-14",
+    "enhance6To10": [
+      {
+        "name": "여포의기억(거불)",
+        "quantity": 1
+      },
+      {
+        "name": "영웅의기록",
+        "quantity": 2
+      },
+      {
+        "name": "정기의구슬(火)",
+        "quantity": 1
+      },
+      {
+        "name": "시간의가루",
+        "quantity": 2
+      }
+    ],
+    "fee6To10": {
+      "mode": "fixed",
+      "perAttempt": 50000000
+    },
+    "enhancement10Available": true
   },
   {
     "id": "12725",
@@ -2329,12 +3984,84 @@
     "slotLabel": "투구",
     "name": "여포의 관",
     "image": "./equipment-icons/여포/helmet.png",
-    "craftMaterials": [],
-    "enhanceMaterials": [],
-    "fee": null,
-    "dataAvailable": false,
+    "craftMaterials": [
+      {
+        "name": "<고구려의>태황투구",
+        "quantity": 1
+      },
+      {
+        "name": "고행자의머리장식",
+        "quantity": 1,
+        "enhancement": 5
+      },
+      {
+        "name": "뇌전의머리띠",
+        "quantity": 1,
+        "enhancement": 5
+      },
+      {
+        "name": "수도승의터번",
+        "quantity": 1,
+        "enhancement": 5
+      },
+      {
+        "name": "부총병의투구",
+        "quantity": 1,
+        "enhancement": 5
+      },
+      {
+        "name": "봉인된힘의조각",
+        "quantity": 30
+      }
+    ],
+    "enhanceMaterials": [
+      {
+        "name": "악몽의인장",
+        "quantity": 1
+      },
+      {
+        "name": "작은불의속성석",
+        "quantity": 5
+      },
+      {
+        "name": "영웅의금화",
+        "quantity": 5
+      },
+      {
+        "name": "시간의가루",
+        "quantity": 1
+      }
+    ],
+    "fee": {
+      "mode": "fixed",
+      "perAttempt": 10000000
+    },
+    "dataAvailable": true,
     "sourceUrl": "https://www.gersangjjang.com/item/4jiang_h.asp",
-    "verifiedAt": "2026-09-14"
+    "verifiedAt": "2026-09-14",
+    "enhance6To10": [
+      {
+        "name": "여포의기억(거불)",
+        "quantity": 1
+      },
+      {
+        "name": "영웅의기록",
+        "quantity": 2
+      },
+      {
+        "name": "불의속성석",
+        "quantity": 1
+      },
+      {
+        "name": "시간의가루",
+        "quantity": 2
+      }
+    ],
+    "fee6To10": {
+      "mode": "fixed",
+      "perAttempt": 50000000
+    },
+    "enhancement10Available": true
   },
   {
     "id": "12719",
@@ -2344,12 +4071,84 @@
     "slotLabel": "무기",
     "name": "여포의 방천화극",
     "image": "./equipment-icons/여포/weapon.png",
-    "craftMaterials": [],
-    "enhanceMaterials": [],
-    "fee": null,
-    "dataAvailable": false,
+    "craftMaterials": [
+      {
+        "name": "현명창",
+        "quantity": 1
+      },
+      {
+        "name": "고행자의부채",
+        "quantity": 1,
+        "enhancement": 5
+      },
+      {
+        "name": "뇌전의염주",
+        "quantity": 1,
+        "enhancement": 5
+      },
+      {
+        "name": "수도승의지팡이",
+        "quantity": 1,
+        "enhancement": 5
+      },
+      {
+        "name": "부총병의별운검",
+        "quantity": 1,
+        "enhancement": 5
+      },
+      {
+        "name": "봉인된힘의조각",
+        "quantity": 50
+      }
+    ],
+    "enhanceMaterials": [
+      {
+        "name": "악몽의인장",
+        "quantity": 1
+      },
+      {
+        "name": "불의인장",
+        "quantity": 1
+      },
+      {
+        "name": "속성의가루",
+        "quantity": 1
+      },
+      {
+        "name": "영웅의금화",
+        "quantity": 5
+      }
+    ],
+    "fee": {
+      "mode": "fixed",
+      "perAttempt": 10000000
+    },
+    "dataAvailable": true,
     "sourceUrl": "https://www.gersangjjang.com/item/4jiang_h.asp",
-    "verifiedAt": "2026-09-14"
+    "verifiedAt": "2026-09-14",
+    "enhance6To10": [
+      {
+        "name": "여포의기억(거불)",
+        "quantity": 1
+      },
+      {
+        "name": "영웅의기록",
+        "quantity": 2
+      },
+      {
+        "name": "고대불의인장",
+        "quantity": 3
+      },
+      {
+        "name": "속성의가루",
+        "quantity": 2
+      }
+    ],
+    "fee6To10": {
+      "mode": "fixed",
+      "perAttempt": 50000000
+    },
+    "enhancement10Available": true
   },
   {
     "id": "12743",
@@ -2397,7 +4196,30 @@
     },
     "dataAvailable": true,
     "sourceUrl": "https://www.gersangjjang.com/item/4jiang_h.asp",
-    "verifiedAt": "2026-09-14"
+    "verifiedAt": "2026-09-14",
+    "enhance6To10": [
+      {
+        "name": "여포의기억(거불)",
+        "quantity": 1
+      },
+      {
+        "name": "영웅의기록",
+        "quantity": 1
+      },
+      {
+        "name": "사신의조각(火)",
+        "quantity": 3
+      },
+      {
+        "name": "시간의가루",
+        "quantity": 2
+      }
+    ],
+    "fee6To10": {
+      "mode": "fixed",
+      "perAttempt": 40000000
+    },
+    "enhancement10Available": true
   },
   {
     "id": "12749",
@@ -2445,7 +4267,30 @@
     },
     "dataAvailable": true,
     "sourceUrl": "https://www.gersangjjang.com/item/4jiang_h.asp",
-    "verifiedAt": "2026-09-14"
+    "verifiedAt": "2026-09-14",
+    "enhance6To10": [
+      {
+        "name": "여포의기억(거불)",
+        "quantity": 1
+      },
+      {
+        "name": "영웅의기록",
+        "quantity": 1
+      },
+      {
+        "name": "사신의조각(火)",
+        "quantity": 3
+      },
+      {
+        "name": "시간의가루",
+        "quantity": 2
+      }
+    ],
+    "fee6To10": {
+      "mode": "fixed",
+      "perAttempt": 40000000
+    },
+    "enhancement10Available": true
   },
   {
     "id": "12737",
@@ -2493,7 +4338,30 @@
     },
     "dataAvailable": true,
     "sourceUrl": "https://www.gersangjjang.com/item/4jiang_h.asp",
-    "verifiedAt": "2026-09-14"
+    "verifiedAt": "2026-09-14",
+    "enhance6To10": [
+      {
+        "name": "여포의기억(거불)",
+        "quantity": 1
+      },
+      {
+        "name": "영웅의기록",
+        "quantity": 1
+      },
+      {
+        "name": "사신의조각(火)",
+        "quantity": 3
+      },
+      {
+        "name": "시간의가루",
+        "quantity": 2
+      }
+    ],
+    "fee6To10": {
+      "mode": "fixed",
+      "perAttempt": 40000000
+    },
+    "enhancement10Available": true
   },
   {
     "id": "7232",
@@ -2552,7 +4420,30 @@
     },
     "dataAvailable": true,
     "sourceUrl": "https://www.gersangjjang.com/item/4jiang_l.asp",
-    "verifiedAt": "2026-09-14"
+    "verifiedAt": "2026-09-14",
+    "enhance6To10": [
+      {
+        "name": "주몽의기억(거불)",
+        "quantity": 1
+      },
+      {
+        "name": "영웅의기록",
+        "quantity": 2
+      },
+      {
+        "name": "고대뇌의인장",
+        "quantity": 3
+      },
+      {
+        "name": "속성의가루",
+        "quantity": 2
+      }
+    ],
+    "fee6To10": {
+      "mode": "fixed",
+      "perAttempt": 50000000
+    },
+    "enhancement10Available": true
   },
   {
     "id": "7244",
@@ -2611,7 +4502,30 @@
     },
     "dataAvailable": true,
     "sourceUrl": "https://www.gersangjjang.com/item/4jiang_l.asp",
-    "verifiedAt": "2026-09-14"
+    "verifiedAt": "2026-09-14",
+    "enhance6To10": [
+      {
+        "name": "주몽의기억(거불)",
+        "quantity": 1
+      },
+      {
+        "name": "영웅의기록",
+        "quantity": 2
+      },
+      {
+        "name": "정기의구슬(雷)",
+        "quantity": 1
+      },
+      {
+        "name": "시간의가루",
+        "quantity": 2
+      }
+    ],
+    "fee6To10": {
+      "mode": "fixed",
+      "perAttempt": 50000000
+    },
+    "enhancement10Available": true
   },
   {
     "id": "9434",
@@ -2659,7 +4573,30 @@
     },
     "dataAvailable": true,
     "sourceUrl": "https://www.gersangjjang.com/item/4jiang_l.asp",
-    "verifiedAt": "2026-09-14"
+    "verifiedAt": "2026-09-14",
+    "enhance6To10": [
+      {
+        "name": "주몽의기억(거불)",
+        "quantity": 1
+      },
+      {
+        "name": "영웅의기록",
+        "quantity": 1
+      },
+      {
+        "name": "사신의조각(雷)",
+        "quantity": 3
+      },
+      {
+        "name": "시간의가루",
+        "quantity": 2
+      }
+    ],
+    "fee6To10": {
+      "mode": "fixed",
+      "perAttempt": 40000000
+    },
+    "enhancement10Available": true
   },
   {
     "id": "9440",
@@ -2707,7 +4644,30 @@
     },
     "dataAvailable": true,
     "sourceUrl": "https://www.gersangjjang.com/item/4jiang_l.asp",
-    "verifiedAt": "2026-09-14"
+    "verifiedAt": "2026-09-14",
+    "enhance6To10": [
+      {
+        "name": "주몽의기억(거불)",
+        "quantity": 1
+      },
+      {
+        "name": "영웅의기록",
+        "quantity": 1
+      },
+      {
+        "name": "사신의조각(雷)",
+        "quantity": 3
+      },
+      {
+        "name": "시간의가루",
+        "quantity": 2
+      }
+    ],
+    "fee6To10": {
+      "mode": "fixed",
+      "perAttempt": 40000000
+    },
+    "enhancement10Available": true
   },
   {
     "id": "7238",
@@ -2766,7 +4726,30 @@
     },
     "dataAvailable": true,
     "sourceUrl": "https://www.gersangjjang.com/item/4jiang_l.asp",
-    "verifiedAt": "2026-09-14"
+    "verifiedAt": "2026-09-14",
+    "enhance6To10": [
+      {
+        "name": "주몽의기억(거불)",
+        "quantity": 1
+      },
+      {
+        "name": "영웅의기록",
+        "quantity": 2
+      },
+      {
+        "name": "뇌전의속성석",
+        "quantity": 1
+      },
+      {
+        "name": "시간의가루",
+        "quantity": 2
+      }
+    ],
+    "fee6To10": {
+      "mode": "fixed",
+      "perAttempt": 50000000
+    },
+    "enhancement10Available": true
   },
   {
     "id": "9428",
@@ -2814,7 +4797,30 @@
     },
     "dataAvailable": true,
     "sourceUrl": "https://www.gersangjjang.com/item/4jiang_l.asp",
-    "verifiedAt": "2026-09-14"
+    "verifiedAt": "2026-09-14",
+    "enhance6To10": [
+      {
+        "name": "주몽의기억(거불)",
+        "quantity": 1
+      },
+      {
+        "name": "영웅의기록",
+        "quantity": 1
+      },
+      {
+        "name": "사신의조각(雷)",
+        "quantity": 3
+      },
+      {
+        "name": "시간의가루",
+        "quantity": 2
+      }
+    ],
+    "fee6To10": {
+      "mode": "fixed",
+      "perAttempt": 40000000
+    },
+    "enhancement10Available": true
   },
   {
     "id": "7220",
@@ -2873,7 +4879,30 @@
     },
     "dataAvailable": true,
     "sourceUrl": "https://www.gersangjjang.com/item/4jiang_s.asp",
-    "verifiedAt": "2026-09-14"
+    "verifiedAt": "2026-09-14",
+    "enhance6To10": [
+      {
+        "name": "초선의기억(거불)",
+        "quantity": 1
+      },
+      {
+        "name": "영웅의기록",
+        "quantity": 2
+      },
+      {
+        "name": "물의속성석",
+        "quantity": 1
+      },
+      {
+        "name": "시간의가루",
+        "quantity": 2
+      }
+    ],
+    "fee6To10": {
+      "mode": "fixed",
+      "perAttempt": 50000000
+    },
+    "enhancement10Available": true
   },
   {
     "id": "7214",
@@ -2932,7 +4961,30 @@
     },
     "dataAvailable": true,
     "sourceUrl": "https://www.gersangjjang.com/item/4jiang_s.asp",
-    "verifiedAt": "2026-09-14"
+    "verifiedAt": "2026-09-14",
+    "enhance6To10": [
+      {
+        "name": "초선의기억(거불)",
+        "quantity": 1
+      },
+      {
+        "name": "영웅의기록",
+        "quantity": 2
+      },
+      {
+        "name": "고대물의인장",
+        "quantity": 3
+      },
+      {
+        "name": "속성가루",
+        "quantity": 2
+      }
+    ],
+    "fee6To10": {
+      "mode": "fixed",
+      "perAttempt": 50000000
+    },
+    "enhancement10Available": true
   },
   {
     "id": "9458",
@@ -2980,7 +5032,30 @@
     },
     "dataAvailable": true,
     "sourceUrl": "https://www.gersangjjang.com/item/4jiang_s.asp",
-    "verifiedAt": "2026-09-14"
+    "verifiedAt": "2026-09-14",
+    "enhance6To10": [
+      {
+        "name": "초선의기억(거불)",
+        "quantity": 1
+      },
+      {
+        "name": "영웅의기록",
+        "quantity": 1
+      },
+      {
+        "name": "사신의조각(水)",
+        "quantity": 3
+      },
+      {
+        "name": "시간의가루",
+        "quantity": 2
+      }
+    ],
+    "fee6To10": {
+      "mode": "fixed",
+      "perAttempt": 40000000
+    },
+    "enhancement10Available": true
   },
   {
     "id": "7226",
@@ -3039,7 +5114,30 @@
     },
     "dataAvailable": true,
     "sourceUrl": "https://www.gersangjjang.com/item/4jiang_s.asp",
-    "verifiedAt": "2026-09-14"
+    "verifiedAt": "2026-09-14",
+    "enhance6To10": [
+      {
+        "name": "초선의기억(거불)",
+        "quantity": 1
+      },
+      {
+        "name": "영웅의기록",
+        "quantity": 2
+      },
+      {
+        "name": "정기의구슬(水)",
+        "quantity": 1
+      },
+      {
+        "name": "시간의가루",
+        "quantity": 2
+      }
+    ],
+    "fee6To10": {
+      "mode": "fixed",
+      "perAttempt": 50000000
+    },
+    "enhancement10Available": true
   },
   {
     "id": "9446",
@@ -3087,7 +5185,30 @@
     },
     "dataAvailable": true,
     "sourceUrl": "https://www.gersangjjang.com/item/4jiang_s.asp",
-    "verifiedAt": "2026-09-14"
+    "verifiedAt": "2026-09-14",
+    "enhance6To10": [
+      {
+        "name": "초선의기억(거불)",
+        "quantity": 1
+      },
+      {
+        "name": "영웅의기록",
+        "quantity": 1
+      },
+      {
+        "name": "사신의조각(水)",
+        "quantity": 3
+      },
+      {
+        "name": "시간의가루",
+        "quantity": 2
+      }
+    ],
+    "fee6To10": {
+      "mode": "fixed",
+      "perAttempt": 40000000
+    },
+    "enhancement10Available": true
   },
   {
     "id": "9452",
@@ -3135,7 +5256,30 @@
     },
     "dataAvailable": true,
     "sourceUrl": "https://www.gersangjjang.com/item/4jiang_s.asp",
-    "verifiedAt": "2026-09-14"
+    "verifiedAt": "2026-09-14",
+    "enhance6To10": [
+      {
+        "name": "초선의기억(거불)",
+        "quantity": 1
+      },
+      {
+        "name": "영웅의기록",
+        "quantity": 1
+      },
+      {
+        "name": "사신의조각(水)",
+        "quantity": 3
+      },
+      {
+        "name": "시간의가루",
+        "quantity": 2
+      }
+    ],
+    "fee6To10": {
+      "mode": "fixed",
+      "perAttempt": 40000000
+    },
+    "enhancement10Available": true
   },
   {
     "id": "9935",
@@ -3199,7 +5343,30 @@
     },
     "dataAvailable": true,
     "sourceUrl": "https://www.gersangjjang.com/item/4jiang_h.asp",
-    "verifiedAt": "2026-09-14"
+    "verifiedAt": "2026-09-14",
+    "enhance6To10": [
+      {
+        "name": "최무선의기억(거불)",
+        "quantity": 1
+      },
+      {
+        "name": "영웅의기록",
+        "quantity": 2
+      },
+      {
+        "name": "정기의구슬(火)",
+        "quantity": 1
+      },
+      {
+        "name": "시간의가루",
+        "quantity": 2
+      }
+    ],
+    "fee6To10": {
+      "mode": "fixed",
+      "perAttempt": 50000000
+    },
+    "enhancement10Available": true
   },
   {
     "id": "9947",
@@ -3251,7 +5418,30 @@
     },
     "dataAvailable": true,
     "sourceUrl": "https://www.gersangjjang.com/item/4jiang_h.asp",
-    "verifiedAt": "2026-09-14"
+    "verifiedAt": "2026-09-14",
+    "enhance6To10": [
+      {
+        "name": "최무선의기억(거불)",
+        "quantity": 1
+      },
+      {
+        "name": "영웅의기록",
+        "quantity": 1
+      },
+      {
+        "name": "사신의조각(火)",
+        "quantity": 3
+      },
+      {
+        "name": "시간의가루",
+        "quantity": 2
+      }
+    ],
+    "fee6To10": {
+      "mode": "fixed",
+      "perAttempt": 40000000
+    },
+    "enhancement10Available": true
   },
   {
     "id": "9953",
@@ -3303,7 +5493,30 @@
     },
     "dataAvailable": true,
     "sourceUrl": "https://www.gersangjjang.com/item/4jiang_h.asp",
-    "verifiedAt": "2026-09-14"
+    "verifiedAt": "2026-09-14",
+    "enhance6To10": [
+      {
+        "name": "최무선의기억(거불)",
+        "quantity": 1
+      },
+      {
+        "name": "영웅의기록",
+        "quantity": 1
+      },
+      {
+        "name": "사신의조각(火)",
+        "quantity": 3
+      },
+      {
+        "name": "시간의가루",
+        "quantity": 2
+      }
+    ],
+    "fee6To10": {
+      "mode": "fixed",
+      "perAttempt": 40000000
+    },
+    "enhancement10Available": true
   },
   {
     "id": "9929",
@@ -3313,12 +5526,84 @@
     "slotLabel": "투구",
     "name": "최무선의 투구",
     "image": "./equipment-icons/최무선/helmet.png",
-    "craftMaterials": [],
-    "enhanceMaterials": [],
-    "fee": null,
-    "dataAvailable": false,
+    "craftMaterials": [
+      {
+        "name": "<고구려의>태황투구",
+        "quantity": 1
+      },
+      {
+        "name": "충무공의투구",
+        "quantity": 1,
+        "enhancement": 5
+      },
+      {
+        "name": "구암의관",
+        "quantity": 1,
+        "enhancement": 5
+      },
+      {
+        "name": "밀사의삿갓",
+        "quantity": 1,
+        "enhancement": 5
+      },
+      {
+        "name": "광휘의투구",
+        "quantity": 1,
+        "enhancement": 5
+      },
+      {
+        "name": "봉인된힘의조각",
+        "quantity": 30
+      }
+    ],
+    "enhanceMaterials": [
+      {
+        "name": "악몽의인장",
+        "quantity": 1
+      },
+      {
+        "name": "작은불의속성석",
+        "quantity": 5
+      },
+      {
+        "name": "영웅의금화",
+        "quantity": 5
+      },
+      {
+        "name": "시간의가루",
+        "quantity": 1
+      }
+    ],
+    "fee": {
+      "mode": "fixed",
+      "perAttempt": 10000000
+    },
+    "dataAvailable": true,
     "sourceUrl": "https://www.gersangjjang.com/item/4jiang_h.asp",
-    "verifiedAt": "2026-09-14"
+    "verifiedAt": "2026-09-14",
+    "enhance6To10": [
+      {
+        "name": "최무선의기억(거불)",
+        "quantity": 1
+      },
+      {
+        "name": "영웅의기록",
+        "quantity": 2
+      },
+      {
+        "name": "불의속성석",
+        "quantity": 1
+      },
+      {
+        "name": "시간의가루",
+        "quantity": 2
+      }
+    ],
+    "fee6To10": {
+      "mode": "fixed",
+      "perAttempt": 50000000
+    },
+    "enhancement10Available": true
   },
   {
     "id": "9941",
@@ -3370,7 +5655,30 @@
     },
     "dataAvailable": true,
     "sourceUrl": "https://www.gersangjjang.com/item/4jiang_h.asp",
-    "verifiedAt": "2026-09-14"
+    "verifiedAt": "2026-09-14",
+    "enhance6To10": [
+      {
+        "name": "최무선의기억(거불)",
+        "quantity": 1
+      },
+      {
+        "name": "영웅의기록",
+        "quantity": 1
+      },
+      {
+        "name": "사신의조각(火)",
+        "quantity": 3
+      },
+      {
+        "name": "시간의가루",
+        "quantity": 2
+      }
+    ],
+    "fee6To10": {
+      "mode": "fixed",
+      "perAttempt": 40000000
+    },
+    "enhancement10Available": true
   },
   {
     "id": "9923",
@@ -3434,7 +5742,30 @@
     },
     "dataAvailable": true,
     "sourceUrl": "https://www.gersangjjang.com/item/4jiang_h.asp",
-    "verifiedAt": "2026-09-14"
+    "verifiedAt": "2026-09-14",
+    "enhance6To10": [
+      {
+        "name": "최무선의기억(거불)",
+        "quantity": 1
+      },
+      {
+        "name": "영웅의기록",
+        "quantity": 2
+      },
+      {
+        "name": "고대불의인장",
+        "quantity": 3
+      },
+      {
+        "name": "속성의가루",
+        "quantity": 2
+      }
+    ],
+    "fee6To10": {
+      "mode": "fixed",
+      "perAttempt": 50000000
+    },
+    "enhancement10Available": true
   },
   {
     "id": "12761",
@@ -3498,7 +5829,30 @@
     },
     "dataAvailable": true,
     "sourceUrl": "https://www.gersangjjang.com/item/4jiang_s.asp",
-    "verifiedAt": "2026-09-14"
+    "verifiedAt": "2026-09-14",
+    "enhance6To10": [
+      {
+        "name": "치요메의기억(거불)",
+        "quantity": 1
+      },
+      {
+        "name": "영웅의기록",
+        "quantity": 2
+      },
+      {
+        "name": "물의속성석",
+        "quantity": 1
+      },
+      {
+        "name": "시간의가루",
+        "quantity": 2
+      }
+    ],
+    "fee6To10": {
+      "mode": "fixed",
+      "perAttempt": 50000000
+    },
+    "enhancement10Available": true
   },
   {
     "id": "12773",
@@ -3546,7 +5900,30 @@
     },
     "dataAvailable": true,
     "sourceUrl": "https://www.gersangjjang.com/item/4jiang_s.asp",
-    "verifiedAt": "2026-09-14"
+    "verifiedAt": "2026-09-14",
+    "enhance6To10": [
+      {
+        "name": "치요메의기억(거불)",
+        "quantity": 1
+      },
+      {
+        "name": "영웅의기록",
+        "quantity": 1
+      },
+      {
+        "name": "사신의조각(水)",
+        "quantity": 3
+      },
+      {
+        "name": "시간의가루",
+        "quantity": 2
+      }
+    ],
+    "fee6To10": {
+      "mode": "fixed",
+      "perAttempt": 40000000
+    },
+    "enhancement10Available": true
   },
   {
     "id": "12785",
@@ -3594,7 +5971,30 @@
     },
     "dataAvailable": true,
     "sourceUrl": "https://www.gersangjjang.com/item/4jiang_s.asp",
-    "verifiedAt": "2026-09-14"
+    "verifiedAt": "2026-09-14",
+    "enhance6To10": [
+      {
+        "name": "치요메의기억(거불)",
+        "quantity": 1
+      },
+      {
+        "name": "영웅의기록",
+        "quantity": 1
+      },
+      {
+        "name": "사신의조각(水)",
+        "quantity": 3
+      },
+      {
+        "name": "시간의가루",
+        "quantity": 2
+      }
+    ],
+    "fee6To10": {
+      "mode": "fixed",
+      "perAttempt": 40000000
+    },
+    "enhancement10Available": true
   },
   {
     "id": "12767",
@@ -3658,7 +6058,30 @@
     },
     "dataAvailable": true,
     "sourceUrl": "https://www.gersangjjang.com/item/4jiang_s.asp",
-    "verifiedAt": "2026-09-14"
+    "verifiedAt": "2026-09-14",
+    "enhance6To10": [
+      {
+        "name": "치요메의기억(거불)",
+        "quantity": 1
+      },
+      {
+        "name": "영웅의기록",
+        "quantity": 2
+      },
+      {
+        "name": "정기의구슬(水)",
+        "quantity": 1
+      },
+      {
+        "name": "시간의가루",
+        "quantity": 2
+      }
+    ],
+    "fee6To10": {
+      "mode": "fixed",
+      "perAttempt": 50000000
+    },
+    "enhancement10Available": true
   },
   {
     "id": "12779",
@@ -3706,7 +6129,30 @@
     },
     "dataAvailable": true,
     "sourceUrl": "https://www.gersangjjang.com/item/4jiang_s.asp",
-    "verifiedAt": "2026-09-14"
+    "verifiedAt": "2026-09-14",
+    "enhance6To10": [
+      {
+        "name": "치요메의기억(거불)",
+        "quantity": 1
+      },
+      {
+        "name": "영웅의기록",
+        "quantity": 1
+      },
+      {
+        "name": "사신의조각(水)",
+        "quantity": 3
+      },
+      {
+        "name": "시간의가루",
+        "quantity": 2
+      }
+    ],
+    "fee6To10": {
+      "mode": "fixed",
+      "perAttempt": 40000000
+    },
+    "enhancement10Available": true
   },
   {
     "id": "12755",
@@ -3770,7 +6216,30 @@
     },
     "dataAvailable": true,
     "sourceUrl": "https://www.gersangjjang.com/item/4jiang_s.asp",
-    "verifiedAt": "2026-09-14"
+    "verifiedAt": "2026-09-14",
+    "enhance6To10": [
+      {
+        "name": "치요메의기억(거불)",
+        "quantity": 1
+      },
+      {
+        "name": "영웅의기록",
+        "quantity": 2
+      },
+      {
+        "name": "고대물의인장",
+        "quantity": 3
+      },
+      {
+        "name": "속성가루",
+        "quantity": 2
+      }
+    ],
+    "fee6To10": {
+      "mode": "fixed",
+      "perAttempt": 50000000
+    },
+    "enhancement10Available": true
   },
   {
     "id": "12332",
@@ -3834,7 +6303,30 @@
     },
     "dataAvailable": true,
     "sourceUrl": "https://www.gersangjjang.com/item/4jiang_f.asp",
-    "verifiedAt": "2026-09-14"
+    "verifiedAt": "2026-09-14",
+    "enhance6To10": [
+      {
+        "name": "홍길동의기억(거불)",
+        "quantity": 1
+      },
+      {
+        "name": "영웅의기록",
+        "quantity": 2
+      },
+      {
+        "name": "정기의구슬(風)",
+        "quantity": 1
+      },
+      {
+        "name": "시간의가루",
+        "quantity": 2
+      }
+    ],
+    "fee6To10": {
+      "mode": "fixed",
+      "perAttempt": 50000000
+    },
+    "enhancement10Available": true
   },
   {
     "id": "12344",
@@ -3882,7 +6374,30 @@
     },
     "dataAvailable": true,
     "sourceUrl": "https://www.gersangjjang.com/item/4jiang_f.asp",
-    "verifiedAt": "2026-09-14"
+    "verifiedAt": "2026-09-14",
+    "enhance6To10": [
+      {
+        "name": "홍길동의기억(거불)",
+        "quantity": 1
+      },
+      {
+        "name": "영웅의기록",
+        "quantity": 1
+      },
+      {
+        "name": "사신의조각(風)",
+        "quantity": 3
+      },
+      {
+        "name": "시간의가루",
+        "quantity": 2
+      }
+    ],
+    "fee6To10": {
+      "mode": "fixed",
+      "perAttempt": 40000000
+    },
+    "enhancement10Available": true
   },
   {
     "id": "12350",
@@ -3930,7 +6445,30 @@
     },
     "dataAvailable": true,
     "sourceUrl": "https://www.gersangjjang.com/item/4jiang_f.asp",
-    "verifiedAt": "2026-09-14"
+    "verifiedAt": "2026-09-14",
+    "enhance6To10": [
+      {
+        "name": "홍길동의기억(거불)",
+        "quantity": 1
+      },
+      {
+        "name": "영웅의기록",
+        "quantity": 1
+      },
+      {
+        "name": "사신의조각(風)",
+        "quantity": 3
+      },
+      {
+        "name": "시간의가루",
+        "quantity": 2
+      }
+    ],
+    "fee6To10": {
+      "mode": "fixed",
+      "perAttempt": 40000000
+    },
+    "enhancement10Available": true
   },
   {
     "id": "12320",
@@ -3994,7 +6532,30 @@
     },
     "dataAvailable": true,
     "sourceUrl": "https://www.gersangjjang.com/item/4jiang_f.asp",
-    "verifiedAt": "2026-09-14"
+    "verifiedAt": "2026-09-14",
+    "enhance6To10": [
+      {
+        "name": "홍길동의기억(거불)",
+        "quantity": 1
+      },
+      {
+        "name": "영웅의기록",
+        "quantity": 2
+      },
+      {
+        "name": "고대바람의인장",
+        "quantity": 3
+      },
+      {
+        "name": "속성의가루",
+        "quantity": 2
+      }
+    ],
+    "fee6To10": {
+      "mode": "fixed",
+      "perAttempt": 50000000
+    },
+    "enhancement10Available": true
   },
   {
     "id": "12326",
@@ -4058,7 +6619,30 @@
     },
     "dataAvailable": true,
     "sourceUrl": "https://www.gersangjjang.com/item/4jiang_f.asp",
-    "verifiedAt": "2026-09-14"
+    "verifiedAt": "2026-09-14",
+    "enhance6To10": [
+      {
+        "name": "홍길동의기억(거불)",
+        "quantity": 1
+      },
+      {
+        "name": "영웅의기록",
+        "quantity": 2
+      },
+      {
+        "name": "바람의속성석",
+        "quantity": 1
+      },
+      {
+        "name": "시간의가루",
+        "quantity": 2
+      }
+    ],
+    "fee6To10": {
+      "mode": "fixed",
+      "perAttempt": 50000000
+    },
+    "enhancement10Available": true
   },
   {
     "id": "12338",
@@ -4106,7 +6690,30 @@
     },
     "dataAvailable": true,
     "sourceUrl": "https://www.gersangjjang.com/item/4jiang_f.asp",
-    "verifiedAt": "2026-09-14"
+    "verifiedAt": "2026-09-14",
+    "enhance6To10": [
+      {
+        "name": "홍길동의기억(거불)",
+        "quantity": 1
+      },
+      {
+        "name": "영웅의기록",
+        "quantity": 1
+      },
+      {
+        "name": "사신의조각(風)",
+        "quantity": 3
+      },
+      {
+        "name": "시간의가루",
+        "quantity": 2
+      }
+    ],
+    "fee6To10": {
+      "mode": "fixed",
+      "perAttempt": 40000000
+    },
+    "enhancement10Available": true
   },
   {
     "id": "9965",
@@ -4170,7 +6777,30 @@
     },
     "dataAvailable": true,
     "sourceUrl": "https://www.gersangjjang.com/item/4jiang_l.asp",
-    "verifiedAt": "2026-09-14"
+    "verifiedAt": "2026-09-14",
+    "enhance6To10": [
+      {
+        "name": "화목란의기억(거불)",
+        "quantity": 1
+      },
+      {
+        "name": "영웅의기록",
+        "quantity": 2
+      },
+      {
+        "name": "뇌전의속성석",
+        "quantity": 1
+      },
+      {
+        "name": "시간의가루",
+        "quantity": 2
+      }
+    ],
+    "fee6To10": {
+      "mode": "fixed",
+      "perAttempt": 50000000
+    },
+    "enhancement10Available": true
   },
   {
     "id": "9971",
@@ -4234,7 +6864,30 @@
     },
     "dataAvailable": true,
     "sourceUrl": "https://www.gersangjjang.com/item/4jiang_l.asp",
-    "verifiedAt": "2026-09-14"
+    "verifiedAt": "2026-09-14",
+    "enhance6To10": [
+      {
+        "name": "화목란의기억(거불)",
+        "quantity": 1
+      },
+      {
+        "name": "영웅의기록",
+        "quantity": 2
+      },
+      {
+        "name": "정기의구슬(雷)",
+        "quantity": 1
+      },
+      {
+        "name": "시간의가루",
+        "quantity": 2
+      }
+    ],
+    "fee6To10": {
+      "mode": "fixed",
+      "perAttempt": 50000000
+    },
+    "enhancement10Available": true
   },
   {
     "id": "9983",
@@ -4286,7 +6939,30 @@
     },
     "dataAvailable": true,
     "sourceUrl": "https://www.gersangjjang.com/item/4jiang_l.asp",
-    "verifiedAt": "2026-09-14"
+    "verifiedAt": "2026-09-14",
+    "enhance6To10": [
+      {
+        "name": "화목란의기억(거불)",
+        "quantity": 1
+      },
+      {
+        "name": "영웅의기록",
+        "quantity": 1
+      },
+      {
+        "name": "사신의조각(雷)",
+        "quantity": 3
+      },
+      {
+        "name": "시간의가루",
+        "quantity": 2
+      }
+    ],
+    "fee6To10": {
+      "mode": "fixed",
+      "perAttempt": 40000000
+    },
+    "enhancement10Available": true
   },
   {
     "id": "9989",
@@ -4338,7 +7014,30 @@
     },
     "dataAvailable": true,
     "sourceUrl": "https://www.gersangjjang.com/item/4jiang_l.asp",
-    "verifiedAt": "2026-09-14"
+    "verifiedAt": "2026-09-14",
+    "enhance6To10": [
+      {
+        "name": "화목란의기억(거불)",
+        "quantity": 1
+      },
+      {
+        "name": "영웅의기록",
+        "quantity": 1
+      },
+      {
+        "name": "사신의조각(雷)",
+        "quantity": 3
+      },
+      {
+        "name": "시간의가루",
+        "quantity": 2
+      }
+    ],
+    "fee6To10": {
+      "mode": "fixed",
+      "perAttempt": 40000000
+    },
+    "enhancement10Available": true
   },
   {
     "id": "9977",
@@ -4390,7 +7089,30 @@
     },
     "dataAvailable": true,
     "sourceUrl": "https://www.gersangjjang.com/item/4jiang_l.asp",
-    "verifiedAt": "2026-09-14"
+    "verifiedAt": "2026-09-14",
+    "enhance6To10": [
+      {
+        "name": "화목란의기억(거불)",
+        "quantity": 1
+      },
+      {
+        "name": "영웅의기록",
+        "quantity": 1
+      },
+      {
+        "name": "사신의조각(雷)",
+        "quantity": 3
+      },
+      {
+        "name": "시간의가루",
+        "quantity": 2
+      }
+    ],
+    "fee6To10": {
+      "mode": "fixed",
+      "perAttempt": 40000000
+    },
+    "enhancement10Available": true
   },
   {
     "id": "9959",
@@ -4454,6 +7176,29 @@
     },
     "dataAvailable": true,
     "sourceUrl": "https://www.gersangjjang.com/item/4jiang_l.asp",
-    "verifiedAt": "2026-09-14"
+    "verifiedAt": "2026-09-14",
+    "enhance6To10": [
+      {
+        "name": "화목란의기억(거불)",
+        "quantity": 1
+      },
+      {
+        "name": "영웅의기록",
+        "quantity": 2
+      },
+      {
+        "name": "고대뇌의인장",
+        "quantity": 3
+      },
+      {
+        "name": "속성의가루",
+        "quantity": 2
+      }
+    ],
+    "fee6To10": {
+      "mode": "fixed",
+      "perAttempt": 50000000
+    },
+    "enhancement10Available": true
   }
 ]

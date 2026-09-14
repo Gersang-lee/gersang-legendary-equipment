@@ -1,6 +1,6 @@
 export const successRates = {
-  heavy: [0.4, 0.3, 0.2, 0.15, 0.1],
-  light: [0.6, 0.45, 0.3, 0.25, 0.15]
+  heavy: [0.4, 0.3, 0.2, 0.15, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1],
+  light: [0.6, 0.45, 0.3, 0.25, 0.15, 0.15, 0.15, 0.15, 0.15, 0.15]
 };
 
 export const getRateGroup = (slot) => ['weapon', 'helmet', 'armor'].includes(slot) ? 'heavy' : 'light';
@@ -36,13 +36,15 @@ export function calculatePlan(item, start, target) {
   for (let level = startLevel; level < targetLevel; level += 1) {
     const probability = rates[level];
     const expectedAttempts = 1 / probability;
-    item.enhanceMaterials.forEach((material) => {
+    const stageMaterials = level < 5 ? item.enhanceMaterials : item.enhance6To10;
+    const stageFee = level < 5 ? item.fee : item.fee6To10;
+    stageMaterials.forEach((material) => {
       addMaterial(minimum, material);
       addMaterial(expected, material, expectedAttempts);
       addMaterial(enhancementMinimum, material);
       addMaterial(enhancementExpected, material, expectedAttempts);
     });
-    const fee = feeForStage(item.fee, level + 1);
+    const fee = feeForStage(stageFee, level + 1);
     minimumFee += fee;
     expectedFee += fee * expectedAttempts;
     stages.push({ from: level, to: level + 1, probability, expectedAttempts, fee });
