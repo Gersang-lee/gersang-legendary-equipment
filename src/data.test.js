@@ -6,6 +6,7 @@ describe('관계 데이터', () => {
     expect(weapons).toHaveLength(15);
     expect(materials).toHaveLength(29);
     expect(new Set(materials.map((item) => item.id)).size).toBe(29);
+    expect(materials.every((item) => item.image === `./material-icons/${item.id}.png`)).toBe(true);
     expect(weapons.every((weapon) => weapon.image === `./equipment-icons/${weapon.hero}/weapon.png`)).toBe(true);
   });
   it('하위 장비 목록을 장비명 가나다순으로 제공한다', () => {

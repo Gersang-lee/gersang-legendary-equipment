@@ -1,0 +1,292 @@
+[
+  {
+    "id": "ganesha-fan",
+    "name": "고행자의 부채",
+    "sourceName": "고행자의 부채-거래불가",
+    "file": "ganesha-fan.png",
+    "source": "assets/textures/items/weapon01_i.agf",
+    "frame": 67,
+    "width": 49,
+    "height": 46
+  },
+  {
+    "id": "water-cannon",
+    "name": "광휘의 수포",
+    "sourceName": "광휘의수포-거래불가",
+    "file": "water-cannon.png",
+    "source": "assets/textures/items/litem013.agf",
+    "frame": 49,
+    "width": 48,
+    "height": 54
+  },
+  {
+    "id": "thunder-needle",
+    "name": "구암의 뇌전침",
+    "sourceName": "구암의뇌전침-거래불가",
+    "file": "thunder-needle.png",
+    "source": "assets/textures/items/litem013.agf",
+    "frame": 4,
+    "width": 57,
+    "height": 54
+  },
+  {
+    "id": "savior-orb",
+    "name": "구원자의 구슬",
+    "sourceName": "구원자의 구슬-거래불가",
+    "file": "savior-orb.png",
+    "source": "assets/textures/items/weapon02_i.agf",
+    "frame": 1,
+    "width": 59,
+    "height": 49
+  },
+  {
+    "id": "thunder-beads",
+    "name": "뇌전의 염주",
+    "sourceName": "뇌전의 염주-거래불가",
+    "file": "thunder-beads.png",
+    "source": "assets/textures/items/weapon02_i.agf",
+    "frame": 14,
+    "width": 59,
+    "height": 60
+  },
+  {
+    "id": "ninja-sword",
+    "name": "닌자의 조도",
+    "sourceName": "닌자의 조도-거래불가",
+    "file": "ninja-sword.png",
+    "source": "assets/textures/items/weapon01_i.agf",
+    "frame": 59,
+    "width": 42,
+    "height": 46
+  },
+  {
+    "id": "mao-bracelet",
+    "name": "마오의 팔찌",
+    "sourceName": "마오의팔찌-거래불가",
+    "file": "mao-bracelet.png",
+    "source": "assets/textures/items/weapon01_i.agf",
+    "frame": 30,
+    "width": 50,
+    "height": 24
+  },
+  {
+    "id": "marksman-crossbow",
+    "name": "명사수의 석궁",
+    "sourceName": "명사수의 석궁-거래불가",
+    "file": "marksman-crossbow.png",
+    "source": "assets/textures/items/weapon02_i.agf",
+    "frame": 15,
+    "width": 51,
+    "height": 49
+  },
+  {
+    "id": "moktak",
+    "name": "밀사의 목탁",
+    "sourceName": "밀사의목탁-거래불가",
+    "file": "moktak.png",
+    "source": "assets/textures/items/weapon01_i.agf",
+    "frame": 23,
+    "width": 39,
+    "height": 48
+  },
+  {
+    "id": "snake-leash",
+    "name": "뱀조련사의 뱀 목줄",
+    "sourceName": "뱀조종사의 뱀 목줄-거래불가",
+    "file": "snake-leash.png",
+    "source": "assets/textures/items/weapon02_i.agf",
+    "frame": 2,
+    "width": 43,
+    "height": 54
+  },
+  {
+    "id": "lieutenant-sword",
+    "name": "부총병의 별운검",
+    "sourceName": "부총병의별운검-거래불가",
+    "file": "lieutenant-sword.png",
+    "source": "assets/textures/items/weapon01_i.agf",
+    "frame": 14,
+    "width": 49,
+    "height": 52
+  },
+  {
+    "id": "vanguard-dual",
+    "name": "선봉장의 쌍검",
+    "sourceName": "선봉장의 쌍검-거래불가",
+    "file": "vanguard-dual.png",
+    "source": "assets/textures/items/weapon01_i.agf",
+    "frame": 40,
+    "width": 60,
+    "height": 59
+  },
+  {
+    "id": "talisman",
+    "name": "선인의 부적",
+    "sourceName": "선인의부적-거래불가",
+    "file": "talisman.png",
+    "source": "assets/textures/items/weapon01_i.agf",
+    "frame": 11,
+    "width": 55,
+    "height": 60
+  },
+  {
+    "id": "snow-bell",
+    "name": "설호의 방울",
+    "sourceName": "설호의방울-거래불가",
+    "file": "snow-bell.png",
+    "source": "assets/textures/items/weapon01_i.agf",
+    "frame": 4,
+    "width": 54,
+    "height": 52
+  },
+  {
+    "id": "monk-staff",
+    "name": "수도승의 봉",
+    "sourceName": "수도승의 봉-거래불가",
+    "file": "monk-staff.png",
+    "source": "assets/textures/items/weapon02_i.agf",
+    "frame": 8,
+    "width": 60,
+    "height": 58
+  },
+  {
+    "id": "guard-cannon",
+    "name": "수비대장의 화포",
+    "sourceName": "수비대장의 화포-거래불가",
+    "file": "guard-cannon.png",
+    "source": "assets/textures/items/weapon02_i.agf",
+    "frame": 7,
+    "width": 55,
+    "height": 40
+  },
+  {
+    "id": "sikh-chakram",
+    "name": "시크교의 차크람",
+    "sourceName": "시크교의 차크람-거래불가",
+    "file": "sikh-chakram.png",
+    "source": "assets/textures/items/weapon01_i.agf",
+    "frame": 33,
+    "width": 52,
+    "height": 55
+  },
+  {
+    "id": "siho-great-bow",
+    "name": "시호충장의 대력궁",
+    "sourceName": "시호충장의대력궁-거래불가",
+    "file": "siho-great-bow.png",
+    "source": "assets/textures/items/weapon01_i.agf",
+    "frame": 13,
+    "width": 55,
+    "height": 55
+  },
+  {
+    "id": "dark-staff",
+    "name": "암흑술사의 지팡이",
+    "sourceName": "암흑술사의 지팡이-거래불가",
+    "file": "dark-staff.png",
+    "source": "assets/textures/items/weapon01_i.agf",
+    "frame": 74,
+    "width": 55,
+    "height": 55
+  },
+  {
+    "id": "hunt-stone",
+    "name": "여전사의 사냥돌",
+    "sourceName": "여전사의사냥돌-거래불가",
+    "file": "hunt-stone.png",
+    "source": "assets/textures/items/weapon01_i.agf",
+    "frame": 15,
+    "width": 60,
+    "height": 55
+  },
+  {
+    "id": "mercenary-greatsword",
+    "name": "용병대장의 대검",
+    "sourceName": "용병대장의 대검-거래불가",
+    "file": "mercenary-greatsword.png",
+    "source": "assets/textures/items/weapon01_i.agf",
+    "frame": 69,
+    "width": 59,
+    "height": 57
+  },
+  {
+    "id": "primitive-spear",
+    "name": "원시의 사모",
+    "sourceName": "원시의사모-거래불가",
+    "file": "primitive-spear.png",
+    "source": "assets/textures/items/litem013.agf",
+    "frame": 48,
+    "width": 54,
+    "height": 58
+  },
+  {
+    "id": "pursuer-greatsword",
+    "name": "추격자의 대검",
+    "sourceName": "추격자의 대검-거래불가",
+    "file": "pursuer-greatsword.png",
+    "source": "assets/textures/items/weapon01_i.agf",
+    "frame": 60,
+    "width": 52,
+    "height": 47
+  },
+  {
+    "id": "great-bow",
+    "name": "충무공의 대력궁",
+    "sourceName": "충무공의대력궁-거래불가",
+    "file": "great-bow.png",
+    "source": "assets/textures/items/litem013.agf",
+    "frame": 46,
+    "width": 49,
+    "height": 51
+  },
+  {
+    "id": "loyal-sword",
+    "name": "충장의 검",
+    "sourceName": "충장의 검-거래불가",
+    "file": "loyal-sword.png",
+    "source": "assets/textures/items/weapon01_i.agf",
+    "frame": 75,
+    "width": 55,
+    "height": 56
+  },
+  {
+    "id": "matchlock",
+    "name": "칠본창의 화승총",
+    "sourceName": "칠본창의화승총-거래불가",
+    "file": "matchlock.png",
+    "source": "assets/textures/items/litem013.agf",
+    "frame": 47,
+    "width": 49,
+    "height": 46
+  },
+  {
+    "id": "secret-dual",
+    "name": "침략자의 쌍검",
+    "sourceName": "침략자의쌍검-거래불가",
+    "file": "secret-dual.png",
+    "source": "assets/textures/items/weapon01_i.agf",
+    "frame": 22,
+    "width": 36,
+    "height": 58
+  },
+  {
+    "id": "red-mirror",
+    "name": "홍련의 거울",
+    "sourceName": "홍련의거울-거래불가",
+    "file": "red-mirror.png",
+    "source": "assets/textures/items/rweapon01_i.agf",
+    "frame": 96,
+    "width": 45,
+    "height": 46
+  },
+  {
+    "id": "black-army-staff",
+    "name": "흑기군의 협객봉",
+    "sourceName": "흑기군의협객봉-거래불가",
+    "file": "black-army-staff.png",
+    "source": "assets/textures/items/weapon01_i.agf",
+    "frame": 25,
+    "width": 54,
+    "height": 56
+  }
+]

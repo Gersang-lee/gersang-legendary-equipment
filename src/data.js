@@ -16,7 +16,7 @@ export const materials = [
   ['dark-staff','암흑술사의 지팡이','각성 쿠베라마차'], ['guard-cannon','수비대장의 화포','각성 슈크라'],
   ['savior-orb','구원자의 구슬','각성 라시야'], ['snake-leash','뱀조련사의 뱀 목줄','각성 난다데비'],
   ['siho-great-bow','시호충장의 대력궁','각성 시호충장']
-].map(([id,name,owner]) => ({ id, name, owner, image: icon(name) }))
+].map(([id,name,owner]) => ({ id, name, owner, image: `./material-icons/${id}.png` }))
   .sort((a, b) => a.name.localeCompare(b.name, 'ko'));
 
 export const weapons = [

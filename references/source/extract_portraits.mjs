@@ -35,7 +35,7 @@ const encodePng = (width, height, rgba) => {
   for (let y = 0; y < height; y += 1) rgba.copy(rows, y * (width * 4 + 1) + 1, y * width * 4, (y + 1) * width * 4);
   return Buffer.concat([Buffer.from('89504e470d0a1a0a', 'hex'), chunk('IHDR', header), chunk('IDAT', zlib.deflateSync(rows)), chunk('IEND', Buffer.alloc(0))]);
 };
-function decodeAgf(file, frame) {
+export function decodeAgf(file, frame) {
   const data = fs.readFileSync(file);
   if (data.readInt32LE(0) !== 35) throw new Error(`지원하지 않는 AGF: ${file}`);
   const count = data.readInt32LE(12);
@@ -54,6 +54,7 @@ function decodeAgf(file, frame) {
   if (pixels.length !== width * height * 4) throw new Error(`픽셀 수 불일치: ${file}#${frame}`);
   return { width, height, rgba: Buffer.from(pixels) };
 }
+export { encodePng };
 const manifest = [];
 for (const [kind, mappingName] of [['large', 'portraits-large.json'], ['small', 'portraits.json']]) {
   const mapping = JSON.parse(fs.readFileSync(path.join(archiveRoot, 'desktop', 'Data', mappingName), 'utf8'));
